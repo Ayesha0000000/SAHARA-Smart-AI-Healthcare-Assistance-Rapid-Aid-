@@ -1,0 +1,1061 @@
+diagnosis,symptoms,text_length,word_count
+cervical spondylosis,i ve been having a lot of pain in my neck and back. i ve also been having trouble with my balance and coordination. i ve been coughing a lot and my limbs feel weak.,164,35
+impetigo,"i have a rash on my face that is getting worse. it is red, inflamed, and has blisters that are bleeding clear pus. it is really painful.",136,27
+urinary tract infection,i have been urinating blood. i sometimes feel sick to my stomach when i urinate. i often feel like i have a fever.,114,23
+arthritis,i have been having trouble with my muscles and joints. my neck is really tight and my muscles feel weak. i have swollen joints and it is hard to move around without becoming stiff. it is also really uncomfortable to walk.,221,41
+dengue,i have been feeling really sick. my body hurts a lot and i have no appetite. i have also developed rashes on my arms and face. the back of my eyes hurt a lot.,158,34
+common cold,i ve been feeling really run down and weak. my throat is sore and i ve been coughing a lot. i ve also been having chills and a fever.,133,29
+dengue,"i have rashes all over my body. i also have a high fever, chills, headache, body aches, and pain behind my eyes.",112,22
+dengue,"i have been feeling nauseous and have a constant urge to vomit, which is accompanied with mild fever and headache. i also feel very weak and tired.",147,27
+impetigo,"i have a rash around my nose that is red and inflamed. the rash has caused my skin to become dry and flaky, and there is a yellow colored fluid coming out of the sores.",168,35
+drug reaction,i have a rash on my chest and back and it itches. i also have dry skin that sometimes flakes and leaves marks on my body.,121,26
+arthritis,i ve been experiencing stiffness in my neck and my joints have swollen. i ve also been experiencing pain when i walk.,117,22
+cervical spondylosis,i have been having a lot of pain in my back and neck. i also have a cough that won t go away and i feel weak and dizzy.,119,29
+cervical spondylosis,"i have been having back pain, a cough, and weakness in my limbs. my neck is sore and i have been dizzy and have had trouble keeping my balance.",143,29
+urinary tract infection,i have been vomiting and having pelvic pain. my pee sometimes has blood in it and it sometimes smells really bad. i sometimes have trouble falling asleep because of my migraines.,178,31
+fungal infection,i have a rash on my skin that is itchy and has a different color than the rest of my skin. i also have some firm pimples or breakouts on my skin.,145,32
+malaria,"i ve been really itchy all over my body, and i ve been getting chills and vomiting. my fever is really high, and i ve been sweating a lot. i also have a headache, and i feel nauseous. my muscles are really sore.",211,43
+allergy,"i m always tired, and my mouth tastes terrible. my throat itches, and my muscles burn and ache. sometimes i have cramps all over my body.",137,26
+bronchial asthma,"i ve been having a hard time breathing lately. i feel like i can t get enough air, and my chest feels tight. i ve also been coughing a lot, and i ve been producing a lot of mucus.",179,39
+varicose veins,i have varicose veins in my legs. they are swollen and painful.,63,12
+common cold,i ve been feeling really sick. i ve been really tired and i just don t feel good. i ve had a bad cough and my throat is really sore. my nose is really congested and i have a lot of sinus pressure. i just feel really run down and miserable.,239,51
+dengue,"i have a rash all over my body that is really itchy. i also have a fever, body aches, headache, and chills.",107,22
+migraine,"i have been having headaches for a while now. they are very painful and last for a long time. i also get nausea, vomiting, and sensitivity to light and sound.",158,30
+drug reaction,i have been having headaches and migraines. i have been having difficulty sleeping. i have been having muscle twitching and tremors. sometimes i get lightheaded. i think it might be a reaction to my medication.,210,35
+hypertension,"i ve been having headaches, chest pain, dizziness, and trouble concentrating. i ve also noticed that my balance has been off.",125,21
+bronchial asthma,"i have a cough that has been going on for a few days, and i feel really weak and tired. i have a high fever, and my breathing is getting harder. i also cough up a lot of mucus.",176,39
+urinary tract infection,"i ve been having a lot of trouble urinating. i feel like i have to go all the time, and when i do, it hurts. my urine is also cloudy and has a strong smell.",156,35
+varicose veins,i have a lot of varicose veins on my legs and they are really painful. i also get cramps in my legs a lot.,106,24
+gastroesophageal reflux disease,"i have heartburn and indigestion. i vomit everything i eat. food gets stuck in my throat, making it difficult for me to swallow. i have a pain in my upper abdomen.",163,31
+malaria,"i ve been feeling really hot and sweaty, and i ve been throwing up. i ve also been shivering and my skin is really itchy. i have a headache and my muscles hurt.",160,33
+urinary tract infection,"i have a strong urge to urinate frequently, especially at night. my urine is cloudy and has a strong odor. i also have a fever.",127,25
+impetigo,i have a fever and feel weak. i have sores on my face that are itchy and uncomfortable. the sores sometimes ooze a yellow fluid.,128,25
+pneumonia,"i ve been feeling really sick lately. i ve been getting chills and i m always tired. i have this cough that just won t go away. it s really hard to breathe when i cough and my chest hurts. i ve also been coughing up this really gross, rusty phlegm.",248,51
+psoriasis,i ve noticed that my skin is more sensitive now than it used to be. it s red and itchy. i have silvery scales on my back and elbows.,132,29
+hypertension,"i ve been having chest pains, headaches, and i ve been feeling dizzy.",69,13
+impetigo,i have a rash on my face and neck. it s red and blistery. i m worried about it.,79,19
+diabetes,"i m shaking and trembling all over. i ve lost my sense of taste and smell, and i m exhausted. i occasionally get palpitations or a racing heart.",144,28
+pneumonia,i m having trouble breathing and have a fever. i m sweating a lot and feel really tired and cold. my heart is racing and i m coughing up some brown mucus.,154,32
+dengue,i have been experiencing severe joint pain and i am unable to move. i have also lost my appetite and feel weak.,111,22
+diabetes,i ve been feeling really thirsty and hungry lately. i also get really tired sometimes.,86,15
+bronchial asthma,"i ve been having trouble breathing, coughing, and feeling exhausted. i ve been coughing up a lot of thick, mucusy stuff and have a fever. i m just feeling really drained and tired.",180,33
+malaria,"i have a fever, vomiting, chills, and severe itching. i ve also been sweating a lot and have a headache. i ve also been feeling nauseous and my muscles ache.",157,30
+migraine,"i have been experiencing headaches, blurred and distorted vision, excessive hunger, a stiff neck, depression, irritability, and visual disturbance.",147,19
+common cold,"i ve been coughing and sneezing for days. my nose is stuffy, and my face hurts. i ve been coughing up phlegm, and it hurts in my chest. i can t smell anything, and my muscles hurt.",180,37
+drug reaction,"i ve noticed a change in my monthly cycle and an unexpected vaginal discharge. i get irritable every now and again, and my moods swing a lot.",141,27
+jaundice,"i ve been feeling really itchy all over, and i ve been throwing up. i ve also lost a lot of weight, and i m always tired. my skin and my pee are both yellow, and my stomach hurts.",179,39
+allergy,"i have stomach cramps, nausea and diarrhea. my throat is swollen, and i have difficulty breathing. sometimes at night i get chest pain and nauseous.",148,25
+psoriasis,"i ve been having trouble sleeping because of the rash. it s itchy and painful. i ve also noticed that my nails have little dents in them, which is really alarming. and my joints are sore every day, and i don t know why.",219,44
+impetigo,i ve been having a fever for a few days and i have sores around my nose and rashes on my body. the sores are really bad and i m feeling really sick.,148,33
+chicken pox,i have red spots on my arms and legs that are really itchy. i can t sleep at night because of the itching. i also have a headache and a fever.,142,31
+diabetes,"i ve been feeling very thirsty lately, and i ve been getting hungry more often. i ve also been feeling very tired.",114,22
+migraine,i have been having frequent headaches and blurred vision.,57,9
+gastroesophageal reflux disease,"i have a sour taste in my mouth, even when i haven t eaten anything acidic. i also get hiccups and a feeling of a lump in my throat.",132,29
+migraine,"i have been having frequent headaches that are so bad that they make me throw up. i also have blurred vision, a sore neck, and anxiety.",135,26
+urinary tract infection,"i have a pain in my lower abdomen and i feel like i have to pee all the time. when i do pee, it burns and i feel like i m not getting everything out. i ve also been feeling really cold and weak.",194,44
+chicken pox,i have a rash all over my body. it s really itchy and uncomfortable. i m also feeling really tired and exhausted.,113,22
+gastroesophageal reflux disease,"i have a sour taste in my mouth all the time, even when i haven t eaten anything acidic. i also get hiccups and a lump in my throat a lot.",138,31
+dengue,"i ve been feeling really tired and weak, and i can t seem to get enough sleep. i also have a rash on my neck that itches really bad.",132,29
+impetigo,"i have a rash on my skin that is red, raised, and filled with fluid. it is painful to touch and i have a fever.",111,25
+arthritis,"my neck is really stiff, and my muscles are weak. my joints are swollen, and it s hard for me to move without getting stiff. walking is also unpleasant.",152,29
+hypertension,"i ve been having headaches, chest discomfort, dizziness, and difficulty concentrating.",86,11
+diabetes,i have rashes and skin irritations especially in the folds of my skin. my cuts and bruises don t heal very quickly either.,122,23
+allergy,"i m feeling sick, shaky, and nauseous. i have a sore throat that makes it hard to breathe. i occasionally have chest pains at night and sometimes feel sick.",156,29
+cervical spondylosis,"i ve been having back pain, a persistent cough, and numbness in my arms and legs. i ve also had trouble staying balanced and experiencing dizziness. my neck hurts, too.",168,30
+fungal infection,"my skin has been acting up recently, it s been itchy and i ve been getting rashes. there are also some spots that are a different color than the rest of my skin, and i have these lumps or bumps that weren t there before.",220,45
+common cold,i ve been feeling really tired and sick. my nose is running and i m sneezing a lot. my head hurts and i feel like i have no energy. i also have a fever and feel like i m burning up.,181,41
+migraine,"i ve been having eyesight problems, increased appetite, a sore neck, melancholy, irritability, and regular headaches, as well as acid reflux, indigestion, and frequent dizziness. these symptoms have made my regular activities more difficult and have caused me a great deal of distress.",285,43
+psoriasis,"my genitals are red and irritated. it is often itchy, burning, and painful. i also have rashes on other parts of my body and my joints hurt.",140,27
+fungal infection,"i ve been itching a lot, and it s been accompanied with a rash that looks to be getting worse over time. there are also some patches of skin that are different colours from the rest of the skin, as well as some lumps that resemble little nodes.",244,48
+cervical spondylosis,"my muscles are weak and i have back pain. i ve been feeling lightheaded and dizzy, and my neck hurts.",101,20
+typhoid,i have a high fever and a headache. i also have a lot of pain in my belly. i can t go to work because of this.,110,27
+arthritis,"i ve been feeling weak and achy lately, and my joints are swollen and stiff. it s hard to move around, and walking is especially painful.",137,26
+common cold,i ve been feeling really tired and sick. my throat is really sore and i ve been coughing a lot. my nose is really stuffy and i have a lot of pressure in my sinuses. i feel really miserable and exhausted.,203,41
+chicken pox,"i ve been feeling really itchy all over my body, and i have a rash that s red and inflamed.",91,20
+peptic ulcer disease,i have difficulty swallowing food and often get a sensation of the food getting stuck in my throat. i have constant belching and bloating. there is a persitent sour taste in my mouth,182,33
+urinary tract infection,"i have pain in my abdomen, and often get feverish. i have sudden and strong urges to pee. the pain is almost constant, and often increases at night time. my pee almost always has a foul smell. i also feel like i m not emptying my bladder completely.",249,48
+impetigo,i have sores on my face that are healing very slowly and are getting infected. the sores are large and painful to the touch. i can t seem to get rid of them.,157,33
+impetigo,"i have a rash on my skin. it is mainly near my nose, but it is spreading to other parts of my body. i am worried about this.",124,28
+allergy,i have asthma like symptoms like wheezing and difficulty breathing. i often get fever and have headaches. i feel tired all the time. i have a runny nose and itchy eyes.,168,31
+diabetes,"i m having trouble concentrating and my emotions are all over the place. my mind feels cloudy and foggy at times, making it hard to do even simple tasks.",153,29
+allergy,"i feel sick, queasy, and wobbly. my throat is swollen and makes it hard for me to breathe. my chest hurts sometimes at night, and i sometimes feel sick.",152,29
+varicose veins,i have noticed cramps in my calves are becoming more frequent and intense. it is causing me a lot of discomforts. i am also overweight and my legs have started to swell. i am worried that i may have varicose veins.,214,41
+bronchial asthma,i have been suffering from dry cough and difficulty in breathing for a week now. i also feel weak throughout the day.,117,22
+pneumonia,i m having trouble breathing and i m sweating a lot. i feel really sick and my throat is full of phlegm. my chest hurts and my heart is racing. i m coughing up a lot of mucus that s brown and stringy.,200,43
+cervical spondylosis,"i ve been experiencing neck pain, balance issues, and dizziness.",64,10
+malaria,"i ve been feeling really sick for the past few days. i have a high fever, chills, and intense itching. i ve also been vomiting and sweating a lot. my head hurts and i feel nauseous and achy all over.",199,40
+arthritis,"i ve been experiencing stiffness and weakness in my neck muscles recently. my joints have grown, and it s hard for me to walk without getting stiff. walking has been extremely uncomfortable.",190,32
+bronchial asthma,"i ve been having a fever, a cough, and shortness of breath. i ve also been coughing up a lot of thick, sticky saliva. i m feeling really tired and worn out.",156,32
+cervical spondylosis,"i ve been having a lot of back pain, and it s been radiating down my arms and legs. i ve also been having trouble staying balanced and experiencing dizziness. my neck hurts, too.",178,34
+impetigo,i have a rash on my skin that has blisters. the blisters are filled with fluid and are painful to touch. i also have a fever.,125,26
+gastroesophageal reflux disease,i get heartburn and indigestion a lot. it s worse when i eat spicy or fatty foods. i also get chest pain that gets worse when i lie down or bend over.,150,32
+drug reaction,i have rashes that sometimes peel off my skin. this makes me more likely to get infections. my hands shake and i sometimes have tremors.,136,25
+pneumonia,"i ve been feeling really run down and achy, and i can t stop coughing. it hurts in my chest when i do, and my heart feels like it s racing. i ve been coughing up a lot of gross, brown mucus.",190,42
+urinary tract infection,"i ve had low temps and blood in my urine for the past three days. my pee smells terrible, and my head hurts so much. i can t control when i need to pee.",152,34
+malaria,"i have a high fever, chills, and severe itching. i also have a headache, excessive sweating, nausea, and muscle aches.",118,20
+chicken pox,"i have a really bad rash on my skin. it s really itchy and painful. i also have a fever, headache, and fatigue.",111,23
+varicose veins,i have some strange veins on my legs that i m not sure about. i m a bit overweight and i m worried about them.,110,25
+peptic ulcer disease,"i have pain in my stomach that is worse when i hunch down or lie down. i have pain after eating certain foods, like hot or acidic food. i sometimes have loose stools because of this.",182,36
+psoriasis,"i have a rash on my skin that is itchy and irritating. it is also flaky. it has spread to other areas of my body, including my chest and belly. it is worse at night.",165,35
+migraine,"i ve been having a lot of headaches lately, and they re getting worse. i also have a sore neck, and i m feeling anxious and irritated. i ve also been having trouble seeing things clearly.",187,36
+diabetes,"i have trouble breathing, especially when i m outside. i start to feel hot and sweaty. i also get urinary tract infections and yeast infections a lot.",150,27
+bronchial asthma,"i ve been coughing a lot, and it s hard to breathe. i ve also been coughing up a lot of thick, mucusy saliva. i ve been feeling really tired, and i have a fever.",161,35
+migraine,i ve been having trouble seeing things clearly and they look distorted.,71,12
+peptic ulcer disease,i have been having constipation and diarrhea. i also have a lack of energy and appetite.,88,16
+diabetes,i ve been having trouble healing from my wound. my hands and feet have been tingling and going numb. i ve also been feeling very weak.,134,26
+bronchial asthma,i have been having trouble breathing for a few days. i have a high fever and i feel very tired. can you recommend some medications for me ,138,27
+bronchial asthma,"i ve been having a dry cough for a week, and i m having trouble breathing. i feel weak and tired.",97,21
+arthritis,i have been having a lot of pain in my joints and muscles. my neck is stiff and i have a hard time moving around. i also have a lot of pain when i try to steer my car.,167,39
+fungal infection,"i ve been having these red rashes that keep popping up and my skin is constantly itching. i ve also noticed some odd color different spots on my skin, as well as some little nodules on my skin that appear to be expanding.",221,43
+common cold,"i feel like i m getting a cold. my neck is swollen, and i m exhausted. my throat is scratchy, and my eyes are burning red. my nose is really clogged, and i am experiencing facial pressure. my chest hurts, and i m unable to smell anything.",238,47
+migraine,"i have been having headaches that are so bad that i can t see straight. i also have nausea, vomiting, and sensitivity to light and sound.",137,26
+cervical spondylosis,"i ve been having neck pain, and i ve been feeling lightheaded. i ve also been having trouble standing still.",108,20
+dengue,i have developed rashes all over my body that are itchy and i have lost my appetite. i feel very tired all day and i feel like something is wrong with my body.,159,33
+allergy,i have a really bad sore throat and i feel tired all the time. i also get feverish and often have muscle aches. sometimes my whole body just cramps up,150,30
+urinary tract infection,"i have to urinate a lot, but when i do, it hurts and i only get a little bit out. the urine is cloudy and bloody and sometimes smells bad. i also feel nauseous.",160,34
+urinary tract infection,i have been having a problem with my pee. it smells funny and sometimes it is red or black. i also have been having trouble sleeping because my body temperature keeps changing.,176,32
+drug reaction,i have rashes that sometimes cause my skin to flake off. i m more likely to get sick because of this. my hands sometimes shake and i feel shaky.,144,29
+migraine,"i have been having migraines for a few days. i have distorted eyesight, excessive appetite, a painful neck, melancholy, irritability, acid reflux, indigestion, and regular headaches.",182,26
+varicose veins,"i have a rash on my legs that is giving me a lot of pain. there appears to be a cramp, and i can see visible veins on my calf.",126,30
+arthritis,"i have been feeling stiff, my neck is stiff, my joints are swollen, and i have muscular weakness. i also feel uncomfortable when i walk.",136,25
+urinary tract infection,"i ve had a low grade fever for the past four days, and my urine has been bloody. it smells really bad, and my head hurts. i can t control when i have to pee, and i have to go all the time.",188,43
+peptic ulcer disease,"i have a burning feeling in my stomach. it s worse when i eat or drink. i also get heartburn, indigestion, and nausea.",118,23
+gastroesophageal reflux disease,"i have a burning sensation in my chest and throat. it feels like acid or food is coming up into my throat. it s worse when i lie down. i also have heartburn and indigestion after i eat, and i sometimes throw up.",211,43
+fungal infection,"my skin is really itchy, and it sometimes breaks out into a rash. i also have some weird areas of skin that are a different color than the rest of me, and sometimes i get little bumps that look like nodules.",207,41
+diabetes,i have to pee a lot and i m always hungry. i get dizzy and confused a lot. i ve also lost my eyesight.,102,24
+arthritis,my neck is weak and stiff. my joints are enlarged and it is hard for me to walk without feeling stiff. walking is also excruciatingly uncomfortable.,148,26
+arthritis,"i ve been having a lot of pain in my joints, especially in my neck and shoulders. it s hard to move around and i m always feeling stiff. i ve also been having trouble sleeping because of the pain.",196,40
+typhoid,i ve been having a lot of pain in my stomach and i ve been feeling really bloated and constipated. i ve also been having a fever and chills.,140,29
+gastroesophageal reflux disease,i have a lot of burping and belching. i get chest discomfort that goes up my neck and into my jaw and arm. i have pressure and tension in my chest.,147,31
+allergy,i ve been feeling sick for a few days. i have a sore throat and my nose is running. i ve also been having trouble swallowing.,125,26
+psoriasis,"i have red and inflamed skin around my mouth, nose, and eyes. it is often itchy and uncomfortable. recently, it has gotten very painful.",136,24
+varicose veins,i have varicose veins on my legs. they are swollen and protruding from my skin. they are painful and noticeable.,112,20
+typhoid,i ve been having terrible stomach pains and i ve been vomiting and constipated. i m worried about my health.,108,20
+fungal infection,"i have a rash on my skin that is itchy and has been getting worse over time. there are also some patches of skin that are different colors than the rest, and i ve noticed some bumps that look like little nodes.",210,42
+cervical spondylosis,"i have been having back pain, a lingering cough, and muscle weakness. i also have dizziness and balance issues, and my neck hurts.",130,23
+fungal infection,i have a rash on my skin that is itchy and uncomfortable. there are also some odd patches of skin that are a different color. i also have a few pimples on my skin that resemble little knots.,190,38
+impetigo,i have a sore on my nose that has crusted over and is hard to touch. it used to leak a yellow rust colored fluid and it is taking a lot longer to deal with using medication.,173,37
+typhoid,"i have been having loose, watery stools many times a day. i have lost my appetite and am always sick. i am also developing a mild fever. my abdominal part pains a lot. i don t know what the reason behind all of these is.",220,45
+fungal infection,"i ve been really itchy lately and there are these rashy spots all over my skin. there are also some areas that look different in shade than the rest of my skin, and i ve had some bumps that are kind of hard. i m not sure what it is, but i d like to get it checked out.",268,59
+drug reaction,i have difficulty concentrating and i forget things a lot. i have low mental clarity and i have trouble remembering things.,123,21
+jaundice,i ve been feeling really sick and tired. i ve also had a fever and lost a lot of weight. my skin and urine have both turned yellow. i ve also been having some stomach pain.,172,36
+chicken pox,i feel really sick. i have no energy and have lost my appetite. i also have small red spots on my skin.,103,22
+cervical spondylosis,"i have a terrible backache, and i ve been coughing a lot. my arms and legs are weak, and i have trouble balancing. my neck hurts too.",133,27
+peptic ulcer disease,i have a lot of stomach pain and i have to take antacids to help. i have lost a lot of weight and i can t seem to gain it back. my mouth hurts really bad.,154,36
+chicken pox,i m really tired and weak. i can barely keep my eyes open. i have a fever and i don t feel like eating anything. i think i ve lost my appetite.,143,32
+pneumonia,"i ve been feeling really cold and tired lately. i ve been coughing a lot, and it hurts when i breathe. my heart is beating really fast, and when i cough, i cough up phlegm that s kind of a rusty color.",201,42
+impetigo,i have small red sores near my nose and neck that are painful and inflamed. i also have a high fever.,101,21
+typhoid,"i have been experiencing a lot of belly pain and constipation. i also feel like i need to vomit, and i am feeling very weak.",124,25
+dengue,i have red spots on my arms and legs that are itchy and inflamed. i have been feeling sick to my stomach and have a constant urge to vomit. i also have a mild fever.,165,35
+typhoid,i ve been feeling really tired and weak for a few days now. i also have a fever and a pain in my stomach. i don t know what s wrong with me.,140,33
+allergy,"i have a sore throat and a lot of sneezing. there are times when the skin around my eyes and my lips swell. i find that once i start, i just cannot stop.",153,33
+pneumonia,"i ve been feeling really unwell recently. i ve been having chills, a cough, and a high temperature. i ve also been struggling to breathe and i ve been sweating a lot. i ve also had some thick, black phlegm.",206,40
+varicose veins,i have a rash on my legs that is getting worse. i have difficulty running.,74,15
+peptic ulcer disease,i have a sour taste in my mouth. i burp and belch a lot. i have pressure or fullness in my upper abdomen.,105,23
+malaria,"i ve been feeling really sick for the past few days. i have a high fever, chills, and a headache. i ve also been vomiting and sweating a lot. i m also really itchy and my muscles are sore.",188,39
+common cold,i ve been feeling really tired and my eyes have been really red. my nose is stuffy and i ve been coughing up a lot of phlegm. i ve also noticed my lymph nodes are swollen.,171,36
+typhoid,"i ve been feeling really tired and weak, and i can t seem to shake it. i ve also lost my appetite because of the vomiting and nausea. my stomach is also hurting me.",164,34
+drug reaction,i have rashes on my skin that flake off and make me prone to infection. my fingers twitch and i sometimes shake.,112,22
+diabetes,i m always feeling tired and worn out. my vision is blurry and seems to be getting worse. i also get dizzy and lightheaded sometimes.,133,25
+gastroesophageal reflux disease,"i have a sore throat or hoarseness, especially in the morning. i have a chronic nagging pain in my throat and bad breath. i also have frequent belching. i have a burning sensation in my chest when i lay down.",208,40
+dengue,"i have been feeling nauseous and have a constant urge to vomit. i get high fever and chills every night and feel terrible because of this. also, i feel i have lost my appetite.",176,34
+hypertension,i was in the middle of a workout when i suddenly felt lightheaded and dizzy. i also had a headache and chest pain. i ve been having trouble balancing myself since then.,168,32
+dengue,"i ve been vomiting a lot and i m not hungry. my muscles, joints and back hurt all the time. i m starting to have a fever too. i m really worried and not sure what to do.",169,38
+malaria,i ve been feeling really hot and cold lately. i ve also been itching a lot and have a headache. i ve been sweating a lot and feel nauseous. my muscles are also aching.,167,34
+malaria,"i ve been feeling really sick lately. i ve been having a high fever, chills, and vomiting. i m also sweating a lot and have a headache. i feel nauseous and my muscles are really sore.",183,36
+hypertension,"i was driving home from work and suddenly felt a headache, chest discomfort, and dizziness. i ve been having trouble concentrating and focusing while driving since then.",169,27
+common cold,"i ve been sneezing a lot and i have a really bad cough. i feel weak and exhausted, and my temperature is high.",110,23
+urinary tract infection,"i ve been having to pee a lot, and it hurts. i ve also been peeing blood. what should i do ",91,21
+psoriasis,i have a rash that is itchy and painful. my nails have little dents in them. i also have skin peeling in different parts of my body.,132,27
+diabetes,i have trouble breathing when i exercise. i sweat a lot and get hot easily. i get yeast infections a lot.,105,21
+chicken pox,i have rashes on my arms and neck that itch when i scratch them. i also have a fever. i don t know what is causing it. the itching is really bothering me.,154,33
+cervical spondylosis,"i ve been experiencing neck pain, vertigo, and instability. i ve also been having a chronic cough and limb weakness.",116,20
+impetigo,i have a rash on my face and it s really painful. there are little blisters around my nose and they re oozing yellow liquid.,124,25
+impetigo,i have sores on my face. they are red and crusty. they are mostly around my nose and lips. they are painful and there is a yellow or rust colored fluid coming out of them.,171,35
+allergy,"i have a sore throat and i am sneezing all the time. sometimes my face swells up, especially my lips and the area around my eyes. i can t stop sneezing once i start.",165,34
+diabetes,i have to pee a lot and i m always thirsty. i get dizzy and confused sometimes. i ve also lost a lot of my vision.,114,26
+varicose veins,"i have a lot of pain in my legs, especially when i stand or walk for a long time. the skin on my calves is also swollen and red.",128,29
+fungal infection,"i have a rash on my skin that looks like dischromic patches, and i also have a lot of nodular eruptions and really bad itching. it has gotten worse over the last week.",167,33
+psoriasis,"i have been having a lot of skin problems lately. i have red, scaly patches on my skin that are itchy and painful.",114,23
+varicose veins,i have been feeling a lot of pain in my legs lately. it feels like a cramp and it is worse when i stand or walk for a long time.,128,30
+peptic ulcer disease,"i have a lot of stomach pain, and it s hard for me to sleep. i also feel really anxious and have no appetite.",109,24
+gastroesophageal reflux disease,"i have a lot of belching and burping. i also have chest pain that goes to my back, neck, and arm. i feel pressure and stress in my chest.",137,29
+common cold,"i ve been sneezing a lot, and my nose is running. i m also feeling really tired and achy, and i ve been coughing a lot. my fever is also pretty high.",149,32
+hypertension,"i suddenly felt a headache, chest pain, and dizziness in the middle of a conference. i ve been having trouble concentrating and focusing on the topic since then.",161,28
+gastroesophageal reflux disease,i feel like i m going to throw up after i eat. i have a lot of pain in my abdomen and i have really bad acid reflux.,116,28
+pneumonia,"i ve been feeling really bad, with a high fever, shortness of breath, sweating, chills, and extreme fatigue. my heart is racing, and i ve been coughing up a lot of brown phlegm.",177,33
+peptic ulcer disease,"i have been feeling bloated and uneasy for a while now. i ve also been losing weight and i don t like eating as much as i used to. sometimes i get bloody vomit and dark, tarry stools.",183,38
+peptic ulcer disease,"i have a constant hunger and appetite. sometimes my stomach will cramp and spasm. after i eat, i feel bloated and gassy.",120,22
+jaundice,"i ve been losing weight, feeling really tired, and throwing up a lot. my skin has turned yellow, and i have a fever. my urine is dark, and i ve been having stomach pain.",169,34
+chicken pox,i have a rash all over my body and i feel really sick. i have a fever and a headache and i don t know what s wrong.,115,28
+common cold,"i have red, watery eyes and my sinuses are tight. i have trouble breathing and i m tired. my lymph nodes are swollen and i have a lot of throat mucous.",151,31
+chicken pox,"i have a fever, headache, and swollen lymph nodes. i feel weak and fatigued. i m having trouble concentrating because of the fever.",131,23
+drug reaction,i have a fever and i feel dizzy and lightheaded. my heart is beating very fast and i feel very confused. i can t think very clearly and everything feels foggy.,159,31
+impetigo,"i have a fever, headache, and a rash on my arms and face. i m also worried about the red sores around my nose and lips.",119,26
+psoriasis,"i have a skin condition that causes dry, flaky patches on my skin. i also have joint pain and the skin on my knees and elbows is peeling off.",141,29
+hypertension,"i ve been having a headache, chest pain, dizziness, and trouble concentrating.",78,12
+dengue,"i ve been feeling sick and feel like i m going to throw up. there s a sharp pain behind my eyes, and my back is covered in red spots.",133,30
+typhoid,"i ve been having constipation and belly pain for a few days now. the belly pain has been getting worse and is starting to affect my daily life. i also get chills every night, followed by a mild fever.",200,39
+drug reaction,i have been taking this medication for a while and i have gained a lot of weight. i have also been craving different foods and have been eating more than i used to.,164,33
+common cold,i ve been feeling really run down and sick. i ve been sneezing a lot and i can t seem to get warm. my head hurts and i feel like i have a fever.,144,34
+allergy,"i feel sick to my stomach, lightheaded, and dizzy. my throat is swollen and i can t breathe well. i sometimes feel pain in my chest and nausea at night.",152,30
+diabetes,i ve been drinking a lot more water and going to the bathroom more often. my mouth and throat are always dry. i ve also been hungrier than usual.,145,29
+dengue,i have red spots on my body that are itchy and inflamed. i also have a high fever and chills.,93,20
+psoriasis,i have noticed that my skin has been dry and itchy. there are some red patches on my skin that are covered in a silver like dusting.,132,27
+hypertension,"i ve been experiencing headaches, chest pain, and dizziness. i ve also been having trouble walking and concentrating.",117,18
+malaria,"i ve been having a really high fever, chills, and nausea. i ve also been sweating a lot and my muscles hurt. i feel really queasy and have a headache.",150,30
+jaundice,"i have been feeling very sick lately. i have been having a lot of itching, vomiting, and fatigue. i have also lost a lot of weight and have a high fever. my skin has turned yellow and my urine is dark. i have also been having some abdominal pain.",246,49
+hypertension,"i ve been having chest pain, dizziness, and a headache that feels like it s in a narrow zone around my head.",108,22
+allergy,"i ve been having trouble swallowing, and my throat is sore. my nose has been running, and i ve been sneezing a lot.",115,23
+pneumonia,"i ve been feeling really tired and achy, and i can t seem to shake this cough. when i cough, my chest hurts and my heart feels like it s racing. i ve also been coughing up a lot of nasty, rusty colored phlegm.",209,44
+peptic ulcer disease,"i have a stomach ache that keeps me up at night. after i use the bathroom, i feel tired and i don t want to eat. i m always nervous.",132,30
+impetigo,i have sores around my nose that are crusted over and hard to touch. they used to ooze a yellow rust colored liquid. it is taking a long time to heal.,150,31
+allergy,"i have a runny nose and sneeze a lot. my eyes are sore and watery, and i have a headache.",89,20
+pneumonia,"i ve been feeling really cold, and i m so tired. i can t seem to shake this cough, and it hurts when i cough. my chest aches, and my heart is racing. the mucus i m coughing up is a disgusting brownish color.",207,44
+varicose veins,i have cramps in my calves that are getting worse. i can t walk very far without them getting really bad.,105,21
+peptic ulcer disease,i have a sour acidic taste in my mouth. i have frequent belching and burping. i have a feeling of pressure or fullness in my upper abdomen that last for a few hours. i have a pain in my upper abdomen that is worse when i eat.,225,47
+typhoid,i have been having a lot of stomach pain and constipation for the past few days. i have also lost my appetite and feel very weak.,129,26
+gastroesophageal reflux disease,"i have a burning sensation in my chest and throat, and i often feel like i have to clear my throat. i also have a bad taste in my mouth and my breath smells bad.",161,35
+impetigo,"i have a rash around my nose and mouth, and it s spreading to other parts of my body. i also have a fever.",106,24
+chicken pox,i have a rash all over my body. it s red and itchy. i ve also been feeling achy and tired.,90,21
+impetigo,"i have a fever and a rash on my face. the rash is red and painful, and it s oozing yellow fluid.",96,22
+allergy,"i m always tired, my mouth tastes bad, and my throat itches. my muscles are hot and painful, and my whole body can cramp up sometimes.",134,26
+common cold,"i have a runny nose and a sore throat. i ve been coughing a lot, and my chest feels tight. i feel tired and achy, and i have no sense of smell.",143,32
+pneumonia,"i m having trouble breathing. i m sweating and my heart is racing. my chest hurts and i m coughing up dark, stringy mucus.",122,24
+chicken pox,"i ve been feeling really tired and weak. i can barely get out of bed in the morning, and i m having trouble staying awake during the day.",137,28
+jaundice,"i ve been feeling really sick. i ve had a fever, lost weight, and i ve been really tired. my skin and my urine have turned yellow. i ve also been having stomach pain.",166,34
+allergy,"i have asthma and i get wheezing and breathing problems. i also have fevers, headaches, and i feel tired all the time.",118,22
+impetigo,i have a rash on my face and nose. i don t know what it is. the sores on my cheek are big and they hurt to touch. i also have a burning feeling and redness on my skin.,167,39
+urinary tract infection,i have a strong smell in my urine and it is cloudy. i have been having fevers and need to urinate more often at night.,118,25
+arthritis,"my muscles are weak, and my neck is tight. my joints are swollen and it hurts to move.",86,18
+gastroesophageal reflux disease,"i have a sour taste in my mouth all the time, even when i haven t eaten anything acidic. i also get the hiccups a lot and have a knot in my throat.",147,33
+common cold,"i ve been sneezing a lot, and i feel really tired. i have a lot of gunk in my nose and throat, and my throat hurts. my neck also feels swollen.",143,31
+varicose veins,i have been having cramps in my calves when i walk or stand for long periods of time. i have also noticed bruise marks on my calves. i feel tired very soon.,156,32
+urinary tract infection,"i ve been having a lot of pain in my lower abdomen, and it feels like my bladder is about to explode when i urinate. i ve also been feeling very weak and have had a low body temperature since these symptoms started.",215,43
+cervical spondylosis,"i have been having back pain, a cough that won t go away, and weakness in my arms and legs. my neck hurts and i have been dizzy and have trouble keeping my balance.",164,34
+hypertension,"i ve been having headaches, chest pain, and lightheadedness. it s been hard to concentrate at work.",99,17
+fungal infection,i have a rash all over my body. it s itchy and the patches are darker than the rest of my skin. i also have some firm lumps.,124,28
+bronchial asthma,"i ve been feeling really weak and tired lately, and i have a cough that just won t go away. i ve also been running a high fever, and it s been hard for me to breathe. i ve been coughing up a lot of mucous.",205,46
+psoriasis,"i have a rash on my skin that is itchy and uncomfortable. it is also red and flaky. it has been spreading to other parts of my body, including my chest and abdomen. i am also facing skin peeling.",195,39
+pneumonia,i m having trouble breathing and i m sweating a lot. i feel really sick and i have a lot of mucus in my throat. my chest hurts and my heart is racing. i m coughing up a lot of dark mucus that looks like rust.,208,46
+bronchial asthma,"i ve been coughing a lot, and it s hard to breathe. i m also really tired and exhausted. i ve been coughing up a lot of thick, mucusy stuff. i have a fever, too.",161,35
+gastroesophageal reflux disease,"i have a burning sensation in my chest that comes and goes. i feel like food or acid is backing up in my throat. my chest discomfort only becomes worse while i m lying down. after eating, i frequently have heartburn or indigestion and throw up.",244,46
+psoriasis,"i have small dents in my nails. my joints are hurting a lot. i have a silver like dusting on my skin, especially on my back.",124,26
+peptic ulcer disease,i have a sour taste in my mouth. i burp and belch a lot. my upper abdomen feels full or pressured.,98,21
+typhoid,"i ve had a high fever, especially at night. it s been really bad. i ve also had a headache, constipation, and diarrhea. i don t want to eat anything.",149,30
+drug reaction,i have severe nausea and chest discomfort. i have been having chest discomfort lately. i often shiver a lot and feel really nervous. i have been taking a new medication for my high blood pressure.,196,35
+arthritis,my muscles have been weak and my neck is tight. i have swollen joints that make it hard to move and walking is painful.,119,24
+dengue,"i have a rash all over my body. it s red and swollen, and it s worse in some places, like my arms and legs. i also don t feel like eating.",138,32
+cervical spondylosis,"i have been having back pain, a productive cough, and muscle weakness. i also have dizziness and uneven balance, and my neck hurts.",131,23
+peptic ulcer disease,i have a sour taste in my mouth and i ve been belching a lot. my upper abdomen feels full and pressed in.,105,23
+common cold,i have a bad cold. i ve been sneezing a lot and i have a sore throat. i also have a lot of mucus in my nose and throat. my neck is a little swollen and it hurts when i swallow.,176,41
+varicose veins,i have dark purple veins on my legs. they look like they are bulging out. i also get cramps when i run or sprint.,113,24
+hypertension,"i ve been having a headache and chest pain all day, and i m also feeling dizzy and unsteady on my feet.",103,22
+urinary tract infection,"i have to go to the bathroom a lot, but only a few drops of urine come out. i have severe stomach pains and an overwhelming urge to urinate.",140,29
+urinary tract infection,"i have to constantly go to the bathroom to pee, but i can t seem to empty my bladder. i get these very strong and uncontrollable urges to pee and sometimes my pee is dark or bloody.",181,37
+varicose veins,"i have these bulging veins on my legs that are very noticeable and are causing me a lot of discomforts. they are swollen and protrude from my skin, making them visible through my clothing.",188,34
+dengue,i have been experiencing severe joint pain and headaches for the past few days. i also have a mild fever and chills.,116,22
+hypertension,"i ve been having a headache that feels like a tight band around my head, and i ve also been having chest pain and dizziness.",124,25
+gastroesophageal reflux disease,"i m having trouble eating, and it s hard to swallow. i feel full even after eating a small meal. i also have nausea, heartburn, and a tingling sensation in my throat.",166,32
+impetigo,"i have a rash around my nose, and it s spreading to other parts of my body. i also have a high fever every night.",113,25
+gastroesophageal reflux disease,"i belch and burp a lot. i get chest pain that goes to my arm, jaw, and back of my neck. i feel pressure and stress in my chest.",127,29
+malaria,"i ve been feeling really sick. i have a high fever, chills, and severe itching. i ve also been vomiting and having a headache. i m also sweating a lot and feeling nauseous and achy.",181,35
+diabetes,"i have a cough that won t go away, and i m always sneezing. i also have palpitations, and my infections don t seem to be healing. my throat hurts sometimes, but it usually gets better.",184,36
+common cold,"i ve been coughing a lot, and i feel cold and shivery. my nose is stuffy, and i feel pressure in my face. i have a lot of phlegm, and coughing hurts my chest. i can t smell anything, and my muscles hurt.",203,43
+impetigo,i have a rash on my face. i have small sores around my nose and they are very painful. sometimes a yellow fluid comes out of the sores.,135,28
+allergy,i have a stuffy nose and a blocked nose. i also have stiffness and chest pain at night. i can t taste or smell anything.,120,25
+dengue,i have a skin rash that is red and swollen. i also have a severe fever and body pain.,85,19
+arthritis,"i ve been having a lot of pain in my joints, especially my knees and hips. it s hard for me to move around and i m always feeling stiff. i ve also been having a lot of trouble sleeping because of the pain.",205,44
+chicken pox,i have a lot of small red bumps all over my body. they re itchy and uncomfortable. i m worried about what they could be.,120,25
+fungal infection,"i have a rash that looks red and inflamed, discoloured areas of skin that are different colours from the rest of my skin, and itching on my skin.",145,28
+allergy,"i feel tired all the time, and my throat feels tingly. i also have dry, flaky skin. sometimes my eyes get puffy, and my face swells up too.",139,28
+common cold,i ve been feeling really run down lately. i ve been having a lot of trouble breathing and my nose is constantly running. i also have a lot of throat mucus and my lymph nodes are inflamed.,187,37
+jaundice,"i ve been feeling really itchy, sick to my stomach, and tired. i ve also had a fever and lost weight. my skin and urine have turned yellow, and my stomach hurts.",161,32
+common cold,"i ve had a nasty cough and cold for days. my nose is stuffy and my sinuses are congested. i ve also been coughing up mucus, and it hurts my chest to cough. i can t smell anything and my muscles are aching.",205,43
+psoriasis,i have been having rashes on my skin. the rash is itchy and bleeds when i scratch it. i have also noticed small dents in my nails.,130,27
+allergy,i feel like i m always tired and i have a tickle in my throat. my skin is also dry and i sometimes get swelling around my eyes.,127,28
+arthritis,"i ve been having a lot of pain in my joints, especially my knees and hips. i ve also been feeling really stiff and it s hard to move around.",140,30
+typhoid,"i ve been having a hard time going to the bathroom, and my stomach has been hurting. i also had a fever last night.",115,24
+varicose veins,"i have noticed that the blood vessels in my legs are getting more noticeable than usual. it is a little concerning to me. moreover, i am experiencing cramps every day.",167,30
+typhoid,i ve been vomiting and having diarrhea for a few days. i ve been having trouble keeping hydrated because of it. i also have a mild fever and constipation. my head hurts a little bit too.,186,36
+bronchial asthma,"i ve been having a persistent cough, trouble breathing, and fatigue. i have a fever and i ve been coughing up a lot of thick, mucusy sputum. i feel pretty sick because of how tired and drained i am.",198,39
+bronchial asthma,"i ve been having a dry cough, breathing difficulties, and a high fever. i m also producing a lot of mucous and feel incredibly weak and tired.",142,27
+hypertension,"i was working out and suddenly felt a headache, chest pain, and dizziness. i have been having trouble keeping my balance since then.",132,23
+urinary tract infection,"i have to go to the bathroom a lot, but only a little comes out. my stomach hurts, and i can t control my need to pee.",118,27
+migraine,"i ve been having headaches and blurry vision, and i ve also been getting acid reflux and indigestion after i eat.",113,21
+dengue,i have a headache and my eyes hurt. i have red spots on my neck and face and rashes on my arms. my arms and legs hurt a lot. the spots are itchy and uncomfortable.,163,35
+migraine,i ve been having headaches and my vision has been blurry.,57,11
+cervical spondylosis,i have been having a lot of pain in my back and neck. i have also been coughing a lot and i feel weak. i have been dizzy and i have trouble standing up straight.,161,35
+cervical spondylosis,"i ve been having periodic coughing fits, terrible back pain, and limb weakness. i ve been feeling neck pain as well as a dizzy and unstable sensation.",150,27
+fungal infection,"i ve been having a lot of itching and rashes on my skin. there are also some strange patches of skin that are a different color than the rest of me, and sometimes i get little bumps that look like nodules.",205,41
+chicken pox,"i have red, itchy bumps all over my body. they re especially bad on my arms and legs. i also have a headache and a fever. i don t feel like eating anything and have lost my appetite.",182,38
+pneumonia,i m having trouble breathing and i m sweating a lot. my throat is really sore and i have a lot of mucus. my heart is racing and my chest hurts. i m coughing up red stuff.,170,37
+fungal infection,"i have a rash all over my body that is very itchy. it is red and bumpy, and there are some darkened spots and a few tiny, nodular breakouts. it has been happening for several days and is getting worse.",201,40
+fungal infection,"i ve been scratching myself a lot lately, and my skin is covered in rashy places. there are a few spots where my skin doesn t appear to be its usual shade, and i ve experienced a few lumps that are quite painful.",212,43
+drug reaction,i have a metallic taste in my mouth and my sense of taste and smell have changed. i also have joint and muscle pain.,116,24
+allergy,"my skin is itchy and red. sometimes, it can peel. my lips and cheeks swell, and it is really annoying. i sometimes get headaches and watery eyes because of the swelling.",169,31
+cervical spondylosis,"i ve been having coughing fits, back pain, and weakness in my arms and legs. i ve also been having neck pain and dizziness.",123,24
+gastroesophageal reflux disease,"i have trouble swallowing, and i don t feel like eating. i often feel full, even after eating just a little. i also have heartburn, nausea, and tingling in my throat.",166,31
+arthritis,my neck has been very tight and my muscles have felt quite weak recently. it s tough for me to move around without getting stiff because of my swollen joints. walking has also been very uncomfortable.,200,36
+chicken pox,i have a rash on my arms and neck that itches like crazy. i ve been feeling really uncomfortable all day.,105,21
+psoriasis,"i have red, itchy, and scaly patches on my skin. they are often on my genitals, but i also have them on other parts of my body. they are sometimes painful and uncomfortable.",173,33
+arthritis,"i have been experiencing a lot of pain in my joints, especially my knees and hips. i also have a lot of stiffness in my neck and shoulders. i have been having trouble walking and doing other activities that i used to be able to do without any pain.",248,49
+bronchial asthma,"i ve been coughing a lot, and i m really tired. i have a fever, and it s hard to breathe. i also cough up a lot of mucous.",122,29
+pneumonia,"i ve been having a lot of trouble breathing lately, and i ve been coughing up a lot of phlegm. i ve also been feeling really tired and weak, and i ve been having chills and a fever. my chest hurts, and my heart is racing.",221,46
+allergy,i have a lot of sneezing and a sore throat. my lips and the area around my eyes sometimes swell up. i can t stop sneezing once i start.,135,29
+varicose veins,i have a bruise on my leg and the skin around the veins is dry and flaky. my legs have started to swell.,104,23
+bronchial asthma,"i ve been having trouble breathing, and i ve been coughing a lot. i ve also been running a fever, and i m feeling really tired. i m not sure what s going on, but i m worried.",174,38
+urinary tract infection,i have blood in my urine and sometimes feel sick when i pee. i also have a high fever at night and my pee smells bad.,117,26
+common cold,"i ve been feeling really sick lately. my nose is running like crazy, and i can t stop sneezing. i m also exhausted and have a fever.",132,27
+drug reaction,"i have rashes on my chest and back and i itch all over my body. i sometimes have flaky skin, which often leaves marks on my body.",129,27
+drug reaction,i have a hard time concentrating and my mind is not clear. i have trouble remembering things and i forget things a lot.,119,23
+bronchial asthma,i have been having a hard time breathing lately. i have a dry cough and i am coughing up a lot of mucus. i also have a fever and i am feeling very weak and tired.,162,36
+drug reaction,"i have a rash on my back and chest, and my skin is itchy. sometimes my skin is dry and flaky, which often results in body stains.",129,27
+cervical spondylosis,"i ve been having a lot of back pain, and my neck hurts too. i ve also been feeling lightheaded and unsteady, and my arms and legs are numb.",139,29
+bronchial asthma,"i have a bad cough and i m really tired. i have a high fever and my breathing is shallow. when i cough, a lot of saliva comes out.",130,29
+drug reaction,"i have a rash on my back and chest, and my entire body itches. my skin may be dry and flaky at times, which frequently leaves marks on my body.",143,30
+typhoid,i have been having constipation and stomach ache for a few days now. it is really uncomfortable and it is starting to affect my everyday life.,142,26
+drug reaction,"i m not interested in sex anymore, and it s hard for me to get aroused. i also have brain fog and feel confused a lot.",118,26
+drug reaction,i have a fever and i feel really lightheaded and woozy. my heart is pounding and my head is really foggy. i can t think straight and everything looks blurry.,157,30
+jaundice,i ve been feeling really sick and tired. i ve lost weight and have a fever. my urine is dark and my skin is yellow. i also have stomach pain.,141,30
+fungal infection,"my skin has been acting up lately, it s been really itchy and i ve been getting rashes. some patches of my skin are a different color than the rest of my skin, and i have some lumps or bumps on my skin that weren t there before.",228,48
+gastroesophageal reflux disease,"i have a burning sensation in my throat that comes and goes, and it s worse after i eat. i also have a bitter or sour aftertaste in my mouth sometimes.",151,31
+cervical spondylosis,"i have been having back pain, a cough, and weakness in my muscles. my neck is sore and i have been dizzy and unsteady.",118,24
+jaundice,i have been having intense itching all over my body. i have also been vomiting and feeling very tired. i have lost a lot of weight and have a high fever. my skin has turned yellow and my urine is dark. i have also been having abdominal pain.,241,48
+pneumonia,i m having trouble breathing and i feel really uncomfortable. i m sweating a lot and my throat is really sore. my chest hurts and my heart is beating fast. i m coughing up a lot of mucus and it s brown.,202,42
+arthritis,"i ve been experiencing stiffness in my neck, and my joints have enlarged. it s been difficult for me to move, and walking has been a challenge.",143,27
+chicken pox,"i ve been feeling really sick lately. i have a fever, and i ve been getting these itchy red spots all over my body. i m not sure what s wrong with me, but i m worried.",167,37
+urinary tract infection,"i have to go to the bathroom all the time, but i only pee a little bit. my stomach hurts a lot and i can t seem to control my urges to pee.",139,33
+chicken pox,i have little red spots all over my body. i don t know what they are and they are worrying me. i have also lost my appetite and every night i am exhausted and have a severe headache.,182,38
+migraine,"i have a stiff neck and eye issues, and i ve been hungry all the time.",70,16
+urinary tract infection,"i have blood in my urine and a low grade fever. i ve also been having headaches and a strong, uncontrollable urge to urinate. i ve also started having lower back pain.",167,32
+psoriasis,"my skin is dry and flaky, and i get infections easily. my joints are in a lot of pain, and the skin on my knees and elbows is peeling off.",138,30
+cervical spondylosis,i ve been having a lot of pain in my neck and back. i also feel dizzy and weak.,79,19
+diabetes,"i have a dry cough that won t go away. i also get infections that don t seem to heal, and i have palpitations. my throat hurts sometimes, but it gets better.",157,32
+arthritis,i ve been feeling really weak in my muscles lately and my neck has been really stiff. it s been hard for me to move around because my joints are swollen and it hurts to walk.,174,36
+peptic ulcer disease,i have been having a lot of stomach pain and heartburn. i also have been feeling very tired and have no appetite.,113,22
+typhoid,"i ve been feeling really sick for the past week. i ve been vomiting and having diarrhea, and i ve lost a lot of weight. i also have a fever, headache, and stomach pain. i m really worried about my health.",204,41
+gastroesophageal reflux disease,i have a lot of gas and burping. i have chest pain that goes up my neck and into my jaw and arm. i feel like my chest is tight and heavy.,137,32
+diabetes,"i ve been having trouble seeing things clearly, and it seems to be getting worse. i m also always tired and worn out, and i get dizzy and lightheaded a lot.",156,31
+peptic ulcer disease,i have a gnawing hunger and apetite. sometimes i get abdominal cramps and spasms. there is bloating and gas after eating which causes me a great deal of uneasiness,163,29
+impetigo,i have a fever and feel weak. i have sores on my face that are itchy and painful. they leak a yellow ooze.,106,23
+cervical spondylosis,"i have been having back pain, a hacking cough, and weakness in my arms and legs. i also have neck pain and have been dizzy and have trouble balancing.",150,29
+psoriasis,"i have a silvery film on my skin, particularly on my back, arms and scalp. it s made up of tiny scales that easily peel off when i scratch it.",142,30
+diabetes,i have blurry vision and it s getting worse. i m always tired and i get dizzy and lightheaded sometimes.,104,20
+peptic ulcer disease,i have a really strong appetite and i m always hungry. my stomach sometimes aches and cramps. i have really painful gas and bloating after eating.,146,26
+malaria,"i ve been experiencing a high fever, vomiting, chills, and severe itching. i also have a headache and am sweating profusely. my discomfort has also been accompanied by nausea and muscle pain.",191,32
+pneumonia,"i ve been coughing a lot recently, and it hurts when i breathe deeply. i m also feeling really cold and tired, and my heart is beating really fast. when i cough, i sometimes cough up phlegm that s a little bloody.",213,42
+dengue,i have a high fever and a headache. my body hurts and i feel cold. i m worried about my health.,95,21
+arthritis,i ve been having a lot of pain in my joints lately. my neck has been really stiff and it s hard for me to move it around. my joints have been swelling up and it s hard for me to move around without feeling stiff. walking has been really painful too.,249,52
+dengue,i have been having a really bad headache that is behind my eyes. i also have no appetite and feel really cold at night.,119,24
+chicken pox,"i have a fever, headache, and i can t eat. i feel like throwing up. i also have some red spots on my arms.",106,24
+bronchial asthma,"i ve been having trouble breathing, and i ve been coughing a lot. i ve been coughing up a lot of thick, mucoid sputum and have a high fever.",140,29
+impetigo,i have a rash on my skin that is made up of blisters. the blisters are painful and they are filled with fluid. i also have a fever.,131,28
+jaundice,"i have been feeling really sick lately. i have been itching all over, and i have been vomiting. i have also lost a lot of weight, and i have a fever. my skin has turned yellow, and my urine is dark. i have also been having abdominal pain.",238,48
+urinary tract infection,my pee is dark and bloody and has a very bad smell. i have been having temperature fluctuations and can t sleep at night,120,24
+drug reaction,i have been having migraines and headaches. i can t sleep. my whole body is shaking and shivering. i feel dizzy sometimes.,122,22
+cervical spondylosis,i have been having a lot of pain in my neck and back. i also have a dry cough and i feel weak and dizzy.,104,25
+gastroesophageal reflux disease,"i have a burning feeling in my throat after i eat. i also sometimes get a bitter or sour taste in my mouth, which makes me feel sick.",133,28
+cervical spondylosis,i have a lot of pain in my neck and back. i also feel weak and lightheaded. i ve been coughing up mucus.,104,23
+malaria,"i ve been having a fever, chills, and nausea. i ve also been sweating a lot and have a headache. my muscles are sore and i ve been scratching a lot.",148,31
+jaundice,"i ve been feeling really sick lately. i ve been itchy and throwing up, and i ve lost a lot of weight. my skin has turned yellow, and i ve been having a high fever. my stomach has also been hurting.",197,41
+dengue,"i have been feeling nauseous, and i have lost my appetite. i also feel uneasy and have a pain in my back and muscles.",117,24
+chicken pox,i ve been feeling really sick lately. i ve been having a lot of nausea and i feel really uneasy. i ve also noticed some rashes on my arms and legs. i ve lost my appetite and i feel exhausted every day.,201,42
+diabetes,i have slow healing of wounds and cuts. i have this tingling sensation in my hand and numbness in both my hands and feet. i also have a lot of thirst and i m always tired.,171,36
+urinary tract infection,"i have a burning sensation when i pee. sometimes it s really painful and my urine smells bad. i have to pee more often, especially at night.",140,27
+jaundice,"i ve been feeling really scratchy, dizzy, and worn out. i ve lost weight and have a fever. my urine is dark, and my skin has turned yellow. i also get stomach pain.",164,33
+fungal infection,i have red blotches all over my body and they are itchy. some of the patches are different colors than my skin and i have bumps on my skin.,139,29
+jaundice,"i have been feeling really sick lately. i have been vomiting, i am tired all the time, and i have lost a lot of weight. my skin has turned yellow, and my urine is dark. i have also been having abdominal pain.",208,42
+cervical spondylosis,"i ve been having back pain, a dry cough, and weakness in my arms and legs. i ve also been feeling dizzy and unsteady on my feet, and my neck hurts.",147,31
+jaundice,i ve been feeling really sick and tired. i ve lost weight and have a fever. my urine is dark and my skin is yellow. i ve also been having stomach pain.,151,32
+impetigo,i have a rash around my nose and lips that is red and painful. it has some yellow fluid coming out of it.,105,23
+dengue,i have been having severe muscle pain for the past few days. it feels like a constant ache. there are also red spots all over my body and the itching is really bad.,164,33
+common cold,i ve been feeling really sick lately. i ve been sneezing a lot and my nose is running. my throat is also really scratchy and i ve been feeling really tired.,156,31
+fungal infection,i have a rash on my skin that is very uncomfortable. there are also some odd patches of a different color and some pimples that resemble little knots.,150,28
+hypertension,"i have been feeling lightheaded and dizzy, and i have also noticed that i have been getting headaches more frequently.",118,20
+drug reaction,i have terrible mental clarity and find it difficult to stay focused. i regularly forget things and have problems remembering things. i also have trouble concentrating and find it difficult to pay attention.,207,33
+jaundice,"i ve been feeling really scratchy, dizzy, and worn out. i ve lost weight and have a temperature. my urine is dark, and my skin has turned yellow. i also have stomach pain.",171,33
+varicose veins,i have varicose veins in my legs. they are very painful and make it difficult to sleep at night. i also get cramps when i sprint.,129,26
+chicken pox,"i ve been feeling really sick and i ve lost my appetite. i ve also noticed some red spots on my arms, neck, and face that itch when i touch them.",145,31
+allergy,i have difficulty breathing and shortness of breath. i cough uncontrollably and my eyes get itchy and swell up. i also get swelling on my face and other body parts.,164,30
+common cold,i feel weak and my lymph nodes are swollen. my eyes burn and my throat hurts. my sinuses are congested and my nose is stuffy. i can t smell anything and my chest hurts.,168,34
+pneumonia,"i ve been having chills, fatigue, and a cough for a few days. i ve also been sweating a lot and feeling weak and unwell. i ve had some thick, black phlegm, and my chest hurts. my heart has been racing, too.",206,42
+common cold,"i ve been feeling really sick and exhausted lately. my throat is scratchy, and my nose is running a lot. i also have a headache and my neck feels swollen.",154,30
+impetigo,i have a rash on my face and near my nose. it s been there for a few days and it s starting to spread down my arms and legs.,124,30
+peptic ulcer disease,"i have been having bloody stools for a while now, and i am also feeling quite weak. i think i may have anemia.",110,23
+peptic ulcer disease,"i have a burning feeling in my stomach that is worse when i lie down. i also have pain after eating certain foods, like spicy or acidic foods. sometimes i have loose stools after eating these foods.",198,37
+bronchial asthma,"i have a cough that won t go away, and i m having trouble breathing. i m also really weak and tired, and my fever is really high. i m coughing up a lot of mucus, and i m really angry and frustrated.",198,43
+urinary tract infection,i have been having a very low temperature and my pee smells really bad. the area near my kidneys hurts a lot and i can t seem to hold my pee. i often get these uncontrollable urges to go to the bathroom.,203,42
+migraine,i have been having headaches for a while now. they are usually on the left side of my head and they are very painful. i also get nauseous and dizzy when i have a headache.,171,35
+malaria,"i ve been feeling really unwell. i have a headache, and i m perspiring a lot. i ve been uncomfortable from nausea and muscle ache, too. i ve also been scratching a lot, and i have chills and a high fever.",204,41
+bronchial asthma,"i have been having high fever since past few days , saliva also became thick , dry cough , weakness also seen",109,22
+varicose veins,my legs are swollen and the veins are protruding from my skin. they are painful and make it difficult to sleep at night.,120,23
+malaria,"i ve been having a fever, vomiting, chills, and severe itching. i also have a headache and am sweating a lot. my discomfort has also been accompanied by nausea and muscle pain.",176,32
+malaria,"i ve been feeling really sick. i ve had a fever, chills, vomiting, and severe itching. i ve also had a headache, and i ve been perspiring a lot. i ve been feeling really nauseous and my muscles ache.",199,39
+gastroesophageal reflux disease,"i have a lot of heartburn, especially after eating spicy or fatty foods. my chest pain is worse when i hunch over or lie down.",126,25
+dengue,"i have been vomiting frequently and have lost my appetite as a result. there are rashes on my skin and my eyes pain, because of which i cannot sleep properly.",158,30
+peptic ulcer disease,"i have a burning sensation in my upper stomach that comes and goes. i also have heartburn, indigestion, and nausea.",115,20
+allergy,i m always exhausted and i feel like i have a tickle in my throat. my skin is dry and my eyes sometimes swell up.,113,25
+urinary tract infection,"i ve been feeling really down lately, and my pee smells like rotten eggs. my kidney area hurts, and i can t seem to hold my urine in. i have to go to the bathroom all the time.",176,38
+impetigo,"i have a rash on my face, neck, and arms. it s red and burning. i m worried about it.",85,20
+psoriasis,"i ve noticed a sudden peeling of skin on my arms, legs, and back. i also have joint pain and skin rashes. the rash is spreading to different parts of my body.",158,32
+fungal infection,"i have a rash all over my body, and it s really itchy. i have some bumps that are quite firm, and some areas that are a darker shade from the rest of my skin. it s really unpleasant.",182,39
+gastroesophageal reflux disease,"i have a sour taste in my mouth all the time, even when i haven t eaten anything acidic. i also have a lump in my throat and the hiccups a lot.",143,32
+pneumonia,"i ve been feeling really unwell recently. i ve had a high temperature, chills, a cough, and i ve been struggling to breathe. i ve also been sweating a lot and feeling really weak and tired. i ve also had some thick, red phlegm.",227,44
+diabetes,i ve been feeling really thirsty and hungry lately. i ve also been feeling really tired.,88,16
+drug reaction,"i m losing hair, and my hair s texture has changed a lot. my dandruff is getting worse, and my dry, itchy scalp. my skin is getting really dry too.",147,30
+malaria,"i ve been feeling really sick. i have a high fever, chills, vomiting, and severe itching. i also have a headache, excessive sweating, nausea, and muscle aches.",159,27
+cervical spondylosis,"i have been having back pain, a chronic cough, and weakness in my limbs. i have also been feeling disoriented and weak on my feet, and my neck hurts.",149,29
+cervical spondylosis,"i have been having back pain, a cough, and weakness in my muscles. my neck hurts and i have been dizzy and have trouble balancing.",130,25
+varicose veins,"i have itchy, inflamed skin on my calves that is hard to sleep with. i m also concerned about the blood vessels that are protruding out.",136,26
+bronchial asthma,i have a fever and i can t breathe through my nose or mouth. i m tired and i ve been coughing up mucus. can you recommend some medications ,139,29
+pneumonia,i m feeling really hot. i can t breathe well. i m sweating a lot. i m shaking. i m really tired. my heart is beating fast. i have some brown stuff coming up when i cough.,170,37
+jaundice,i have been feeling very sick. i have been vomiting and have a high fever. my skin has become yellow and my urine is dark. i also have abdominal pain.,150,30
+chicken pox,i have no appetite and i feel like vomiting. i am also very tired. i have rashes on my skin that are really concerning me.,122,25
+impetigo,i have a rash on my cheeks and nose that is spreading to my neck and chest. i also have a fever.,96,22
+bronchial asthma,"i have been coughing a lot lately, and it is hard for me to breathe. i also have a fever, and i feel weak and tired.",116,26
+psoriasis,"i have a rash on my skin that is itchy and uncomfortable. i have also noticed small dents in my nails, which is concerning.",123,24
+psoriasis,i have a rash on my arms and neck that bleeds and hurts when i scratch it. i also have small dents in my nails.,111,25
+dengue,i ve been feeling really cold and shivery. my back and eyes hurt a lot. i ve also noticed some red spots on my back and neck.,125,27
+allergy,i have a stuffy nose and a blocked nose. i also have stiffness and chest pain sometimes at night. i can t taste or smell anything.,130,26
+chicken pox,i have a rash that is itchy and it is making it hard to sleep at night. i have also lost my appetite and feel lethargic.,120,26
+diabetes,"i ve been feeling really tired lately. i ve also been losing weight, and i m always thirsty.",92,18
+psoriasis,"i have thick, cracked skin on my fingers and soles that hurts and bleeds frequently. the skin is also itchy and covered with scales.",132,24
+peptic ulcer disease,"i have been having bloody stools for a while now, and i am also feeling weak. i think i may have anaemia.",105,22
+cervical spondylosis,"i ve been having trouble with my neck. it s been hurting, and i ve been having trouble staying balanced. i ve also been having numbness in my arms and legs.",156,31
+hypertension,"i ve been having headaches and chest pains, and i ve also fainted a few times. i ve also noticed that it s hard for me to focus.",128,28
+drug reaction,"i ve been having some weird changes in my monthly cycle, and i ve been having some unexpected vaginal discharge. i ve also been feeling really moody and agitated lately.",169,30
+bronchial asthma,"i ve been having trouble breathing lately. i ve been coughing a lot, and my chest feels tight. i ve also been feeling very tired and weak.",138,27
+dengue,"i m experiencing extreme body pain, headache and vomiting. i ve developed red spots all over my body and i m very itchy.",120,23
+malaria,"i have a high fever, severe itching, chills, and vomiting. i also have a headache and have been perspiring a lot. additionally, i have been nauseous and my muscles hurt.",169,30
+typhoid,i have been having a stomach ache for the past week. it is not getting better even with medication. i feel like vomiting and i can t eat anything. i have become very weak.,171,34
+impetigo,i have a fever and a headache. i have sores near my nose and rashes on my neck. i m really struggling right now.,112,24
+psoriasis,"i have a red, itchy rash on my face, especially around my nose, mouth, and eyes. my nails are also inflamed.",108,21
+pneumonia,"i ve been having a fever for a few days, and it s been getting worse. i m having trouble breathing, and i m coughing up a lot of phlegm. i m also feeling really tired and weak.",176,38
+impetigo,"i have a rash on my face that is red, itchy, and painful. it is also blistering. i have also been experiencing flu like symptoms, such as fever and body pain.",158,31
+gastroesophageal reflux disease,"i have heartburn and indigestion. i frequently vomit everything i eat, and it is hard for me to swallow since food gets caught in my throat. my upper abdomen is in discomfort.",175,32
+drug reaction,i ve been having mood swings and my monthly cycle has changed. i ve also had some unexpected vaginal discharge.,111,20
+jaundice,"i have been feeling very sick. i have been vomiting, i have a fever, and i have been itching all over. my skin has turned yellow, and my urine is dark. i have also been having abdominal pain.",191,38
+diabetes,i ve been feeling really thirsty and hungry lately. i also feel really tired sometimes.,87,15
+malaria,"i ve been having a fever for a few days now, and it s been getting worse. i m also really itchy, and i ve been throwing up. i feel really weak and tired, and my head hurts. my muscles are also really sore.",205,44
+bronchial asthma,"i ve been having a hard time breathing. i ve been coughing a lot and i m coughing up a lot of thick, sticky mucus. i ve also been feeling really tired and weak.",160,34
+chicken pox,i have a fever and red spots all over my body. i feel really tired and i don t want to eat anything. i m worried about what s wrong with me.,140,32
+gastroesophageal reflux disease,i have a lot of heartburn and acid reflux. i also feel sick after eating and sometimes throw up.,96,19
+varicose veins,i have these cramps in my calves that are really painful. they come on suddenly and last for several minutes. they re making it hard for me to walk and do my daily activities.,175,34
+hypertension,"i ve been having a headache all day, and i feel sick to my stomach. i m also having trouble concentrating and focusing on my work.",130,26
+urinary tract infection,"i ve been having to pee a lot, and it hurts when i do. sometimes i see blood in my pee, and it smells really bad. i m worried that i have an infection. what should i do ",169,38
+arthritis,"i ve been having stiffness and weakness in my neck muscles lately. my joints have gotten stiff, so it s hard for me to run without getting stiff. walking has also been uncomfortable.",182,33
+dengue,i have a fever and my back hurts. i also have rashes on my arms and armpits. the back of my eyeballs hurt a lot. i m worried about my health.,141,31
+gastroesophageal reflux disease,"i have a burning sensation in my chest and throat, and i often feel like i have to clear my throat. i also have bad breath and a bad taste in my mouth.",151,33
+common cold,"i ve been coughing a lot and i m freezing. my nose is stuffed up and my face hurts. i ve also been coughing up some nasty stuff, my chest hurts, and my muscles hurt. i can t smell anything.",189,40
+varicose veins,"i have these large, bulging veins on my legs that are really painful. they re really visible and i m worried about them.",120,23
+migraine,"i ve been having headaches, blurred vision, and acid reflux. these symptoms have been disturbing me and interfering with my usual activities.",141,22
+drug reaction,i have trouble focusing and remembering things. i feel like i have brain fog.,77,14
+drug reaction,i have been feeling very sick lately. i have been having chest pain and i feel very nauseous. i also sweat a lot.,113,23
+gastroesophageal reflux disease,"i have a burning sensation in my throat, especially after i eat. i also sometimes get a sour or bitter taste in my mouth, which makes me feel sick.",147,29
+arthritis,my neck muscles have been tight and weak lately. i ve also been having trouble running and walking because my joints are stiff.,127,23
+arthritis,i ve been feeling really weak in my muscles and my neck has been really stiff. my joints have been swelling up and it s hard for me to move around without feeling stiff. walking has been really painful too.,206,40
+migraine,"i ve been feeling really grumpy and gloomy lately, and i ve also noticed a change in my vision. i think it might be a migraine.",127,26
+peptic ulcer disease,"i ve lost a lot of blood and iron because of my bloody stools, and now i have anaemia and feel weak.",100,22
+migraine,"i have been experiencing headaches, blurred and distorted vision, and visual disturbance. these symptoms have been affecting my daily life and causing me discomfort.",165,24
+psoriasis,"i have thick, scaly skin on my palms and soles. the skin is also cracked and painful.",85,17
+hypertension,"i ve been having headaches, chest pain, and dizziness. i ve also been having trouble concentrating and focusing on my tasks.",124,21
+jaundice,i have been feeling really sick lately. i have been vomiting and have a high fever. my skin has turned yellow and my urine is dark. i have also been experiencing abdominal pain. i am worried that i might have something serious.,227,42
+drug reaction,"i feel like i m going to pass out when i have a fever. my head is spinning, and my heart is racing. i can t think straight, and everything is blurry.",149,32
+fungal infection,i have a rash that is spreading all over my skin and it is very itchy. i also have some discolored spots and little bumps all over my skin.,139,29
+malaria,"i ve been having a high fever, chills, and intense itching. i also have a headache and i m sweating a lot. i ve been feeling nauseous and my muscles are aching.",160,32
+hypertension,i ve been having a headache and chest pain. i ve also been feeling dizzy and unstable. i m also having problems focusing.,121,23
+cervical spondylosis,i have been having a lot of pain in my back and neck. i also have a cough that produces phlegm and i feel weak and dizzy.,121,27
+fungal infection,"i have red, bumpy areas on my skin that are itchy. i also have some bumps that resemble little lumps and some spots that are a different shade of skin than the rest of my body.",176,36
+chicken pox,i have small red bumps on my arms and face. they are itchy and make my day very uncomfortable.,94,19
+dengue,i have a high fever and a severe headache. my body aches and i feel chills every night. i also have a pain behind my eyes.,122,26
+gastroesophageal reflux disease,"i have a lot of heartburn and indigestion, especially after i eat spicy or fatty foods. when i lie down or bend over, my chest discomfort gets worse. my chest hurts a lot.",171,33
+hypertension,"i have been having headaches, chest pains, and dizziness. i also feel like i m losing my balance and i can t focus.",115,23
+psoriasis,"i have dry, scaly patches of skin on my knees, elbows, and scalp. these patches are often itchy and sometimes painful.",118,21
+pneumonia,"i ve been feeling really sick for the past few days. i have a high fever, shortness of breath, and i m coughing up a lot of sputum. i m also sweating, feeling chills, and i m really tired.",188,39
+psoriasis,i have been experiencing a lot of itching and redness on my skin. i have also noticed that my nails are becoming brittle and have started to develop dents. i am worried that this could be a sign of something more serious.,221,42
+hypertension,"i ve been feeling unwell for a while now. i have a headache, chest pain, and i feel unstable and have balance issues. i also have trouble focusing.",147,28
+bronchial asthma,"i ve been having a hard time breathing lately. i feel like i can t get enough air, and i m always coughing. i ve also been really tired, and i ve been coughing up a lot of mucus. i m not sure what s wrong with me, but i m really worried.",237,53
+peptic ulcer disease,i have been having bloody stools for a while now and i feel very weak and tired. i think i might have lost a lot of blood.,122,27
+diabetes,"i have to pee a lot, and it s hard to hold it in. i feel dizzy and confused. i can t see very well.",99,25
+impetigo,"i have a rash on my face, especially around my nose. it s red and painful, and there are some yellow sores that are oozing.",123,25
+psoriasis,"i have been experiencing a red, itchy, scaly rash on my arms, legs, and torso for the past few weeks.",101,20
+typhoid,i have had diarrhea for a few days now. it is very watery and smells bad. i also have a severe headache and feel like vomiting.,127,26
+hypertension,"i ve been having chest pains, headaches, and dizziness.",55,9
+fungal infection,i have a rash that is itchy and red. it is also bumpy and has some patches that are a different color than the rest of my skin. i have also had some pimples that resemble little balls.,184,38
+fungal infection,"i ve been experiencing a lot of itching, which has been accompanied with a rash that appears to be growing worse over time. there are also certain areas of skin that are different colours from the rest, and i ve spotted several lumps that resemble little nodes.",261,47
+hypertension,"i ve been having headaches, chest pain, dizziness, and trouble concentrating. i m also feeling off balance.",107,17
+varicose veins,i have noticed that my legs are swollen and the blood vessels are visible. i have swollen legs and i can see a stream of swollen veins on my calves.,148,30
+fungal infection,"i ve been itching a lot recently, and my skin is covered in rashy patches. there are also some areas where my skin doesn t look like its normal color, and i ve had some painful lumps.",183,37
+cervical spondylosis,"i ve been having a lot of pain in my neck and back, and my arms and legs are numb. i ve also been having problems with my balance and vertigo.",142,31
+varicose veins,i have some red and inflamed skin on my legs. i think i can see some of the swollen blood vessels. i m really worried about it.,127,27
+pneumonia,i m having trouble breathing and i m sweating a lot. i have a lot of mucous in my throat and i feel sick. my chest hurts and my heart is racing. i m coughing up red mucus.,171,38
+jaundice,"i ve been feeling really sick. i ve had a fever, i ve been losing weight, and i ve been feeling really tired. my skin and my urine have turned yellow, and i ve been having stomach pain.",185,38
+jaundice,i ve been feeling really sick. i ve been throwing up and i m itchy. i ve also lost a lot of weight and i m exhausted. my skin has turned yellow and my fever is high. i also have stomach ache and my urine is dark.,212,47
+gastroesophageal reflux disease,"i have a feeling of food or acid backing up into my throat. i have chest pain which gets worse if i lie down. i get frequent heartburn or indigestion, after eating food and vomit it out",185,37
+hypertension,"i ve been having headaches and chest pain for a few days now, and today i also started to feel dizzy and lightheaded.",117,23
+arthritis,"i have been experiencing muscle weakness and stiffness in my neck, as well as swelling in my joints. this makes it difficult for me to walk around without feeling stiff and uncomfortable.",187,32
+typhoid,i have been having a high fever for the past few days. it is especially bad at night. i also have a mild headache and have been constipated and having diarrhea.,160,31
+jaundice,"i have been feeling very sick. i have been vomiting, i have no energy, and i have lost weight. my skin is yellow and my urine is dark. i have also been having abdominal pain.",174,35
+psoriasis,i have been having pain in my joints and i have noticed that my skin is peeling in different places. i am worried that something is wrong with me.,146,29
+impetigo,i have been having a fever for a few days and now i have sores near my nose. the sores are painful and i feel uncomfortable.,124,26
+drug reaction,i have hair loss and there is a significant change in the texture of my hair. i have  dry and itchy sclap and increased dandruff. my skin is also getting very dry. i think it might be because of the medication i m taking,220,44
+impetigo,i have been feeling really tired and i have a fever. i have a rash on my face and it is very itchy. i can t sleep because of the rash.,134,31
+impetigo,i have a fever and my nose is sore. there are red sores on my nose that are painful and have yellow stuff coming out of them.,125,27
+allergy,i have a stuffy nose and nasal congestion. i sometimes have a stiff neck and chest discomfort at night. i can t taste or smell anything.,136,26
+chicken pox,i have a lot of tiny red spots all over my face and neck area. they are itchy and make my day very uncomfortable.,113,24
+migraine,i ve been having recurrent headaches and blurred vision. i also have acid reflux and trouble digesting my food.,111,19
+chicken pox,"i ve been feeling really sick lately. i have a fever, swollen lymph nodes, and a headache. i don t feel like eating anything, and i m really weak and tired. it s hard for me to concentrate on my daily life.",206,42
+cervical spondylosis,i have been having back pain for a while now. it s been getting worse lately. i also have a cough that won t go away. i ve been feeling weak in my arms and legs. my neck hurts and i ve been feeling dizzy and off balance.,220,48
+chicken pox,i have a rash with little bumps that are itchy and painful. i also have a fever and feel tired.,95,20
+migraine,i have been experiencing a lot of headaches and my vision has been blurry. i have also been having trouble digesting my food and i feel like i have acid reflux.,160,31
+diabetes,"i have a lot of skin irritations and rashes, especially in the creases of my skin. any wounds or bruises i have on my skin also heal very slowly.",145,29
+gastroesophageal reflux disease,"i often have a burning sensation in my throat, especially after eating. i also sometimes get a bitter or sour aftertaste that makes me feel sick.",145,26
+chicken pox,i have rashes on my skin that are itchy and i have a fever. i don t know what s causing it.,91,22
+drug reaction,"i ve been feeling really dizzy and disoriented lately, and i ve also noticed that my sex drive has decreased. i m also having a hard time thinking clearly.",155,29
+common cold,i ve been sneezing and coughing for a few days now. i m also feeling really tired and weak. my fever is pretty high.,116,24
+allergy,"i have trouble breathing and i get out of breath easily. my eyes hurt and i have a dry, hacking cough. my face and body are swollen.",132,27
+arthritis,"my muscles are weak and my neck is stiff. my joints are swollen, which makes it hard for me to walk without feeling stiff. walking is also uncomfortable.",153,28
+typhoid,i m having a really bad stomach ache and diarrhea. i also have a fever and a headache. the last few days have been really unpleasant.,133,26
+hypertension,"i ve been having headaches, chest pain, dizziness, and trouble standing up straight. i also feel like i can t concentrate as well as i used to.",143,27
+bronchial asthma,"i m so tired and weak, and my fever is really high. it s been hard to deal with all of these symptoms, and i ve also been coughing up a lot of mucus. i m getting really frustrated.",180,39
+dengue,"i have been experiencing muscle pain and headache. the muscle pain is like a constant ache that is worse when i try to use the affected muscles. i also have small red spots developing on my face, neck and arms.",210,40
+hypertension,"i ve been having headaches and chest pain for a while now, and it s been getting worse. i also feel dizzy and lightheaded sometimes. i m not sure what s going on, but i m worried.",179,37
+hypertension,"i have been feeling dizzy and lightheaded, and i have also had trouble keeping my balance. i have also had a headache that has not gone away.",141,27
+diabetes,i have a wound that is not healing well. my hands and feet are numb and tingling.,81,17
+chicken pox,i have a bunch of red spots all over my body. they are itchy and starting to swell. i think they are spreading.,111,23
+urinary tract infection,"i have a burning sensation when i pee, and my lower abdomen hurts. i also have a low temperature and feel weak.",111,22
+gastroesophageal reflux disease,"i have a hard time swallowing, and i feel full even after eating a small meal. i also have heartburn, nausea, and a tingling sensation in my throat.",148,28
+migraine,"i have been having headaches and distorted vision, excessive hunger, a stiff neck, depression, irritability, and visual disturbance.",132,18
+fungal infection,i have a lot of itchy bumps on my skin that sometimes turn red or rough. i also have some strange pimples that look like little balls and some weird spots that are a different color than the rest of my skin.,207,42
+jaundice,i ve been feeling really tired and sick to my stomach. i ve also been losing weight and have a fever. my urine is dark and my skin has turned yellow. i ve also been having stomach pain.,185,38
+cervical spondylosis,"i ve been having back pain, a persistent cough, and weakness in my limbs. i also have problems with vertigo and losing my balance, and my neck hurts.",149,28
+chicken pox,"i ve had a fever for a few days, and it s starting to worry me. i also have a headache, and i feel weak and lethargic.",118,27
+psoriasis,i have pits in my nails and i am worried about what it could be. i also have rashes on my arms and back and my joints hurt.,123,28
+typhoid,"i ve been feeling really sick lately. i ve lost my appetite and have noticed a significant weight loss. i have abdominal pain, especially in the area of my stomach and intestines. i m worried about my health.",208,38
+fungal infection,i have a rash all over my body that is itchy and red. some of the patches are a different color than my skin and there are some lumps or pimples on my skin.,156,34
+common cold,"i ve been having a runny nose and sneezing for a few days. my eyes are also red and irritated. i ve been coughing a lot, and my chest feels tight. i can t smell anything, and my muscles are aching.",197,41
+malaria,"i ve been having chills, nausea, a high temperature, and a headache. i ve also been sweating a lot and feeling muscle aches.",124,23
+typhoid,i ve had severe stomach pain and constipation for the last few days. i also get a headache and chills every night.,114,22
+malaria,"i ve been feeling really sick lately. i have a high fever, chills, and severe itching. i ve also been vomiting and sweating a lot. i have a headache and my muscles are sore.",173,34
+typhoid,"i have been having severe belly pain and constipation for the past few days. i also have a fever, chills, and headaches every night. i am really uncomfortable.",159,28
+typhoid,i have a sharp pain in my stomach. i have also been vomiting a lot and feel very nauseous.,90,19
+varicose veins,i have some veins in my legs that are bulging out. i m concerned about it. i m also overweight and i think that might be the cause.,131,28
+bronchial asthma,"i ve been having trouble breathing, and i ve been coughing a lot. i m also really tired. i ve been coughing up a lot of thick, mucusy stuff. it s been really hard to deal with all of this.",188,40
+migraine,"i ve been having headaches, blurred vision, and acid reflux. these symptoms have been bothering me and interfering with my usual activities.",140,22
+impetigo,"i have a rash that started out as small red sores near my nose and neck. the sores have gotten more painful and inflamed in recent days, and i have a high temperature.",167,33
+allergy,"i have a runny nose and sneeze a lot. my eyes are itchy and watery, and i cough a lot. my head hurts all the time.",114,26
+diabetes,i have a chronic dry cough. i have palpitations and my infections don t seem to be getting better. i also have a sore throat that comes and goes.,145,29
+drug reaction,i have gained a lot of weight and am now very obese. i have different urges and different appetites. i have been taking a new medication for my depression.,155,29
+psoriasis,"i have been experiencing a lot of skin peeling and rashes on my arms, legs, and back. i also have joint pain.",109,22
+impetigo,i have red sores on my face and near my nose. the rash is spreading quickly on my neck and chest.,97,21
+malaria,"i ve been feeling really hot and sweaty, and i ve been throwing up. i ve also been having chills, and my skin is really itchy. i ve been having a headache, and i ve been feeling really nauseous and achy.",203,41
+fungal infection,i have a rash all over my body. it is itchy and red. there are some patches that are a different color than the rest of my skin. i also have some pimples that look like little balls.,182,38
+common cold,i m tired and my neck feels swollen. my eyes are bloodshot and my throat is scratchy. my nose is stuffed up and my face feels like it s under pressure. i can t smell anything and my chest hurts.,194,40
+jaundice,i ve been having terrible itching and nausea. i ve lost weight and am really exhausted. my skin is yellow and i have a fever. my urine is dark and i have stomach pain.,167,34
+hypertension,"i ve been feeling dizzy and anxious, and i ve been having trouble concentrating.",80,14
+common cold,i ve been having a runny nose and a sore throat for a few days now. i also feel like i have a fever and my body aches.,118,28
+bronchial asthma,"i ve been having trouble breathing, coughing a lot, and feeling tired. i ve been coughing up a lot of thick, sticky mucus and have a fever. i m just feeling really run down and exhausted from all of this.",204,40
+pneumonia,"i ve been coughing a lot and feeling really cold and tired. i have a fever, and it s hard for me to breathe. i ve been sweating a lot and feeling weak and sick. i ve had some thick, black phlegm.",195,42
+malaria,"i ve been feeling really sick for the past few days. i ve had a high fever, chills, and intense itching. i ve also been vomiting and sweating a lot. i have a headache and my muscles are sore.",191,39
+migraine,"i have been having frequent headaches and blurred vision. i also have a stiff neck, anxiety, irritability, and visual disturbance. i have also been having stomach problems, including indigestion and acidity.",207,31
+bronchial asthma,i ve been having trouble breathing for a few weeks now. it s especially bad when i try to exercise or when i m around smoke or other irritants. i also have a persistent cough and i m always tired.,196,40
+chicken pox,"i have a rash on my skin that is red, itchy, and painful. it is spreading all over my body.",91,20
+typhoid,i have been having some constipation and belly pain for a few days now. the pain has been getting worse and it s really affecting my daily life. i m also feeling really tired and weak.,184,36
+peptic ulcer disease,i ve been having bloody stools for a while now and i m also feeling weak and tired. i think i might have anaemia.,113,24
+varicose veins,i have pain in my legs that is worse when i stand or walk for long periods of time. i also have cramps and can t run for long periods of time.,142,32
+impetigo,"i have sores on my face that are weeping clear fluid. i also have a high fever and chills every night, which makes it hard for me to sleep.",139,29
+arthritis,i ve been feeling really weak and my neck has been stiff. my joints are swollen and it s hard to move around. walking is really painful.,136,27
+malaria,"i ve been having a really high fever, chills, and nausea. i ve also been sweating a lot and have a headache. my muscles are sore and i feel sick.",145,30
+pneumonia,i m having trouble breathing and feeling really sick. i m sweating a lot and feel terrible. my chest hurts and i have a lot of mucus in my throat. my heart is racing and the color of the mucus i m coughing up is strange.,220,46
+malaria,"i ve had a high fever, vomiting, chills, and intense itching. i also have a headache and am sweating a lot. i m feeling nauseous, and my muscles hurt a lot.",156,31
+impetigo,i have a rash on my nose that is red and itchy. it feels like it is burning. i think it might be an infection.,110,25
+psoriasis,i ve been experiencing joint pain and skin peeling. i m worried about what s going on with my body.,99,20
+fungal infection,i have these red and bumpy spots on my skin that are itchy. they re also a different color than the rest of my skin. i ve had some bumps that are kind of like little lumps.,172,37
+hypertension,"i ve been having chest pain, dizziness, and a headache that feels like a constant pressure in my forehead.",106,19
+arthritis,i have a lot of pain in my neck and my muscles feel weak. my joints are swollen and i have a lot of stiffness when i walk. walking is also very uncomfortable.,158,33
+typhoid,i have been having a fever for a few days now and it s starting to get worse. i also have a terrible stomach ache and i m constipated.,134,29
+typhoid,"i ve been vomiting and having diarrhea for a few days, and i m having a hard time staying hydrated. i also have a mild fever and stomach pain.",142,29
+common cold,"i ve been coughing for days. my nose is stuffy, and my face hurts. i ve been coughing up phlegm, and it hurts to cough. i can t smell anything, and my muscles ache.",164,34
+fungal infection,i have a rash all over my body that is really itchy. i also have some bumps that are firm and some patches that are a different color than the rest of my skin.,159,34
+fungal infection,"i ve been quite itchy recently, and i have rashy places all over my body. there are also some regions that don t appear to be the normal color of my skin, and i ve experienced some firm lumps.",192,39
+gastroesophageal reflux disease,"i have a sour taste in my mouth all the time, even when i haven t eaten anything acidic. i also get the hiccups a lot and feel like i have a lump in my throat.",159,36
+peptic ulcer disease,i have abdominal pain or discomfort that is worse when i eat or drink. i have a loss of appetite and feel fatigued after going to the bathroom. i feel very tired all the time,174,35
+psoriasis,"i have red, scaly patches on my skin that are itchy and painful. they are mostly on my knees, elbows, and arms, but they can also appear on my scalp and other parts of my body. i also have small dents in my nails.",213,44
+pneumonia,i m having trouble breathing and i m sweating a lot. i feel really sick and my throat is full of phlegm. my chest hurts and my heart is racing. i m coughing up a lot of mucus and it s red in color.,197,44
+diabetes,i feel weak and tired. i can t taste or smell things as well as i used to. sometimes my heart beats fast or i feel like i m going to pass out.,142,33
+pneumonia,"i m having trouble breathing, and i have a really high fever. i m sweating a lot and feeling really cold and tired. my heart is beating really fast, and i have some brownish sputum.",181,35
+drug reaction,i have a lot of pain in my chest and i feel really sick to my stomach. my chest has been hurting a lot lately and i ve been really shaky and anxious.,149,33
+malaria,"i ve been feeling really sick. i have a high fever, chills, and a headache. i ve also been vomiting and sweating a lot. i m also really itchy and my muscles hurt.",162,33
+bronchial asthma,i ve been feeling really tired lately and have had this cough for a few days. it s getting harder to breathe and i m coughing up a lot of phlegm. my fever is really high too.,174,37
+malaria,"i ve been experiencing a lot of itching, chills, vomiting, and a fever. i also have a headache and am sweating a lot. additionally hurting me have been nausea and muscle aches.",176,32
+chicken pox,i am feeling very sick. i have no appetite and i feel like vomiting. i have also noticed some red spots on my skin. i am worried about my health.,145,30
+typhoid,"i ve been having a lot of stomach pain and bloating, and i ve been constipated. i also have a high fever and chills.",116,24
+common cold,i ve been feeling really tired and sick. i ve had a bad cough and sore throat. i ve been shivering and have a fever. i just feel really run down.,145,31
+common cold,i ve been feeling really tired and nauseous. i ve had a really bad cough and my throat has been sore. i ve had a lot of pressure in my sinuses and my nose is stuffy. i m feeling really yucky and exhausted.,205,43
+allergy,"i have asthma, and i get wheezing and breathing problems. i also have headaches and fevers. i m always tired.",109,20
+bronchial asthma,i ve been having a lot of trouble breathing lately. i ve been coughing up a lot of phlegm and my chest feels tight. i m also feeling really tired and weak.,155,32
+fungal infection,i have a rash on my arms and legs that is itchy and red. there are also some weird looking spots on my skin. sometimes the bumps feel kind of hard.,147,31
+fungal infection,i have a really itchy rash on my skin and there are some weird spots that are a different color. there are also some bumps on my skin that look like little knots. i think it might be a fungal infection.,202,41
+bronchial asthma,"i m having trouble breathing, and i m coughing up a lot of mucus. i also have a fever and feel really weak and exhausted.",121,25
+diabetes,i have mood swings and have trouble concentrating. my mind feels hazy and foggy at times and it gets difficult to do even regular chores. i also have a lot of thirst and i have to pee a lot.,190,39
+fungal infection,"i have a lot of itchy spots on my skin. they re sometimes red or bumpy, and sometimes they re different colors than the rest of my skin. i also get these weird bumps that look like little balls.",194,39
+urinary tract infection,"i ve been having frequent urges to urinate, but when i go to the bathroom, i only pass a little bit of urine. it also hurts when i pee, and my urine is cloudy and has a strong smell. i ve also been feeling nauseous and have been vomiting.",238,49
+allergy,"i m having trouble breathing and i feel like i m getting out of breath easily. my face and chest are swollen, my eyes hurt, and i have a dry, hacking cough.",156,32
+pneumonia,"i m sweating a lot and can t catch my breath. i feel really sick, my throat is full of mucus, my heart is racing, and my chest hurts. i m coughing up thick, rusty colored mucus.",177,37
+typhoid,"i m feeling really weak. i ve been having a lot of stomach pain and constipation, and i ve been vomiting a lot. i can t eat anything because of the pain.",153,32
+peptic ulcer disease,i have trouble swallowing food and it feels like food is getting stuck in my throat. i also feel bloated and belch a lot. i have a bad aftertaste every time i eat.,163,33
+fungal infection,"i ve been really itchy lately and there are these rashy spots all over my skin. there are also some areas that don t look like the normal color of my skin, and i ve had some bumps that are kind of hard. i m not sure what it is, but i m worried about it.",253,56
+common cold,i ve been feeling really run down and weak. my throat is really sore and i ve been coughing a lot. i ve also been feeling really cold and have a fever.,151,32
+migraine,"i ve been having headaches, blurred vision, and stomach problems. i also have a stiff neck, depression, impatience, and visual disturbance.",139,21
+jaundice,"i ve been losing weight and feeling sick to my stomach. my skin is yellow, and i have a fever. my urine is dark, and my stomach hurts.",134,28
+varicose veins,i have varicose veins in my legs. they are swollen and the blood vessels are more visible than usual. the swelling seems to be getting worse over time.,151,28
+pneumonia,i m having trouble breathing. i m coughing up a lot of mucus. my chest hurts. i m sweating a lot. i feel really sick.,117,25
+fungal infection,"i have been having a lot of itching all over my body, and i have noticed some red, scaly patches on my skin. i also have some bumps that look like small nodules.",161,33
+jaundice,i ve been feeling really itchy and sick to my stomach. i ve lost a lot of weight and i m exhausted. my skin is yellow and i have a fever. my urine is dark and i ve been having stomach pain.,189,42
+arthritis,my neck has been extremely stiff and my muscles have been extremely weak. i have difficulty moving around without feeling stiff because of the swelling in my joints. walking is also very difficult.,197,33
+allergy,i have been having a hard time eating lately. i have a sore throat and my nose is running.,90,19
+psoriasis,i have cracks in my palms and soles that are painful and bleed. the skin is also peeling off.,93,19
+pneumonia,"i ve been feeling really sick for the past few days. i have a fever, i can t catch my breath, and i m coughing up a lot of phlegm. my chest hurts, and my heart is racing.",170,38
+drug reaction,"i m losing my hair, and it s getting really dry and itchy. my dandruff is getting worse, and my skin is also really dry.",120,25
+jaundice,"i ve been feeling really sick. i ve lost weight, have a fever, and i m so tired. my skin is yellow, and my urine is dark. i ve also been having stomach pain.",157,34
+dengue,"i have rashes on my skin, which itch when i touch them. my joints pain all day and i don t feel good. at night, i have mild fever and get chills, which makes it difficult for me to sleep.",187,40
+varicose veins,"i have been experiencing pain in my legs, especially when i exercise. the veins in my legs are also very prominent and painful. i feel fatigued all the time.",157,29
+typhoid,i ve been having diarrhea for a few days now. it s really uncomfortable and it comes and goes. i also have stomach aches and vomiting.,134,26
+peptic ulcer disease,"i have a burning sensation in my upper abdomen, and i frequently get nauseous, heartburn, and indigestion.",106,17
+pneumonia,"i have a really high fever, and i can t breathe well. my heart is racing, i m sweating, and i feel cold and tired. i m also about to cough up some brown phlegm.",160,35
+jaundice,i have been feeling very sick. i have been vomiting and have a high fever. my skin has turned yellow and my urine is dark. i have also been experiencing abdominal pain.,168,32
+cervical spondylosis,"i have been having back pain, a productive cough, and limb weakness. i also have balance and dizzy concerns, and my neck hurts.",127,23
+jaundice,i have been feeling very sick lately. i have been vomiting and have a high fever. i have also lost a lot of weight and my skin has become yellow. i have been feeling very tired and have been having abdominal pain.,213,42
+peptic ulcer disease,i have a burning pain in my stomach that comes and goes. i also have a lot of gas and bloating. i have been losing weight and i don t feel like eating. sometimes i have dark and tarry stools and blood in my vomit.,213,45
+diabetes,"i get rashes and skin irritations, especially in my skin s crevices. my cuts and bruises also take a while to heal.",115,22
+chicken pox,i have a lot of red spots on my skin and they are spreading rapidly. i also have a mild fever and headache every night.,119,25
+urinary tract infection,i ve been having blood in my urine. i also feel like i m almost feverish and sometimes get nauseous when i urinate.,115,23
+malaria,"i ve been feeling really sick for the past few days. i have a high fever, chills, and intense itching. i ve also been vomiting and sweating a lot. i have a headache and my muscles are aching. i feel really miserable.",216,42
+jaundice,"i have been feeling very sick for the past few days. i have been vomiting, having diarrhea, and feeling very tired. my skin has also turned yellow and my urine is dark. i am also experiencing abdominal pain.",207,38
+drug reaction,"i m shedding hair, and it s getting thinner. my scalp is dry and itchy, and i have dandruff. my skin is also dry.",113,24
+psoriasis,"i have a skin condition that causes dry, red, scaly patches on my skin. it can be itchy and painful, and it can get worse when i m stressed or if i m exposed to certain triggers, like sunlight or certain chemicals.",214,42
+arthritis,i ve been experiencing stiffness and weakness in my neck muscles recently. my joints have grown stiff and it s hard for me to run without getting stiff. walking is also very uncomfortable.,188,33
+diabetes,i have a feeling of tremors and muscle twitching. i have decreased sense of smell or taste and i feel fatigued. sometimes i have a feeling of rapid hearbeat or palipatations. i also have a feeling of thirst and i urinate frequently.,232,42
+urinary tract infection,i have been getting blood in my pee. sometimes i get nauseous while peeing. this often almost coincides with me having a high temperature. i also feel like i have to pee all the time.,183,35
+psoriasis,i have a silver like dusting on my skin and the skin on my arms and back is starting to peel off. this is strange and really concerning me.,139,29
+gastroesophageal reflux disease,i have a lot of heartburn and acid reflux. i also get nauseous and throw up after i eat.,88,19
+dengue,i ve been vomiting for the past few days and i have stomach cramps. i feel dizzy and weak. i also have a pain behind my eyes.,125,27
+typhoid,i have been vomiting and having diarrhea for the past week. i have also lost a lot of weight and have a high fever. i have a headache and my stomach hurts.,155,32
+cervical spondylosis,"i ve been having back pain, a cough, and weakness in my arms and legs. my neck hurts, and i ve been feeling dizzy and off balance.",130,27
+fungal infection,"i have been experiencing itching on my skin, which often leads to a rash. i also have some strange patches of skin that are a different color than the rest of my skin, and i frequently get little lumps that look like nodules.",225,43
+diabetes,"i ve been feeling really tired lately, and i ve been having trouble losing weight. i ve also been feeling really thirsty, and i ve been going to the bathroom a lot more than usual.",180,35
+varicose veins,"i have a rash on my legs that is red, inflamed, and itchy. it is spreading and causing a lot of discomfort.",107,22
+hypertension,"i ve been having a headache that feels like a sharp pain in my forehead, and i ve also been feeling dizzy and having chest pain.",128,26
+jaundice,"i ve been feeling scratchy, sick, and worn out. i also had a high fever and lost weight. my skin and urine have turned yellow. i ve also been having stomach pain.",162,32
+hypertension,"i ve been having a headache all day, and it s been getting worse. i also have chest pain and dizziness. i m having trouble concentrating on my work.",148,29
+varicose veins,"i have been experiencing cramps in my legs for a few days now. i think there might be a bruise on my calves, but i m not sure.",126,28
+pneumonia,i m having trouble breathing and i feel really uncomfortable. i m sweating a lot and my throat is full of phlegm. my chest hurts and my heart is racing. the mucus i m coughing up is brown.,188,38
+dengue,i have been experiencing back pain for a few days now. it is worse when i sit or stand for a long time. i also have rashes all over my body and a pain behind my eyes.,166,37
+allergy,"i have asthma, which causes wheezing and breathing problems. i also get headaches and fevers a lot. i m always tired.",117,21
+typhoid,"i have been having diarrhea for a few days now. i have loose, watery stools and i have to go to the bathroom a lot. i also feel nauseated and have lost my appetite. i have a mild fever too.",189,40
+hypertension,"i ve been having trouble concentrating and focusing. i ve also been experiencing balance issues, a headache, chest pain, and dizziness.",135,21
+dengue,"i have been feeling very sick for the past few days. i have severe joint pain, i feel like vomiting all the time, and i have a mild headache.",141,29
+bronchial asthma,"i ve been having trouble breathing, coughing a lot, and feeling exhausted. i have a fever and have been coughing up a lot of thick, sticky mucus. i m just so tired and worn out from dealing with this.",200,39
+malaria,"i have a high fever, chills, nausea, and severe itching. i also have a headache and am sweating a lot. i have muscle aches and nausea.",134,26
+dengue,"i have been feeling really cold, even though it s warm outside. my back hurts and i have red spots on my arms.",110,23
+jaundice,"i ve been losing weight and feeling really tired. my skin has turned yellow, and i have a fever. my urine is dark, and i ve been having stomach pain.",149,30
+drug reaction,"i m feeling really sick. i have a fever, and i m dizzy and nauseous. my head is pounding, and my heart is racing. i can t think straight, and everything seems fuzzy.",165,33
+peptic ulcer disease,i ve been losing weight and can t seem to gain it back. i use antacids to help with the pain and discomfort i feel. my mouth feels terrible.,140,29
+dengue,i have been vomiting frequently and have lost my appetite as a result. my joints and back pain all the time.,108,21
+arthritis,i have a stiff neck and muscle weakness. i have trouble moving around because of the swelling in my joints. walking is painful.,127,23
+common cold,i ve been feeling really run down lately. my sinuses are stuffy and my eyes are red. my throat is scratchy and i ve been coughing up a lot of phlegm. i also have some swollen lymph nodes.,187,38
+gastroesophageal reflux disease,"i have heartburn and indigestion. i frequently vomit everything i eat, and i have trouble swallowing food because it gets caught in my throat. my upper abdomen is bothering me.",176,30
+gastroesophageal reflux disease,"i have a burning sensation in my throat, especially after i eat. i also sometimes get a sour or bitter taste in my mouth that makes me feel nauseous.",149,29
+allergy,"i have itchy, swollen skin. sometimes, it flakes. my lips and cheeks are swollen and achy. the puffiness sometimes gives me headaches and runny eyes.",149,25
+typhoid,"i ve been feeling really sick lately. i ve been having a lot of nausea and vomiting, and i ve lost my appetite. i ve also been feeling really weak.",147,30
+cervical spondylosis,"i ve been having back pain, a cough, and numbness in my arms and legs. my neck hurts too, and i ve been feeling dizzy and off balance.",134,28
+drug reaction,i ve gained a lot of weight and am currently quite fat. i have many inclinations and cravings. i ve been taking a new medication for my diabetes.,145,28
+arthritis,i have been experiencing stiffness and weakness in my neck muscles recently. my joints have grown and it is hard for me to walk without getting stiff. walking has been extremely uncomfortable.,192,32
+allergy,"i m always tired, my mouth tastes bad, and my throat itches. my muscles are hot and hurt, and sometimes my whole body cramps up.",128,25
+allergy,"i have trouble breathing and get short of breath. i have a dry, hacking cough, itchy eyes, and swelling all over my face and body. i also have a runny nose and sneezing.",169,33
+gastroesophageal reflux disease,"i have a hard time swallowing, and i feel full even after eating a small meal. i often have heartburn, nausea, and a tingling in my throat.",139,27
+gastroesophageal reflux disease,i have a lot of heartburn and acid reflux. i also have a sore throat and bad breath. i throw up a lot.,102,23
+cervical spondylosis,"i ve been having back pain, a dry cough, and stiffness in my arms and legs. i ve also had problems staying balanced and experience dizziness. my neck hurts, too.",161,30
+migraine,"i ve been having headaches, heartburn, acid reflux, and indigestion. i ve also been feeling melancholy, impatient, and have had impaired eyesight and an increased appetite.",172,26
+diabetes,"i ve been having trouble seeing things clearly, and it seems to be getting worse. i m also really tired all the time, and i sometimes feel lightheaded and dizzy.",161,30
+allergy,i have a tickle in my throat and i m always tired. my skin is dry and i sometimes have swelling around my eyes.,111,24
+drug reaction,"i have a metallic taste in my mouth, and also have a sense of change of taste and smell. sometimes get very unbearable joint pain and muscle pain",145,28
+impetigo,"i have a rash on my face and sores near my nose. the sores are red, painful, and have a yellow ooze.",100,22
+migraine,"i ve been having visual disruptions, seeing things as distorted, and eyesight difficulties.",91,13
+chicken pox,i have a rash all over my body and i feel really itchy. i m also feeling really tired and i don t have an appetite.,115,26
+arthritis,"my neck has been tight and weak lately. i can t run without my joints getting tight, and walking is uncomfortable.",114,21
+dengue,i have pain in my joints and back. i feel like vomiting and i am very weak. i am not able to focus on my work and don t feel like doing anything.,145,33
+chicken pox,i ve been feeling hot and feverish for a few days now. i also have a rash all over my body that itches like crazy.,114,25
+malaria,"i ve been having a fever for a few days, and it s been getting worse. i ve also been having chills, and my skin is really itchy. i have a headache, and i m sweating a lot. my muscles are sore, and i just feel really sick.",221,48
+diabetes,i have been feeling really thirsty and have been urinating a lot more than usual. my mouth and throat are always dry. i have also been feeling really hungry and have been eating a lot more than usual.,200,38
+psoriasis,i have a rash on my skin that is red and itchy. it bleeds when i scratch it. i also have little dents in my nails and they are inflamed.,136,30
+urinary tract infection,i ve been feeling really down lately and my urine smells really bad. i can t seem to hold my urine in and my kidneys hurt. i ve also been craving things i don t normally like.,175,37
+psoriasis,i have been having rashes on my skin for a while now. they are not healing and are getting worse. i have also noticed that the skin on my elbows and knees is peeling. i am worried about this and would like to see a doctor.,222,46
+varicose veins,i have swelling in my legs that makes it hard to fit into my shoes. i can t sprint or stand for long periods of time. i can see some swollen blood vessels.,155,33
+varicose veins,"i have a lot of pain in my legs, especially when i stand for long periods of time. the skin around my veins is red and inflamed, and it is itchy. i also get regular cramps.",172,36
+varicose veins,"i have cramps in my calves when i walk, and i think it s because i m overweight. i get tired after a while of working.",118,26
+varicose veins,i have some veins on my legs that are swollen and protruding from my skin. they are very noticeable and make me self conscious.,127,24
+impetigo,i have a rash on my face that is getting worse. it is very painful and has started to ooze yellow fluid.,104,22
+malaria,"i m experiencing a high fever, chills, nausea, and severe itching. i also have a headache and have been sweating a lot. i ve also been experiencing muscle aches.",161,29
+bronchial asthma,i ve been coughing a lot and i m really tired. i ve been coughing up a lot of thick mucus and my fever is pretty high.,118,27
+malaria,"i m really sick. i have a fever, chills, and a headache. i ve been vomiting and sweating a lot. i also have muscle pain and nausea.",131,27
+gastroesophageal reflux disease,i have a lot of acid reflux and stomach pain. i also throw up a lot after i eat.,80,19
+chicken pox,i have a rash all over my body. it s really itchy and i feel really sick.,73,17
+common cold,"i ve been sneezing a lot, and my eyes are constantly watering. my nose is stuffy, and it s hard to breathe. i m tired all the time, and i ve been coughing up a lot of phlegm. my lymph nodes are also swollen.",207,44
+migraine,i ve been having problems with my vision. i ve been seeing things as distorted and my eyesight has been blurry.,111,21
+bronchial asthma,"i ve been having trouble breathing, coughing a lot, and running a fever. i ve also been coughing up a lot of thick, mucusy stuff, and i m feeling really tired. i m not sure what s going on, but i m not feeling well.",215,45
+common cold,"i ve been feeling really run down lately, and i just can t seem to shake this cold. my nose is always running, and i m coughing up all this gunk. my throat is sore, and i ve got a headache. i m also feeling really tired and achy.",229,49
+allergy,"i m dizzy, nauseated, and shaky. my throat is swollen, so i m having trouble breathing. sometimes, throughout the night, my chest hurts and i feel sick.",152,27
+arthritis,"my muscles have been weak, and my neck has been stiff. my joints are swollen and it s hard to move around. walking is really painful.",133,26
+common cold,"i ve been feeling really sick lately. my eyes are red and watery, and i ve had this pressure in my sinuses that won t go away. i m always feeling tired and i ve been having a lot of trouble breathing. i ve also had a lot of gunk in my throat and my lymph nodes are swollen.",273,59
+arthritis,my muscles have been weak and my neck has been stiff. my joints have swollen and it s hard to move without getting stiff. walking is uncomfortable too.,151,28
+psoriasis,i have small dents in my nails and they are often inflamed and tender to the touch. i also have minor rashes on my arms.,120,25
+diabetes,"i have a dry cough that won t go away. i also have palpitations and my infections don t seem to be getting better. sometimes my throat hurts, but it seems to get better.",169,34
+allergy,i have a lot of sneezing and a sore throat. my lips and the skin around my eyes will sometimes swell up. i can t stop sneezing once i start.,140,30
+dengue,"i ve been feeling really tired and weak, and i can t seem to get enough sleep. i ve also noticed some small red spots on my arms and legs.",138,30
+malaria,"i have a really high fever, and i ve been perspiring a lot. i ve also been experiencing chills, vomiting, and severe body itchiness. i feel queasy and have a headache. my muscles are in excruciating discomfort.",210,37
+peptic ulcer disease,i have been losing weight and having trouble gaining weight. i have pain and discomfort in my stomach that is relieved by taking antacids. my mouth tastes bad.,159,28
+bronchial asthma,"i ve had this cough for days, and it s really hard to breathe. i m also really tired and weak, and i have a fever. i ve been coughing up a lot of mucus, and it s just been really hard to deal with all of this.",209,48
+hypertension,"i ve been having trouble with my balance, i ve been having chest pains, headaches, and pains all over my body. i ve also been having trouble focusing.",150,28
+chicken pox,i have a rash on my skin that is spreading rapidly. it is very itchy and i can hardly sleep at night.,101,22
+gastroesophageal reflux disease,"i have a sour taste in my mouth, and sometimes i have trouble swallowing.",73,14
+peptic ulcer disease,"i have a burning pain in my stomach that comes and goes. it is worse when i eat certain foods, like spicy or acidic food. i also get loose stools sometimes.",156,31
+diabetes,i have a wound that doesn t seem to heal. my hands and feet are numb and tingly.,80,18
+allergy,i have trouble breathing and my face and chest are swollen. my eyes are itchy and i have a dry cough.,101,21
+urinary tract infection,"i have been experiencing a burning sensation when i urinate, and my urine is frequently black, red, and has a really strange odour. i have also been experiencing temperature changes very regularly, which usually prevents me from sleeping at night.",247,40
+malaria,"i ve been feeling really unwell and have been scratching a lot. i have a high fever, chills, nausea, and muscle pain. i ve also been sweating a lot.",148,29
+malaria,"i ve been feeling really sick lately. i ve had a fever, chills, and intense itching. i ve also been vomiting and have a headache. i ve been sweating a lot and feel really uncomfortable.",185,35
+arthritis,"i ve been having a lot of pain in my joints, and it s been hard to move around. i ve also been feeling really tired and weak.",125,28
+varicose veins,my legs hurt a lot when i stand or walk for a long time. i get cramps when i do physical activities. i also have bruise marks on my legs.,137,30
+psoriasis,i have a silver like powder on my back and elbows. my nails are slightly dented. my joints are experiencing excruciating discomfort.,132,22
+diabetes,i have been feeling very thirsty and hungry lately. i also feel very tired at times.,84,16
+fungal infection,i have a rash that is itchy and sometimes red and rough. i also have little pimples that look like tiny balls and some spots that are a different color than the rest of my skin. it really irritates me and itches.,212,42
+migraine,"i have been experiencing headaches, blurred and distorted vision, and excessive hunger. these symptoms have been affecting my daily life and causing me discomfort.",163,24
+bronchial asthma,"i ve been coughing a lot and i can t seem to get rid of it. i m also short of breath and i ve been coughing up a lot of thick, mucusy saliva. i feel really tired and weak.",171,40
+allergy,"i have a runny nose and sneeze a lot. my eyes are sore and watery, and i have a hoarse voice. my head hurts all the time.",121,27
+cervical spondylosis,"i have back pain, difficulty breathing, and weakness in my limbs. i also have balance and dizziness issues, and my neck hurts.",126,22
+bronchial asthma,"i ve been feeling really tired and weak, and i have a cough that won t go away. my fever is really high, and it s hard to breathe. i ve been coughing up a lot of mucus.",168,38
+hypertension,"i ve been having trouble concentrating and focusing. i ve also been having headaches, chest pain, and dizziness. i feel like i m off balance.",141,25
+urinary tract infection,i have blood in my urine and sometimes get nauseous when i pee. i also have a bad smell in my urine and sometimes get high temperatures at night. i m worried about it. can you help me ,184,38
+common cold,"my nose is always stuffy and congested, and my eyes are always red and itchy. i feel unwell and fatigued, and i keep coughing up this gunk. i have a scratchy, irritated throat, and my neck s lymph nodes are swollen.",215,41
+hypertension,"i ve been having a headache and chest pain for a few days, but today i ve also been feeling dizzy and unsteady on my feet.",122,26
+hypertension,"i ve been feeling dizzy and lightheaded, and i ve been having trouble balancing. i ve also had a headache that won t go away.",125,25
+chicken pox,i have a rash all over my body that is itchy and painful. i also have a fever and feel tired.,93,21
+typhoid,"i ve had a headache for the past week. it s been getting worse. i ve also had belly aches, constipation, and diarrhea.",118,23
+cervical spondylosis,"i ve been having pain in my neck, arms, and legs. i ve also been having trouble staying balanced and without getting woozy.",123,23
+peptic ulcer disease,i have a sour taste in my mouth. i burp and belch a lot. i have a feeling of pressure or fullness in my upper belly.,116,26
+dengue,i ve been shivering and shivering and i feel cold. my fever is really high. i have rashes on my arms and red patches on my neck.,128,27
+urinary tract infection,"i ve had a fever for the past four days, and my urine is bloody. my head hurts a lot, and my urine smells terrible. i don t feel like i can control when i need to pee.",167,38
+cervical spondylosis,"i ve been having a lot of trouble with my neck. it s been hurting, and i ve been having problems with vertigo and balance loss. i ve also been having a persistent cough, weakness in my arms and legs, and severe back pain.",221,44
+typhoid,i have been experiencing abdominal pain for a few days now. it is really painful and i have also been constipated and vomiting. i am worried about my health.,157,29
+jaundice,"i have been feeling very sick lately. i have been having severe itching, vomiting, and fatigue. i have also lost weight and have a high fever. my skin has turned yellow and my urine is dark. i am also experiencing abdominal pain.",229,42
+dengue,i have been experiencing a high fever for the past few days. i also feel weak and my muscles pain. i cannot work all day because of this.,137,28
+urinary tract infection,i have blood in my urine and i have a low fever. i have a headache and i have to pee a lot. i have pain in my lower back.,121,30
+gastroesophageal reflux disease,"i have a tendency to burp and belch regularly. i often get chest discomfort that radiates to my arm, jaw, and neck. my chest feels tight and stressed.",150,28
+malaria,"i have a high fever, chills, nausea, and a headache. i also have muscle aches and a lot of sweating.",100,20
+dengue,"i have a fever and chills, and my whole body is aching. i also have a loss of appetite and some red spots on my back and neck.",126,28
+pneumonia,"i ve been feeling really weak and cold lately, and this cough won t go away. it hurts in my chest when i cough, and my heart is pounding. i ve been coughing up mucus that s a rusty brown color.",193,41
+diabetes,"i m always thirsty and hungry, and i have to pee all the time. i ve also lost a lot of weight recently, and i m always tired.",125,28
+hypertension,"i was walking and suddenly felt a headache, chest pain, and dizziness. i ve been having trouble concentrating and focusing since then.",134,22
+hypertension,"i ve been feeling lightheaded and dizzy, and i ve also been having trouble concentrating.",89,15
+common cold,i ve been sneezing a lot and my nose is running. i m also really tired and my head hurts. i think i have a fever too.,117,27
+cervical spondylosis,"i ve been having back pain, a hacking cough, and numbness in my arms and legs. my neck hurts too, and i ve been having trouble staying balanced and without getting lightheaded.",176,32
+migraine,"i have been experiencing headaches, as well as blurred and distorted vision, excessive hunger, a stiff neck, depression, irritability, and visual disturbance",157,22
+migraine,"i have been having a lot of headaches, and they are really bad. i also have some vision problems, and i feel really sick to my stomach.",135,27
+diabetes,i ve been drinking a lot more water and going to the bathroom a lot more often. my mouth and throat are always dry. i ve been really hungry and eating a lot more lately.,169,35
+hypertension,"i have been having headaches, chest pains, and lightheadedness. it is hard for me to concentrate at work.",105,18
+migraine,"i ve been having frequent headaches, stomach acid, indigestion, hazy and distorted vision, increased appetite, stiff neck, depression, irritation, and visual distortion.",169,22
+migraine,i ve been having a lot of headaches and blurred vision. i also feel like i m always hungry and my neck is sore. i ve been feeling really irritable and sad too.,159,33
+typhoid,"i ve been having abdominal pain for a few days now. it s been coming and going, but it s really unpleasant. i ve also been constipated and vomiting. i m really concerned about my health.",186,36
+urinary tract infection,"i ve been having a strange odor in my urine, it s been red or black, and both. my body temperature has been fluctuating a lot, and it keeps me up at night.",155,33
+drug reaction,i have a metallic taste in my mouth and my tongue feels weird. i also have joint and muscle pain.,97,20
+peptic ulcer disease,"i have a constant hunger and i eat a lot. my stomach hurts and cramps sometimes. i have gas and bloating after i eat, and it hurts a lot.",137,29
+urinary tract infection,"i ve been having blood in my urine. i also feel sick after i pee, and i ve been running a fever.",96,22
+diabetes,"i have trouble breathing, especially when i exercise. i sweat and get flushed for no reason. i get yeast infections and urinary tract infections a lot.",151,26
+typhoid,"i ve been feeling really sick. i have a fever, chills, and my stomach hurts really bad. i ve been feeling this way for a few days now, and i can t seem to get rid of it.",169,38
+typhoid,"i ve been having diarrhea and constipation, which is really bothering me. i have a really bad stomachache, and i m always tired and don t want to eat.",150,29
+migraine,"i have been having headaches for a long time. they are usually on one side of my head and are very painful. i also get nausea, vomiting, and sensitivity to light and sound.",172,33
+varicose veins,i have a burning ache in my legs that gets worse when i stand or walk for long periods of time.,95,21
+fungal infection,"i have red spots all over my body, and they are itchy. some of the spots are a different color than my skin. i also have some lumps or pimples on my skin.",154,33
+chicken pox,i have small red spots all over my body. i m worried about them. i m also very tired and have a mild fever every night.,119,26
+fungal infection,i have a rash all over my body that is red and itchy. i also have some small bumps that look like pimples and some strange patches that are a different color than the rest of my skin.,183,38
+urinary tract infection,i sometimes have blood in my urine and i feel a little sick. i also sometimes have really bad smelling pee and i get really hot at night.,137,28
+peptic ulcer disease,i have a stomach pain that keeps me up at night. i get tired after using the bathroom and i don t want to eat. i worry all the time.,132,30
+urinary tract infection,i have pain in my pelvic area and i vomit a lot. sometimes there is blood in my pee and it smells really bad. i also get headaches and have trouble sleeping.,157,32
+pneumonia,"i m having trouble breathing, and my fever is really high. i m sweating and shivering. my heart is racing, and i m really tired. i m also about to cough up some brown phlegm.",174,35
+chicken pox,"i have a lot of red spots all over my body. they are itchy and i have a fever, headache, and feel exhausted.",108,23
+arthritis,"i ve been having a lot of pain in my joints, especially my knees and ankles. they re really stiff and it s hard for me to move around. i ve also been feeling really weak and tired.",180,38
+arthritis,my joints have been hurting a lot lately. i ve been having a lot of trouble moving around and it s been really painful to walk.,127,26
+peptic ulcer disease,"i ve had a change in my bowel movements. they ve been both constipated and diarrheal. i have no energy, no appetite, and i feel exhausted all the time.",151,29
+common cold,"i have a really bad cold. i m coughing up a storm, and my sinuses are completely blocked. i can t smell anything, and my chest hurts. my muscles are also really achy.",166,33
+peptic ulcer disease,i m having trouble sleeping because of stomach pain. i m also tired after using the bathroom and i don t have much of an appetite. i m feeling pretty anxious all the time.,171,34
+varicose veins,i have cramps in my calves and it is difficult for me to walk. i feel tired after working for some time. i think it is because i am obese.,138,30
+peptic ulcer disease,i have a burning pain in my stomach that comes and goes. i also have a loss of appetite and energy and often feel very fatigued.,128,26
+allergy,"i m always tired, my taste is off, and my throat is really scratchy. i also have muscle pain and heat. my whole body cramps up sometimes.",137,27
+dengue,"i ve been having a lot of joint pain, and it s been really hard to walk. i ve also lost my appetite, and i feel really weak and nauseous.",137,30
+chicken pox,i have small lymph nodes on my arms and face that are starting to swell. i ve been really miserable all day because of the constant itching and pain.,149,29
+psoriasis,"i ve been having joint pain in my fingers, wrists, and knees for a few weeks now. the pain is usually aching and throbbing, and it gets worse when i move my joints. i ve also noticed some red, scaly patches on my skin.",218,44
+hypertension,"i ve been having trouble concentrating and focusing, and i ve been feeling dizzy. i ve also had a headache and chest pain.",122,23
+arthritis,i ve been feeling really weak in my muscles lately and my neck has been really stiff. my joints have been swollen and it s hard for me to move around. it s also been painful to walk.,182,38
+psoriasis,"i have a rash on my skin that is red, itchy, and scaly. it is worse in the winter months when the air is dry. i have to moisturize more frequently and use humidifiers to keep my skin hydrated.",192,39
+malaria,"i ve been having chills, nausea, a high temperature, and severe muscle pain. i also have a headache and i m sweating a lot.",123,24
+drug reaction,i have been experiencing changes in my menstrual cycle and unexpected vaginal discharge. i also have been feeling agitated and moody.,133,21
+arthritis,my neck has been really tight and my muscles have felt weak. i can t move around without getting stiff and my joints are swollen. walking is really uncomfortable.,162,29
+pneumonia,"i m burning up, and i can t catch my breath. i m sweating and shivering, and i m so tired. my heart is racing, and i m coughing up brown stuff.",143,32
+varicose veins,i have been experiencing pain and swelling in my legs. the pain is worse when i stand for long periods of time.,111,22
+peptic ulcer disease,"i have a lot of hunger and i can t seem to get enough to eat. my stomach hurts and cramps sometimes. after i eat, i get really bad gas and bloating.",148,32
+psoriasis,"i have been experiencing a lot of fatigue and a general feeling of malaise. i often feel tired and have a lack of energy, even after a good night s sleep. i have also been experiencing some joint pain and stiffness, especially in my knees and ankles.",250,47
+bronchial asthma,i ve been coughing a lot and it s hard to breathe. i ve been coughing up a lot of mucus and my fever is high.,109,26
+gastroesophageal reflux disease,i have a burning sensation in my throat that comes and goes. it s worse after i eat and sometimes i get a sour or bitter taste in my mouth. i also get nauseous sometimes.,170,35
+impetigo,i have a rash on my face. it is made up of blisters. the blisters have a yellow fluid coming out of them.,105,23
+malaria,"i have a fever, chills, and severe itching. i also have a headache and am sweating a lot. i feel awful and have nausea and muscle aches.",136,27
+malaria,"i ve been feeling really sick lately. i ve been having a high fever, chills, and severe itching. i ve also been vomiting and sweating a lot. i have a headache and nausea, and my muscles are sore.",195,38
+varicose veins,i have noticed that my legs are swollen and have dark purple veins. they are not painful but are concerning to me.,114,22
+arthritis,i ve been having a lot of pain in my joints and my neck has been really tight. it s hard for me to move around without getting stiff and it s really painful to walk.,165,36
+bronchial asthma,"hey mom and dad, i ve been feeling really tired lately and i have a cough that won t go away. my fever is really high and my breathing has become shallow. i ve also been coughing up a lot of mucous, thick sputum.",212,44
+dengue,"i have been feeling chills and shivering, and i have a high fever. i also have rashes on my arms and red spots on my neck.",122,26
+common cold,i have a really bad cold. my nose is running and my eyes are all red and swollen. i ve been coughing a lot and my chest feels really heavy. i can t smell anything and my muscles are really sore.,194,41
+diabetes,i m always thirsty and i pee a lot. i feel really tired and i m always getting lost. i can t see very well anymore.,115,26
+pneumonia,i m having trouble breathing and i m really uncomfortable. my throat is full of phlegm and i m sweating a lot. my heart is racing and my chest hurts. i m coughing up red mucus.,176,36
+malaria,"i have a really high fever, i m so itchy, i m shaking and i ve been throwing up. i ve also got a headache and i ve been sweating a lot. i m also feeling really sick to my stomach and my muscles are aching.",205,46
+typhoid,"i ve been vomiting and having diarrhea for a few days. i ve also been having a fever, constipation, and headache. i m having a hard time staying hydrated.",154,29
+arthritis,"i ve been experiencing muscular weakness and stiffness in my neck recently. my joints have swollen, making it hard for me to move around without getting stiff. walking has also been very painful.",195,33
+dengue,i have been feeling sick to my stomach and have been throwing up. my head hurts really bad and i have some red spots on my arms.,128,27
+varicose veins,my legs have been swollen for a few days. i can see the veins bulging out of my skin. this is not normal for me.,112,25
+urinary tract infection,"i have a fever and my stomach hurts. i have to pee all the time, and it hurts when i do. the pain is always there, and it gets worse at night. my pee smells bad.",161,36
+diabetes,i have a dry cough that just won t go away. i also have this problem with my infections not healing and i have palpitations.,124,25
+common cold,i ve been feeling really sick. i have a runny nose and a lot of congestion. i ve been coughing a lot and i have a lot of chest pain. my fever is really high and i ve been feeling really achy.,191,42
+diabetes,"i have breathing problems, especially when i m outside. i m suddenly flushed and perspiring. i get yeast infections and urinary tract infections a lot.",151,25
+drug reaction,"i ve been having headaches and migraines, and i can t sleep. i ve been shaking and shivering all over. sometimes i feel lightheaded.",132,24
+typhoid,i have diarrhea and a severe pain in my belly. i don t want to eat anything and i have a headache.,98,22
+gastroesophageal reflux disease,i have heartburn and indigestion. i often vomit whatever i eat and have difficulty swallowing food. i have a nagging pain in my upper abdomen. i have a hard time sleeping because of the pain.,191,35
+pneumonia,"i ve been feeling really sick lately. i ve been coughing a lot, and i ve been having trouble breathing. i ve also been having chills and a fever. i ve been feeling really weak and tired. i ve also been coughing up a lot of phlegm.",230,47
+drug reaction,i have a lot of nausea and chest pain. my chest has been hurting for a while now. i shiver a lot and i m really anxious.,120,27
+hypertension,"i have been having a headache, chest pain, dizziness, and trouble with my balance. it has also been hard for me to focus and concentrate.",137,25
+fungal infection,"i ve been having a lot of itching on my skin, and sometimes it turns into a rash. there are also some weird patches of skin that are a different color than the rest of me, and sometimes i get little pimples that look like nodules.",230,46
+varicose veins,i have swelling in my legs and it is causing me to have difficulty fitting into my shoes. it also causes discomfort when i sit for long periods of time.,152,30
+urinary tract infection,i have been having a lot of pain when i urinate and it burns. i also have a fever and i feel like i have to urinate all the time.,129,30
+cervical spondylosis,"i ve been having back pain, a chronic cough, and muscle weakness. i m also dizzy and losing my balance, and my neck hurts.",122,24
+drug reaction,"i feel really sick when i have a fever. i get really nauseous and lightheaded, and my heart pounds really fast. i can t think straight, and everything feels hazy.",162,30
+drug reaction,"i ve been having migraines and headaches, and i can t sleep. my muscles are twitching and trembling, and i feel dizzy.",118,22
+pneumonia,"i ve been feeling really run down lately. i ve had a cough that just won t go away, and it s starting to hurt when i cough. my chest feels tight, and my heart is racing. i ve also been coughing up some phlegm that s a weird color.",230,50
+psoriasis,"i ve had this rash on my arms, legs, and chest for a few weeks. it s red and itchy, and it s covered in dry, scaly spots. i also have some pain in my joints.",157,36
+allergy,"i have a runny nose, sneezing, watery eyes, and a cough. my head hurts too.",75,15
+arthritis,"i ve been having a lot of pain in my joints, and they re all swollen. i m also having trouble moving around because of the stiffness.",133,27
+varicose veins,"my veins are bulging and painful. i can t stand for long periods of time, as it causes pain in my legs, similar to cramps.",122,25
+migraine,"i have been having headaches for a while now. they are very painful and make me feel sick. i also have nausea, vomiting, and sensitivity to light and sound.",156,29
+impetigo,i have a rash on my face that is very painful and inflamed. the sores are weeping clear fluid and it is getting worse every day.,128,26
+allergy,i have a stuffy nose and nasal congestion. i sometimes have chest discomfort during the night. i can t smell or taste anything.,127,23
+pneumonia,"i ve been feeling really sick lately. i ve had a fever, chills, fatigue, a cough, and difficulty breathing. i ve also been sweating a lot and just feeling really weak. i ve also had some phlegm that s been really thick and dark.",228,44
+peptic ulcer disease,i have a burning sensation in my stomach that comes and goes. it s worse when i eat and when i lie down. i also have heartburn and indigestion.,143,29
+peptic ulcer disease,i have a hard time swallowing and i feel like food is getting stuck in my throat. i belch a lot and feel bloated. i have a bad taste in my mouth all the time.,158,35
+drug reaction,"i ve been having headaches and migraines, and i can t sleep. my whole body shakes and twitches. sometimes i feel lightheaded.",125,22
+pneumonia,i m sweating a lot and can t catch my breath. my throat is full of phlegm and i feel awful. my heart is racing and my chest hurts. i m coughing up brown stuff.,159,35
+fungal infection,"i ve been scratching myself a lot lately, and my skin is covered in rashy places. i also have a few pimples that are pretty firm, and there are some spots on my body that are a different shade of brown than the rest of my skin.",227,47
+cervical spondylosis,"i have been having back pain, a productive cough, and weakness in my limbs. my neck is sore and i have been dizzy and off balance.",130,26
+gastroesophageal reflux disease,i have a hard time eating because i feel like i m going to throw up. i also have a lot of heartburn and a tingling sensation in my throat.,138,30
+psoriasis,i have a skin rash that gets worse in the winter when the air is dry. i have to moisturize more regularly and use humidifiers to keep my skin moisturized. i also have joint pain.,178,35
+arthritis,my muscles are weak and my neck is tight. i have swollen joints and it is hard to move around without getting stiff. it is also hard to walk.,141,29
+pneumonia,i m having trouble breathing. i m sweating a lot and i don t feel well. my chest hurts and i have a lot of mucus in my throat. i m coughing up phlegm that s a weird color.,171,39
+arthritis,my muscles are weak and my neck is stiff. my joints are swollen and it hurts to walk.,85,18
+cervical spondylosis,"i ve been coughing up phlegm and my back hurts. i also feel weak and disoriented, and my neck hurts.",100,20
+malaria,"i ve been feeling really sick. i have a fever, chills, nausea, and a headache. i ve also been sweating a lot and my muscles ache.",129,26
+typhoid,i have a terrible pain in my stomach and i feel really sick. i m also running a fever. i m worried that i might have typhoid.,125,27
+peptic ulcer disease,"i have pain in my stomach after eating certain foods, like hot or acidic food. i also have loose stools sometimes. bending over or lying down makes my stomach feel worse.",170,31
+malaria,i ve been feeling feverish and chilly for a few days. i ve also been sweating a lot and have a headache. my muscles are aching and i m feeling nauseous.,152,31
+migraine,i have been having a headache for the past few days and it is getting worse. i also have a sore neck and my vision is blurry.,125,27
+bronchial asthma,"i ve been having a lot of trouble breathing, and i ve been coughing a lot. i also have a fever, and i m feeling really weak. i m not sure what s wrong with me, but i m worried that it might be something serious.",211,46
+diabetes,i m having trouble healing my wounds. my feet and hands are tingling and numb. i feel weak and fragile.,103,20
+jaundice,"i ve been feeling really itchy all over, and i ve been throwing up. i m also really tired, and i ve lost a lot of weight. my skin and my pee are both yellow, and my stomach hurts.",179,39
+migraine,"i have been having headaches for a while now. they are usually on the left side of my head and are very painful. i also get nausea, vomiting, and sensitivity to light and sound. i have tried taking over the counter pain relievers, but they don t seem to help much.",264,51
+malaria,"i ve been feeling very sick. i have a high fever, chills, and severe itching. i ve also been sweating a lot and have a headache. i ve also been feeling nauseous and have muscle aches.",183,36
+gastroesophageal reflux disease,"i have a lot of heartburn and indigestion, especially after eating spicy or fatty foods. i also have chest pain when i lean forward or lie down.",144,27
+malaria,"i ve been feeling really unwell. i have a high fever, chills, nausea, and intense scratching. my muscles hurt a lot, and i feel queasy. i ve also been sweating a lot.",166,32
+chicken pox,"i have a fever, headache, and red spots all over my body. the spots are itchy and swollen.",90,18
+arthritis,"i ve been experiencing a lot of pain in my joints, especially my knees and hands. i ve also been feeling really stiff and my joints have been swollen. i ve been having trouble walking and doing other activities that i normally do.",230,43
+urinary tract infection,"i have to go to the bathroom a lot, but when i get there, i can t seem to empty my bladder. sometimes, i get a really strong urge to go, and my urine is dark or red.",165,38
+chicken pox,"i ve been feeling really tired lately. i can barely keep my eyes open during the day, and i ve been feeling lethargic and unable to motivate myself. i ve also been having a lot of trouble sleeping.",197,38
+fungal infection,"i have a rash all over my body, and it s really itchy. i also have some spots where the color of my skin is different, and some lumps and knot like pimples.",156,33
+jaundice,"i have been feeling very sick for the past few days. i have been vomiting, i have no energy, and i have lost a lot of weight. my skin has turned yellow and my urine is dark. i have also been having abdominal pain.",213,44
+typhoid,"i ve been having a lot of trouble sleeping because of the high fever, headache and chills. i wake up every day having a terrible pain in my belly area. i ve also been feeling really weak and tired.",197,39
+cervical spondylosis,"i ve been having neck pain, instability, and balance concerns.",62,10
+pneumonia,"i m sweating and can t catch my breath. my throat is full of phlegm and i feel terrible. my heart is racing and my chest hurts. i m coughing up stringy, brown mucus.",165,34
+bronchial asthma,"i ve been having trouble breathing, a cough that won t go away, and i m exhausted. i ve been coughing up a lot of thick, mucusy stuff and i have a fever. i m just so tired from all of this.",189,42
+chicken pox,i have a bunch of little red bumps all over my body. they re itchy and uncomfortable. i also have a fever and a headache.,121,25
+gastroesophageal reflux disease,i have a lot of acid reflux and it makes me feel sick to my stomach. i also have a lot of stomach pain.,103,24
+impetigo,i have a fever and sores on my face. the sores are taking a long time to heal and are getting infected.,103,22
+hypertension,"i ve been feeling dizzy and lightheaded, and i ve been having problems keeping my balance. i ve also noticed that my concentration and focus have been slipping.",160,28
+typhoid,i have a stomach ache and i am feeling feverish. i also have chills and a headache.,83,17
+fungal infection,"i ve been feeling really itchy lately, and i have these rashy blotches all over my skin. there are also some areas that are darker than the rest of my skin, and i have some painful lumps.",187,37
+common cold,"i ve got a cold. i m coughing a lot, and my nose is running like crazy. i can t smell anything, and my chest hurts. my muscles are sore too.",140,31
+hypertension,i have been having a headache for the past few days. it feels like a sharp pain in my temples. i also have chest pain and dizziness.,132,27
+arthritis,"my muscles are weak, and my neck is stiff. my joints are swollen, and it s hard to move around. walking is uncomfortable.",121,23
+impetigo,"i have sores on my face, mostly near my nose and lips. they are painful and have a yellow or rust colored discharge.",116,23
+migraine,"i have been having trouble with my vision, seeing things as distorted and experiencing visual disturbances. i have also been experiencing headaches.",148,22
+drug reaction,"i ve gained a lot of weight and am now quite fat. my appetite varies, and i have cravings for various things.",109,22
+diabetes,"i m having trouble breathing, especially when i exercise. i m sweating and flushed a lot, and i ve been getting yeast infections a lot.",135,25
+pneumonia,"i ve been feeling very sick. i have a high fever, shortness of breath, and i m sweating and shivering. i ve also been coughing up a lot of brownish phlegm and my heart is racing.",178,36
+urinary tract infection,"i frequently vomit and get pain in my pelvic area. my urine sometimes smells really bad, and sometimes there is blood in it. i have trouble falling asleep because of my headaches sometimes.",189,33
+dengue,"i ve been vomiting for a few days now and i ve been feeling really sick. i have stomach pains and dizziness, and i ve lost my appetite. my arms, back, and neck are also in pain.",177,37
+dengue,"i have a high fever and chills every night. i don t feel like eating anything and my back, arms, legs pain a lot. there is a strange pain behind my eyes. i can t do any physical activities.",189,39
+chicken pox,i ve been feeling really sick and i have a rash all over my body. i m worried about what it could be.,101,23
+migraine,i have been having a headache that is throbbing and is on one side of my head. it is also making me feel nauseous and lightheaded.,130,26
+cervical spondylosis,i have been experiencing neck pain and feeling lightheaded and unstable on my feet.,83,14
+malaria,"i ve been having a fever, chills, and vomiting. i ve also been sweating a lot and have a headache. i ve also been feeling nauseous and my muscles are aching.",157,31
+jaundice,"i ve been having a lot of itching, nausea, and fatigue. i ve also been running a fever and losing weight. my pee is black, and i ve developed a yellow rash. my stomach hurts, too.",179,36
+malaria,"i have a high fever, severe itching, chills, and vomiting. i also have a headache and have been perspiring a lot. additionally, i have been feeling nauseous and my muscles are sore.",181,32
+common cold,i ve been coughing a lot and having trouble breathing. my throat hurts and i feel like i have a lot of phlegm in my chest. my nose has been running a lot and i feel really stuffy.,179,38
+diabetes,i m always thirsty and i m peeing a lot. i m also losing weight and i m feeling really tired.,93,21
+pneumonia,"i ve been feeling really sick lately. i ve had a cough, chills, a high temperature, and i ve been having trouble breathing. i ve also been sweating a lot and feeling weak and tired. i ve had some thick, black phlegm too. my heart has been racing too.",250,49
+gastroesophageal reflux disease,i have a lot of heartburn and i feel like i m choking when i eat. i also have a lot of stomach pain and i vomit a lot.,118,29
+bronchial asthma,i have been having trouble breathing for a few days. i have a fever and a lot of mucus. can you recommend some medicine ,120,24
+varicose veins,i have prominent blood vessels on my calves that are causing me self consciousness and embarrassment. i believe the problem is because of my overweight.,152,25
+common cold,"i ve been feeling really run down and feeble. my throat hurts, and i ve got a nasty cough. i ve also got a lot of chills and a high temperature.",144,31
+gastroesophageal reflux disease,"i have a chronic bad breath and a sour taste in my mouth, it sometimes gets difficult to swallow food because of this tingling sensation in my throat",149,28
+psoriasis,"i ve been having trouble sleeping because of the rash that itches and hurts. my nails have little dents in them, which is really scary. my nails are also inflamed.",163,30
+cervical spondylosis,"i ve been having neck pain, and i ve been feeling lightheaded and shaky. i also have a dry cough, and i m not as strong as i used to be.",136,31
+peptic ulcer disease,"i have a burning pain in my stomach that comes and goes. i feel like i have to burp all the time, and i often feel like i have heartburn. i also have a sour taste in my mouth.",175,39
+diabetes,"i often feel the need to urinate and have intense urges to do so. i also feel dizzy and confused, and i have lost my sight.",123,26
+diabetes,"i ve been having trouble seeing things clearly, and it seems to be getting worse. i m also always tired and worn out, and i sometimes get dizzy and lightheaded.",160,30
+common cold,i have a really bad cold. my sinuses are so congested and my eyes are red. i feel so tired and drained. i have a lot of phlegm in my throat and my lymph nodes are swollen. it s hard to breathe.,193,42
+common cold,i m sneezing and my nose is running. i feel exhausted and my head hurts. i have a fever.,88,19
+urinary tract infection,"i ve been having to go to the toilet a lot more frequently than normal, and my urine has been cloudy and smells strongly. i ve also been feeling feverish.",154,30
+jaundice,i ve been throwing up and having stomach pain. i ve also lost weight and am really exhausted. i have a high fever and yellow skin.,130,26
+pneumonia,"i have a fever, and i can t breathe well. my heart is racing, and i m sweating a lot. i feel cold and tired, and i m about to cough up some brown phlegm.",153,35
+chicken pox,i have a lot of pain in my lymph nodes. i have rashes all over my body and i cannot sleep at night because of them.,115,26
+fungal infection,i have a rash that won t go away and it itches. i also have some color different areas and bumps on my skin that resemble knots or lumps.,137,29
+typhoid,"i ve been having a lot of trouble breathing, and i feel like i m constantly nauseous. i also have mild belly pain. it s been really scary.",138,28
+gastroesophageal reflux disease,i have trouble swallowing food because my throat feels like it s closing up and i have a bad taste in my mouth.,111,23
+migraine,"i ve been having headaches, blurred vision, and acid reflux. i also have a stiff neck, depression, impatience, and excessive appetite.",134,21
+impetigo,"i have been developing sores on my face and nose area for a few days now. i am not sure what is causing this. the sores on my face are swollen and tender to the touch, and i have a burning sensation and redness of the skin. i am also feeling a little bit feverish and have a headache.",284,59
+dengue,"i have been having severe joint pain for a few days. i have also been vomiting and have a fever. i have been taking medication for the fever, but it doesn t seem to be helping.",176,36
+allergy,"i have red, itchy skin. it can sometimes flake. my cheeks and lips swell, which is really annoying. i sometimes have headaches and runny eyes because of the puffiness.",167,29
+arthritis,i ve been having stiffness and weakness in my neck muscles. my joints are stiff and it s hard to move them. walking is also painful.,132,26
+drug reaction,i have a rash that sometimes causes my skin to peel off. i m more susceptible to illnesses as a result. i also get shaky and my hands shake sometimes.,150,30
+allergy,i ve been having a scratchy throat and i m feeling exhausted. my skin is also feeling dry and i sometimes get eye inflammation.,127,24
+diabetes,i have a hard time concentrating and my emotions are all over the place. i feel like i m in a fog and it s hard to do simple tasks.,131,30
+impetigo,"i m running a fever and i have a rash on my face, neck, and arms. the rash is painful and red. i m worried about my health.",123,28
+urinary tract infection,"i ve been having a hard time peeing. it hurts when i go, and it s bloody. my head hurts, and my urine smells really bad. i can t control when i have to go, and it s really urgent when i do.",189,43
+allergy,"i have itchy, swollen skin that sometimes flakes. my cheeks and lips swell and it hurts a lot. i also get headaches and watery eyes from the puffing.",149,28
+hypertension,"i ve been having headaches and chest pains for a few days, but today the dizziness and lack of balance got a lot worse.",119,24
+common cold,i ve had a bad cold for a few days. i ve been coughing up phlegm and my chest hurts. i can t smell anything and my muscles are sore.,132,30
+malaria,"i ve been feeling really itchy all over my body, and i ve been having chills and nausea. i ve been sweating a lot and i have a really high fever. i feel sick to my stomach and i have a headache. my muscles are really sore.",222,47
+chicken pox,i have a rash all over my body that is red and swollen. it is itchy and uncomfortable. i also have a fever.,107,23
+allergy,"i have asthma and get wheezing and breathing issues. i also have fevers, headaches, and i m always tired.",105,19
+arthritis,"my muscles are weak, my neck is stiff, and my joints are swollen. i can t move around very well, and walking is really painful.",127,25
+dengue,i have been experiencing a severe fever for the past 3 days. i also have a headache and pain behind my eyes. i feel very tired and exhausted. i cannot do any work.,163,33
+chicken pox,"i have a fever, headache, and i m tired all the time. i don t want to eat anything.",83,19
+diabetes,"i have skin irritations and rashes, especially in the crevices of my skin. my skin bruises and cuts take a while to heal as well.",129,25
+varicose veins,i have been having cramps in my calves when i walk or stand for a long time. i also have some very noticeable veins in my legs.,127,27
+migraine,"i have been having headaches for a while now. they are really bad and make it hard to concentrate. i also have blurred vision, and i feel really nauseous. i m not sure what s causing it, but i m hoping you can help me figure it out.",232,48
+hypertension,"i ve been having a headache all day, and it s been getting worse. i also have chest pain and dizziness. i m having trouble concentrating and focusing.",150,28
+urinary tract infection,"i have been having to pee a lot more often than usual. sometimes it hurts when i pee and the pee is bloody and smells bad. i think i have an infection, what do i do ",165,36
+gastroesophageal reflux disease,"i have heartburn and indigestion. i regularly throw up everything i eat, and swallowing is difficult for me since food gets stuck in my throat. i m experiencing pain in my upper abdomen.",186,33
+arthritis,i ve been experiencing stiffness and weakness in my neck muscles recently. i ve also been having trouble running and walking because of the stiffness in my joints.,163,28
+allergy,i have a sore throat and i sneeze a lot. sometimes my eyes and lips swell up. i can t stop sneezing once i start.,113,25
+diabetes,"i have a lot of rashes and skin irritations, especially in the crevices of my skin. my skin bruises and cuts also take a long time to heal.",139,28
+cervical spondylosis,i have been having a lot of pain in my neck and back. i also have been coughing a lot and i feel weak in my arms and legs. i have also been dizzy and i have trouble balancing myself.,182,40
+impetigo,i have a rash on my nose that started out small but has gotten bigger and is now red and oozing. it hurts and i think it might be an infection.,143,31
+gastroesophageal reflux disease,"i have a sore throat and a scratchy voice every morning. my throat hurts all the time, and i have bad breath. i also burp a lot.",128,27
+fungal infection,"i have a rash all over my body, and i can t stop scratching because my skin is itchy. my skin also has a few spots where the color is different and some lumps and knot like pimples.",181,38
+dengue,i have a rash all over my body and it s really itchy. i m also vomiting and my joints hurt.,91,21
+migraine,"i have been having headaches and digestive issues, including acid reflux and indigestion, for a while now. i also have a sore neck, depression, irritability, and visual disturbance.",181,28
+common cold,"i have a really bad cold. my nose is stuffy, my eyes are red and watery, and i have a hard time breathing. my chest hurts, and my muscles are sore. i can t smell anything.",171,36
+gastroesophageal reflux disease,i have a lot of heartburn and indigestion. it s worse when i eat spicy or fatty foods. it also hurts when i lean forward or lie down.,133,28
+psoriasis,"i have a silvery layer on my skin, especially on my back and arms. it s made up of small scales that peel off easily when i rub them. i also have rashes all over my body.",170,37
+pneumonia,"i m having a hard time breathing. i m not feeling well, and i m sweating a lot. i have a lot of mucous in my throat and my chest hurts. my breathing is labored, and the phlegm i m coughing up is a weird color.",209,46
+cervical spondylosis,"i have back pain, trouble breathing, and weakness in my arms and legs. i also have vertigo and balance problems, and my neck hurts.",131,24
+fungal infection,i have a lot of red pimples and itchy skin on my arms and legs. i also have a few odd looking lesions on my skin. and occasionally there are bumps that are somewhat uncomfortable.,179,35
+peptic ulcer disease,i ve been experiencing constipation and diarrhea. i also have a lack of appetite and energy.,92,16
+malaria,"i have a fever, chills, and vomiting. i also have a headache, and i ve been sweating a lot. i also feel nauseous and have muscle aches.",135,27
+allergy,i ve been having a hard time eating and swallowing. my nose is running and my throat hurts.,91,18
+psoriasis,"i have dry, flaky patches of skin that are prone to infection. my joints are in a lot of pain. the skin on my knees and elbows is starting to flake.",148,31
+hypertension,"i ve been feeling really dizzy and lightheaded lately. i also have a headache and my chest hurts. i m not sure what s going on, but i m worried.",144,30
+impetigo,"i have a fever, headache, and a rash on my arms and face. i m really worried about it. i also have red sores near my nose.",122,27
+chicken pox,i have a lot of red spots on my arms and back. they are itchy and i feel tired all the time. i am worried about what it could be.,129,30
+fungal infection,"i have a pretty irritating itch all over my body, and my skin also has a few red, bumpy areas. i ve also had some pimples that resemble small balls and other spots that are a different colour than the rest of my skin.",217,44
+impetigo,"i have a rash on my face that is red, swollen, and tender to the touch. it is also very uncomfortable to handle.",112,23
+allergy,"i have itchy, red skin that sometimes flakes. my face and lips puff up, which is really annoying. i also get watery eyes and headaches when the puffing gets bad.",161,30
+pneumonia,"i ve been feeling really tired and achy, and i have this cough that just won t quit. it hurts when i cough, and my chest feels tight. i ve also been coughing up a lot of gross looking mucus.",190,40
+cervical spondylosis,"i have been experiencing neck pain, weakness in my arms and legs, and a persistent cough. i also have balance issues and dizziness.",131,23
+psoriasis,i have been having a lot of problems with my skin. it is constantly peeling and i have developed rashes on my arms. it is really itchy and it is making my life miserable.,170,34
+typhoid,i have been feeling very tired and weak. i have no appetite. i have been having a fever and chills every night. i have also been vomiting since yesterday.,154,29
+drug reaction,i have a metallic taste in my mouth and my sense of taste and smell has changed. i also get muscle and joint aches sometimes.,125,25
+malaria,"i have a high fever, chills, and severe itching. i have a headache and i m also sweating a lot. i ve been feeling nauseous and my muscles are aching.",149,30
+diabetes,i ve been drinking a lot more water and going to the bathroom more often. my mouth and throat are always dry. i ve been really hungry lately.,141,28
+impetigo,i have a rash on my face that is not healing. i have tried some medications but it is not helping much. i also have small sores near my nose that are painful and difficult to handle.,182,37
+varicose veins,i have varicose veins in my legs.,33,7
+urinary tract infection,i ve been having a lot of pain in my lower abdomen. it feels like it may explode when i urinate. i ve also been feeling weak and my body temperature has been low.,162,34
+typhoid,"i ve been vomiting and having diarrhea for a few days. i m also having a hard time keeping down liquids. i have a fever, a headache, and my stomach hurts. i can t do anything physical because i m so weak.",204,42
+urinary tract infection,"i have a mild fever and blood in my urine. my head hurts almost constantly, and i frequently have to urinate very badly. i also have a pain in my lower back.",157,32
+impetigo,"i ve noticed that the sores on my face are taking a long time to heal and are more likely to get infected. the sores on my cheeks are big, painful, and difficult to treat. i can t seem to get rid of them.",204,44
+psoriasis,"i have a rash that is red and itchy. it is covered in silvery scales. it is on my back, elbows, and knees.",106,23
+varicose veins,i have varicose veins on my legs and they are very noticeable. they are also uncomfortable and i get cramps when i run.,119,23
+common cold,i ve been sneezing a lot and i m really tired. my throat hurts and i have a lot of mucus in my nose and throat. my neck is also swollen and puffy.,146,33
+peptic ulcer disease,i have a burning pain in my stomach that comes and goes. i have problems swallowing and feel bloated and gassy. i have a bitter taste in my mouth.,146,29
+hypertension,"i have been feeling fine all day, but suddenly developed a headache, chest pain, and dizziness while out for a run. it s been hard for me to maintain my balance since then. i m not sure what s going on, but i m worried.",219,45
+bronchial asthma,"i ve been having a hard time breathing lately. i ve been coughing a lot, and it s hard to get a full breath. i m also feeling really tired and weak.",148,32
+hypertension,"i have been feeling fine all day, but suddenly developed a headache, chest pain, and dizziness while driving home from work. it s been hard for me to focus and concentrate on the road since then. i m not sure what s wrong with me, but i m worried.",247,49
+varicose veins,i have varicose veins on my legs. they are swollen and protrude from my skin. they are very uncomfortable.,106,19
+urinary tract infection,i have blood in my urine sometimes and i feel sick to my stomach. i also get hot at night and my pee smells bad.,112,25
+peptic ulcer disease,"i have a stomach ache that is worse when i bend over or lie down. i also have discomfort when i eat certain foods, like spicy or acidic foods. this sometimes causes me to have loose stools.",189,37
+malaria,"i ve been feeling really sick. i ve been scratching a lot, and i ve been having chills, vomiting, and a fever. i also have a headache and i m sweating a lot. i ve been feeling really nauseous, and my muscles are sore.",217,44
+psoriasis,"i have red, scaly patches on my skin. they are itchy and sometimes painful. they are usually on my knees, elbows, and scalp.",124,23
+migraine,"i have been having headaches, and i have been feeling sick to my stomach. i have also been having trouble seeing clearly.",121,22
+bronchial asthma,"i ve been having a terrible cough, i can t breathe well, and i m so tired. i ve been coughing up a lot of thick, mucusy stuff, and i have a fever. i feel really bad.",165,37
+urinary tract infection,i have been having pain in my bladder and have been getting up to pee a lot.,76,17
+psoriasis,"i have a silvery dusting on my skin, especially on my lower back and scalp. it is made up of small scales that flake off easily when i scratch them.",148,30
+dengue,"i have been feeling very tired and weak. i have also been vomiting and have developed rashes on my arms, neck, and legs.",120,23
+dengue,i have been experiencing a severe headache for the past few days. it is accompanied by pain behind my eyes. i feel tired and fatigued because of which i cannot work all day. i am worried about my health.,203,39
+hypertension,"i ve been feeling dizzy and lightheaded, and i ve been having trouble concentrating and focusing.",97,16
+pneumonia,i m having trouble breathing and i feel like i m drowning. i m coughing up a lot of phlegm and my chest hurts. i m also sweating a lot and my heart is racing.,158,35
+allergy,i have a stuffy nose and a sore throat. i also have a cough and my chest hurts. i have lost my sense of smell and taste.,120,27
+varicose veins,"i ve noticed that my legs have been swollen for a few weeks now, and it s starting to get worse. i m also having trouble fitting into my shoes, and it s uncomfortable to sit for long periods of time.",199,41
+varicose veins,"i ve been having swelling in my legs for a few weeks now. it s gotten worse, and now i can see a lot of veins on my calves. i m worried about it.",145,34
+drug reaction,i have a metallic taste in my mouth and my sense of taste and smell is different. i also have severe joint and muscle pain.,123,25
+varicose veins,"i have a rash on my legs that is causing a lot of discomforts. it seems there is a cramp and i can see prominent veins on the calf. also, i have been feeling very tired and fatigued in the past couple of days.",209,44
+fungal infection,"i ve been itching and have rashy patches all over my skin recently. there are also some regions that don t appear to be the regular tone of my skin, and i ve experienced some painful bumps.",189,37
+cervical spondylosis,"i have been having a lot of pain in my back, neck, and limbs. i also have been coughing a lot and i feel dizzy and off balance.",127,28
+varicose veins,i ve been having pain in my calves for a while now. it s worse when i stand or walk for long periods of time. my legs have also started to swell and i can see some blood vessels that are quite noticeable.,204,43
+typhoid,"i have been having a headache for the past week. it started out as a dull ache, but it has gotten worse and is now a sharp pain. it is also accompanied by stomach pains, constipation, and diarrhea. i am really worried about it.",227,44
+arthritis,i ve been feeling really weak and my neck is really stiff. it s hard to move around because my joints are swollen and it s uncomfortable to walk.,145,29
+fungal infection,"i have these itchy, rashy spots all over my skin. they re also a different color than the rest of my skin, and i have some bumps that are kind of hard.",151,32
+drug reaction,"i have a rash on my back and chest, and my skin is itchy. sometimes my skin is flaky, and i get body marks.",107,24
+peptic ulcer disease,i have a lot of stomach pain and i have to take antacids to relieve it. i also have a lot of heartburn. i have lost a lot of weight and i find it hard to gain weight.,166,38
+allergy,"i have a runny nose and i am sneezing all the time. my eyes are itchy and often watery, and i am coughing all the time. my head hurts all the time. i am also feeling very tired.",177,38
+gastroesophageal reflux disease,"i have a constant sour taste in my mouth, even when i haven t eaten anything acidic. i also frequently have a lump in my throat and the hiccups.",144,29
+peptic ulcer disease,i have a burning sensation in my stomach and i have to use antacids to get rid of it. i have lost weight and i have a hard time gaining it back.,144,32
+cervical spondylosis,"i have a chronic cough, back ache, and limb weakness. i also have disorientation and balance loss, and my neck hurts.",117,21
+typhoid,"i ve been having diarrhea for the past few days. it s been really bad, and it s been accompanied by abdominal cramps and bloating.",130,25
+hypertension,i ve been having a lot of headaches and dizziness lately. i also feel like i m not able to focus as well as i used to.,118,27
+jaundice,i ve been feeling really tired and sick to my stomach. i ve also been losing weight and have a fever. my urine is really dark and my skin is yellow. i ve also been having stomach pains.,185,38
+impetigo,i have a rash on my face. i have little sores around my nose that are oozing yellow stuff. the sores are really painful.,120,24
+pneumonia,i m having trouble breathing and i m really uncomfortable. i m sweating a lot and my throat is full of mucus. my chest hurts and my heart is racing. i m coughing up dark mucus.,176,36
+bronchial asthma,"i ve been having trouble breathing, i m coughing a lot, and i m really tired. i have a fever and i m coughing up a lot of mucus.",128,29
+hypertension,"i ve been having a headache, chest pain, and feeling unstable and off balance. i ve also been feeling unwell and having problems focusing.",138,24
+common cold,"i ve been feeling really sick lately. i ve got a runny nose, a fever, and i ve been coughing a lot. i m also really tired and i don t feel like eating much.",156,35
+migraine,"i have been experiencing eyesight problems, increased appetite, a sore neck, melancholy, irritability, regular headaches, acid reflux, indigestion, and frequent migraines. these symptoms have been making my regular activities more challenging and causing me a great deal of distress.",283,39
+typhoid,"i have been feeling really sick lately. i have been having chills and fever, and my stomach has been hurting really badly. i just don t feel like myself at all.",160,31
+chicken pox,"i have a rash on my skin that is causing a lot of discomfort. it is red and inflamed, and it is spreading all over my body. the rash is also accompanied by intense itching, especially on my arms and legs.",204,41
+common cold,i have a really bad cold. i can t stop coughing and my sinuses are all blocked. i have a lot of mucus and my chest hurts. i can t smell anything and my muscles are really sore.,176,38
+diabetes,i ve been drinking a lot more water and urinating more often lately. my mouth and throat are always dry. i ve also been hungrier than usual.,140,27
+migraine,"i ve been experiencing a lot of headaches, nausea, and sensitivity to light. i ve also been feeling very irritable and impatient.",129,22
+bronchial asthma,"i ve been coughing a lot and having trouble breathing. i m also very tired and weak, and i have a high fever.",109,23
+dengue,i have a fever and my back hurts. i also have rashes on my arms and neck and the back of my eyes hurt. i am worried about my health.,132,30
+arthritis,i ve been feeling really weak in my muscles lately and my neck has been really stiff. my joints are swollen and it s hard for me to move around. walking is also hard.,166,34
+drug reaction,my skin sometimes peels off because of my rashes. i get sick more often because of it. my hands sometimes shake and i get shaky.,128,25
+varicose veins,my legs are really bothering me. i get cramps when i exercise and the blood vessels are really noticeable.,106,19
+allergy,"i ve been having trouble swallowing, and my appetite has decreased. i also have a sore throat, and my nose has been running.",124,23
+jaundice,i ve been feeling really sick lately. i ve been throwing up and i m itchy all over. i ve also lost a lot of weight and i m really exhausted. my skin has turned yellow and i have a fever. my stomach has been hurting too.,219,47
+psoriasis,"i ve had trouble sleeping because of the rash s pain and itching. the skin on my fingers are starting to peel off. my nails have a few tiny cracks, which is really worrying.",173,34
+arthritis,my muscles have been feeling weak and my joints have been swollen. it has been hard to move around and it hurts to walk.,120,24
+drug reaction,i ve been having really bad nausea and my chest hurts. i ve been really nervous and i shiver a lot.,99,21
+bronchial asthma,i ve been having trouble breathing and i ve been coughing up a lot of mucus. i ve also been feeling really tired.,113,23
+peptic ulcer disease,"i have a burning sensation in my stomach that comes and goes. i also have heartburn, indigestion, and nausea.",109,19
+chicken pox,"i ve been feeling really itchy all over my body, and i have a rash that s really red and irritating.",100,21
+dengue,i have been experiencing muscle pain that makes it difficult for me to move around. i have lost my apetite and feel vomiting. my legs and back pain a lot. i have been feeling very weak and tired.,195,38
+psoriasis,"i have red, irritated skin on my arms, face, and back. it s often itchy and uncomfortable. my nails are also inflamed and have small dents in them. i ve never seen anything like this before.",190,36
+bronchial asthma,"i ve been having a hard time breathing, and i ve been coughing up a lot of mucous. i m also feeling really tired and weak.",122,26
+bronchial asthma,"i ve been coughing a lot for a few days now. it s been hard for me to catch my breath, and i ve been feeling very exhausted. i ve also been producing a lot of mucus when i cough.",178,40
+dengue,i have a severe headache that feels like pressure in my head. i also have a mild fever and small red spots on my back.,118,25

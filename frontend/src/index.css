@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #f0faf5;
+  color: #1a2e1a;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #e8f5ee; }
+::-webkit-scrollbar-thumb { background: #0f9b6e; border-radius: 3px; }
+
+/* ─── COLOUR TOKENS ─── */
+:root {
+  --c-primary: #0a7c5c;
+  --c-primary-light: #12a87d;
+  --c-primary-dark: #065c43;
+  --c-accent: #06b6d4;
+  --c-bg: #f0faf5;
+  --c-surface: #ffffff;
+  --c-surface2: #e8f5ee;
+  --c-border: rgba(10,124,92,0.12);
+  --c-text: #0d1f18;
+  --c-muted: #4d7a65;
+}
+
+/* ─── GLASS ─── */
+.glass {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(10,124,92,0.15);
+}
+.glass-dark {
+  background: rgba(6,50,35,0.75);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ─── GRADIENT TEXT ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #0a7c5c, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── HERO BG ─── */
+.hero-gradient {
+  background:
+    radial-gradient(ellipse at 15% 60%, rgba(10,124,92,0.08) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 20%, rgba(6,182,212,0.06) 0%, transparent 50%),
+    linear-gradient(160deg, #f0faf5 0%, #e2f5ec 60%, #d6f0e5 100%);
+}
+
+/* ─── BUTTONS ─── */
+.btn-primary {
+  background: linear-gradient(135deg, #0a7c5c, #0f9b6e);
+  border: none;
+  color: #fff;
+  transition: all 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0);
+  transition: background 0.28s;
+}
+.btn-primary:hover::after { background: rgba(255,255,255,0.08); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(10,124,92,0.28); }
+
+/* ─── NAV LINK ─── */
+.nav-link { position: relative; transition: color 0.25s; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0;
+  width: 0; height: 2px;
+  background: var(--c-primary);
+  transition: width 0.3s;
+}
+.nav-link:hover::after { width: 100%; }
+.nav-link:hover { color: var(--c-primary); }
+
+/* ─── CARDS ─── */
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-6px); box-shadow: 0 20px 48px rgba(10,124,92,0.14); }
+
+/* ─── FLOATING SHAPES ─── */
+@keyframes floatShape {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-22px) rotate(4deg); }
+}
+.floating-shape  { animation: floatShape 7s ease-in-out infinite; }
+.floating-shape2 { animation: floatShape 9s ease-in-out infinite reverse; }
+
+/* ─── SLIDE IN ─── */
+@keyframes slideInLeft  { from { opacity:0; transform:translateX(-40px); } to { opacity:1; transform:translateX(0); } }
+@keyframes slideInRight { from { opacity:0; transform:translateX(40px); }  to { opacity:1; transform:translateX(0); } }
+@keyframes slideInUp    { from { opacity:0; transform:translateY(30px); }  to { opacity:1; transform:translateY(0); } }
+.animate-slide-left  { animation: slideInLeft  0.8s ease-out forwards; }
+.animate-slide-right { animation: slideInRight 0.8s ease-out forwards; }
+.animate-slide-up    { animation: slideInUp    0.6s ease-out forwards; }
+
+/* ─── SLIDESHOW ─── */
+.slide-img { transition: opacity 1s ease; }
+
+/* ─── LEAFLET ─── */
+.leaflet-container { border-radius: 14px; }
+
+/* ─── CHIP ─── */
+.chip {
+  cursor: pointer;
+  transition: all 0.2s;
+  background: rgba(10,124,92,0.08);
+  border: 1px solid rgba(10,124,92,0.22);
+  color: #0a7c5c;
+}
+.chip:hover {
+  background: rgba(10,124,92,0.16);
+  border-color: #0a7c5c;
+  transform: scale(1.04);
+}
+
+/* ─── DOCTOR CARD (hanging tag style) ─── */
+.doctor-tag {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(10,124,92,0.10), 0 1px 4px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(10,124,92,0.10);
+}
+.doctor-tag:hover { transform: translateY(-8px); box-shadow: 0 20px 50px rgba(10,124,92,0.16); }
+.tag-hook {
+  width: 1px;
+  background: #c8e6d8;
+  margin: 0 auto;
+}
+.tag-circle {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* ─── VIDEO SECTION ─── */
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(6,50,35,0.82) 0%, rgba(6,50,35,0.40) 60%, transparent 100%);
+}
+
+/* ─── SAHARA LOGO HEARTBEAT ─── */
+@keyframes heartbeatDraw {
+  0%   { stroke-dashoffset: 120; opacity: 0.6; }
+  40%  { stroke-dashoffset: 0;   opacity: 1; }
+  70%  { stroke-dashoffset: 0;   opacity: 1; }
+  100% { stroke-dashoffset: 120; opacity: 0.6; }
+}
+.sahara-pulse-line {
+  stroke-dasharray: 120;
+  stroke-dashoffset: 120;
+  animation: heartbeatDraw 2.4s ease-in-out infinite;
+}
+.sahara-logo-icon:hover .sahara-pulse-line {
+  animation-duration: 1.2s;
+}
