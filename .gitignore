@@ -70,3 +70,6 @@ logs/
 .parcel-cache/
 .eslintcache
 .stylelintcache
+models/
+*.h5
+*.pkl
