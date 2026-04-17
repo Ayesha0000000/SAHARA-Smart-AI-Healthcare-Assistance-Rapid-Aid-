@@ -1,151 +1,167 @@
-# 🏥 SAHARA – Smart AI Healthcare Assistance & Rapid Aid
-
-> An AI-powered healthcare platform for Attock, Pakistan — combining symptom checking, emergency navigation, and appointment booking.
-
-![Tech Stack](https://img.shields.io/badge/Frontend-React-blue) ![Backend](https://img.shields.io/badge/Backend-FastAPI-green) ![ML](https://img.shields.io/badge/ML-RandomForest%20%2B%20ANN-orange) ![DB](https://img.shields.io/badge/DB-Firebase-yellow)
+# SAHARA — Smart AI Healthcare Assistance & Rapid Aid
+**AI-powered healthcare platform for Attock District, Pakistan**
+> Built by Ayesha | Buildables AI/ML Fellowship 2025
 
 ---
 
-## 🚀 Live Demo
-- **Frontend (Vercel):** _Coming Soon_
-- **Backend (Render):** _Coming Soon_
-
----
-
-## 📌 Problem Statement
-In Attock, patients struggle to:
-- Find the right doctor for their symptoms
-- Navigate to hospitals in emergencies
-- Book appointments online
-
-SAHARA solves this with a unified AI-powered platform — 100% free stack, built for rural Pakistan.
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 🤒 **Symptom Checker** | 2-step AI diagnosis: Random Forest (quick check) → ANN (detailed prediction + specialist) |
-| 🤖 **AI Chatbot** | Website assistant for doctor info, appointments, hospital details |
-| 🚨 **Emergency Mode** | Live GPS → nearest hospital on map + turn-by-turn directions |
-| 📅 **Appointments** | Book, view, and manage doctor appointments |
-| 🔐 **Auth** | Guest access + Firebase Auth (email/Google) |
-
----
-
-## 🛠️ Tech Stack
-
-```
-Frontend   → React.js (deployed on Vercel)
-Backend    → FastAPI (deployed on Render/Railway)
-Auth & DB  → Firebase Auth + Firestore
-ML Models  → Scikit-learn (Random Forest) + TensorFlow/Keras (ANN)
-Maps       → OpenStreetMap + Leaflet.js + Nominatim
-```
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 SAHARA/
-├── frontend/               # React app
-│   └── src/
-│       ├── components/
-│       │   ├── Navbar/
-│       │   ├── SymptomChecker/
-│       │   ├── Chatbot/
-│       │   ├── Emergency/
-│       │   └── Appointments/
-│       └── pages/
-├── backend/                # FastAPI app
-│   ├── routes/             # API endpoints
-│   ├── models/             # Pydantic models
-│   └── utils/              # Helpers
-├── ml/                     # ML/DL code
-│   ├── notebooks/          # Jupyter notebooks
-│   ├── models/             # Saved .pkl / .h5 models
-│   └── data/               # Datasets
-└── docs/                   # SRS, report, slides
+├── backend/                  ← FastAPI Backend
+│   ├── app/
+│   │   ├── main.py           ← FastAPI app + CORS
+│   │   ├── routes/
+│   │   │   ├── predict.py    ← /predict/step1, /step2, /full
+│   │   │   ├── hospitals.py  ← /hospitals
+│   │   │   └── symptoms.py   ← /symptoms
+│   │   └── services/
+│   │       └── model_loader.py ← RF + ANN prediction logic
+│   └── requirements.txt
+│
+├── frontend/                 ← React + Vite + Tailwind + Firebase
+│   ├── src/
+│   │   ├── firebase.js       ← Firebase config
+│   │   ├── contexts/
+│   │   │   └── AuthContext.jsx ← Google Auth state
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx    ← with login/logout
+│   │   │   ├── Footer.jsx
+│   │   │   └── Chatbot.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── AICheck.jsx   ← Step 1 + Step 2 AI
+│   │   │   ├── Login.jsx     ← Google Sign In
+│   │   │   ├── Doctors.jsx
+│   │   │   ├── Hospitals.jsx
+│   │   │   ├── Emergency.jsx ← GPS navigation
+│   │   │   └── About.jsx
+│   │   └── data/
+│   │       └── data.js       ← 39 doctors, 34 hospitals
+│   ├── .env                  ← API URL config
+│   └── package.json
+│
+├── ml/                       ← ML Pipeline
+│   ├── data_cleaning/        ← RF + ANN data cleaning
+│   ├── eda/                  ← Exploratory Data Analysis
+│   ├── feature_engineering/  ← TF-IDF + binary features
+│   ├── model_training/
+│   │   ├── train_rf.py       ← Random Forest
+│   │   └── train_ann.py      ← ANN (improved with augmentation)
+│   └── evaluation/           ← metrics + plots
+│
+├── models/                   ← Trained model files (.pkl, .h5)
+├── data/                     ← Datasets (CSV, NPZ)
+├── reports/figures/          ← EDA + evaluation plots
+├── notebooks/                ← Jupyter notebooks
+├── requirements.txt          ← All Python dependencies
+└── README.md
 ```
 
 ---
 
-## 🤖 ML Models
+## ML Models
 
-### Model 1 — Random Forest (Step 1: Quick Check)
-- **Dataset:** Kaggle Disease Symptom Description Dataset (41 diseases)
-- **Library:** Scikit-learn
-- **Task:** Quick symptom-to-disease category classification
-
-### Model 2 — ANN (Step 2: Detailed Prediction)
-- **Dataset:** HuggingFace `gretelai/symptom_to_diagnosis`
-- **Library:** TensorFlow / Keras
-- **Task:** Detailed disease prediction + specialist recommendation
-- **Metrics:** Accuracy, F1, Precision, Recall
+| | Model | Dataset | Accuracy |
+|--|-------|---------|----------|
+| Step 1 | Random Forest (200 trees) | Kaggle — 41 diseases, 131 symptoms | ~98% |
+| Step 2 | ANN (4 layers, TF-IDF 500 features) | HuggingFace gretelai/symptom_to_diagnosis | ~86% |
 
 ---
 
-## ⚙️ Local Setup
+## How to Run Locally
 
-### Prerequisites
-- Node.js >= 18
-- Python >= 3.10
-- Firebase project (Auth + Firestore)
+### Step 1 — Setup
 
-### 1. Clone the repo
 ```bash
-git clone https://github.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-.git
-cd SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-
+cd "D:\SAHARA FINAL\SAHARA"
+
+# Virtual environment activate karo
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
 ```
 
-### 2. Frontend Setup
-```bash
-cd frontend
-npm install
-cp .env.example .env    # Add your Firebase config
-npm run dev
-```
+### Step 2 — Backend
 
-### 3. Backend Setup
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn app.main:app --reload
+# Runs on: http://localhost:8000
+# API Docs: http://localhost:8000/docs
 ```
 
-### 4. ML Notebooks
+### Step 3 — Frontend
+
 ```bash
-cd ml
-pip install -r requirements.txt
-jupyter notebook
+# Naya terminal
+cd frontend
+npm install
+npm run dev
+# Runs on: http://localhost:5173
+```
+
+### Step 4 — ML (sirf retrain karna ho to)
+
+```bash
+# SAHARA root se — is order mein run karo:
+python ml/data_cleaning/clean_rf_data.py
+python ml/data_cleaning/clean_ann_data.py
+python ml/feature_engineering/features_rf.py
+python ml/feature_engineering/features_ann.py
+python ml/model_training/train_rf.py
+python ml/model_training/train_ann.py      # improved version
+python ml/evaluation/evaluate_rf.py
+python ml/evaluation/evaluate_ann.py
 ```
 
 ---
 
+## Deployment
+
+### Frontend → Vercel
+1. GitHub pe push karo
+2. vercel.com → New Project → GitHub repo
+3. Framework: **Vite**
+4. Environment Variable add karo:
+   - `VITE_API_URL` = `https://your-render-url.onrender.com`
+5. Deploy!
+
+### Backend → Render
+1. render.com → New Web Service
+2. GitHub repo connect karo
+3. Root Directory: `backend`
+4. Build Command: `pip install -r requirements.txt`
+5. Start Command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+6. Deploy → URL copy karo → frontend `.env` mein lagao
+
+### Firebase Auth
+- Google login already configured
+- Vercel deploy ke baad Firebase Console mein:
+  - Authentication → Settings → Authorized Domains
+  - Add: `your-app.vercel.app`
+
 ---
 
-## 📊 Datasets
-- [Kaggle — Disease Symptom Description Dataset](https://www.kaggle.com/)
-- [HuggingFace — gretelai/symptom_to_diagnosis](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis)
-- Attock hospital & doctor registry (manually collected)
+## Dataset Sources
+
+- **RF:** [Kaggle Disease Symptom Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset)
+- **ANN:** [HuggingFace gretelai/symptom_to_diagnosis](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis)
+- **Local:** Attock hospital & doctor registry (manually collected)
 
 ---
 
-## 📚 References
-- [Symptom-Based Disease Prediction Using ML (RFC vs MLP) — ResearchGate 2025](https://www.researchgate.net/publication/392157203)
-- [Comparing Supervised ML Algorithms for Disease Prediction — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6925840)
-- [Web-Based Disease Prediction Using ML — IEEE 2024](https://ieeexplore.ieee.org/document/11042494)
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React 18, Vite, Tailwind CSS |
+| Auth | Firebase Auth (Google Sign-In) |
+| Backend | FastAPI, Python 3.10 |
+| ML | Scikit-learn (RF), TensorFlow/Keras (ANN) |
+| Maps | OpenStreetMap + Google Maps |
+| Deployment | Vercel + Render |
 
 ---
 
-## 👩‍💻 Author
-**Ayesha** — [gmayesha2004@gmail.com](mailto:gmayesha2004@gmail.com)
-
----
-
-## 📄 License
-This project is for academic purposes. All rights reserved.
+*SAHARA — Connecting Attock to better healthcare through AI* 🏥

@@ -1,23 +1,41 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { doctors, specialistMap, homeTreatment, precautions } from '../data/data';
+import { doctors } from '../data/data';
 
-const API = 'http://localhost:8000';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
-const SEV_STYLE = {
-  High:   'bg-red-50 text-red-700 border-red-300',
-  Medium: 'bg-amber-50 text-amber-700 border-amber-300',
-  Low:    'bg-green-50 text-green-700 border-green-300',
+const RELATED_SYMPTOMS = {
+  fever: ['headache', 'chills', 'body pain', 'fatigue', 'sweating', 'nausea', 'vomiting', 'loss of appetite'],
+  headache: ['nausea', 'vomiting', 'dizziness', 'blurred vision', 'neck pain', 'fatigue', 'fever', 'chills'],
+  cough: ['breathlessness', 'chest pain', 'phlegm', 'fever', 'sore throat', 'runny nose', 'fatigue', 'chills'],
+  nausea: ['vomiting', 'stomach pain', 'diarrhea', 'loss of appetite', 'fever', 'dizziness', 'fatigue', 'acidity'],
+  vomiting: ['nausea', 'stomach pain', 'diarrhea', 'fever', 'dehydration', 'loss of appetite', 'fatigue', 'dizziness'],
+  diarrhea: ['stomach pain', 'nausea', 'vomiting', 'fever', 'dehydration', 'fatigue', 'loss of appetite', 'cramps'],
+  fatigue: ['weakness', 'dizziness', 'fever', 'loss of appetite', 'headache', 'body pain', 'sweating', 'weight loss'],
+  dizziness: ['headache', 'nausea', 'blurred vision', 'loss of balance', 'fatigue', 'vomiting', 'weakness', 'sweating'],
+  rash: ['itching', 'fever', 'body pain', 'blister', 'red spots', 'swelling', 'fatigue', 'joint pain'],
+  itching: ['rash', 'skin rash', 'blister', 'red spots', 'fever', 'joint pain', 'fatigue', 'skin peeling'],
+  'chest pain': ['breathlessness', 'sweating', 'palpitations', 'fatigue', 'dizziness', 'nausea', 'cough', 'fever'],
+  'body pain': ['fever', 'fatigue', 'chills', 'headache', 'weakness', 'joint pain', 'muscle pain', 'sweating'],
+  'joint pain': ['body pain', 'swelling', 'fatigue', 'fever', 'stiffness', 'muscle pain', 'weakness', 'rash'],
+  weakness: ['fatigue', 'dizziness', 'body pain', 'fever', 'loss of appetite', 'weight loss', 'headache', 'nausea'],
+  'stomach pain': ['nausea', 'vomiting', 'diarrhea', 'constipation', 'acidity', 'fever', 'loss of appetite', 'bloating'],
+  breathlessness: ['chest pain', 'cough', 'fatigue', 'fever', 'sweating', 'palpitations', 'dizziness', 'phlegm'],
+  'back pain': ['neck pain', 'joint pain', 'body pain', 'weakness', 'fatigue', 'muscle pain', 'stiffness', 'dizziness'],
+  swelling: ['joint pain', 'body pain', 'fatigue', 'fever', 'breathlessness', 'weakness', 'itching', 'rash'],
 };
-const SEV_BAR = { High:'#dc2626', Medium:'#f59e0b', Low:'#0a7c5c' };
 
-function getSeverity(disease) {
-  const high   = ['heart attack','paralysis','stroke','pneumonia','tuberculosis','aids','hepatitis','meningitis'];
-  const medium = ['dengue','typhoid','malaria','diabetes','hypertension','asthma','jaundice','peptic'];
-  const d = (disease||'').toLowerCase();
-  if (high.some(h => d.includes(h)))   return 'High';
-  if (medium.some(m => d.includes(m))) return 'Medium';
-  return 'Low';
+const DEFAULT_RELATED = ['fever', 'headache', 'body pain', 'fatigue', 'nausea', 'chills', 'dizziness', 'weakness'];
+
+function getRelatedSymptoms(inputText) {
+  const words = inputText.toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
+  const firstSym = words[0];
+  if (RELATED_SYMPTOMS[firstSym]) return RELATED_SYMPTOMS[firstSym].filter(s => !words.includes(s));
+  for (const key of Object.keys(RELATED_SYMPTOMS)) {
+    if (firstSym.includes(key) || key.includes(firstSym))
+      return RELATED_SYMPTOMS[key].filter(s => !words.includes(s));
+  }
+  return DEFAULT_RELATED.filter(s => !words.includes(s));
 }
 
 function getLocalDoctors(specialist) {
@@ -28,34 +46,46 @@ function getLocalDoctors(specialist) {
   ).slice(0, 4);
 }
 
-function getHomeTreatment(disease) {
-  if (!disease) return null;
-  const d = disease.trim();
-  return homeTreatment[d] || homeTreatment[Object.keys(homeTreatment).find(k => d.toLowerCase().includes(k.toLowerCase()))] || null;
-}
-
-function getPrecautions(disease) {
-  if (!disease) return precautions.default;
-  const d = disease.trim();
-  return precautions[d] || precautions[Object.keys(precautions).find(k => d.toLowerCase().includes(k.toLowerCase()))] || precautions.default;
-}
-
 export default function AICheck() {
-  const [step, setStep]           = useState(1);
-  const [checkType, setCheckType] = useState(null);
-  const [text, setText]           = useState('');
-  const [result, setResult]       = useState(null);
-  const [loading, setLoading]     = useState(false);
-  const [error, setError]         = useState('');
+  const [step, setStep]                 = useState(1);
+  const [checkType, setCheckType]       = useState(null);
+  const [text, setText]                 = useState('');
+  const [selectedSymptoms, setSelected] = useState([]);
+  const [showSuggestions, setShowSug]   = useState(false);
+  const [suggestions, setSuggestions]   = useState([]);
+  const [result, setResult]             = useState(null);
+  const [loading, setLoading]           = useState(false);
+  const [error, setError]               = useState('');
 
-  const analyse = async () => {
-    if (!text.trim()) return;
+  const handleNextFromInput = () => {
+    const syms = text.split(',').map(s => s.trim()).filter(Boolean);
+    if (syms.length === 0) { setError('Please enter at least one symptom.'); return; }
+    if (checkType === 'advanced') { analyse(text, []); return; }
+    setSelected(syms);
+    setSuggestions(getRelatedSymptoms(text).slice(0, 8));
+    setShowSug(true);
+    setError('');
+  };
+
+  const toggleSuggestion = (sym) => {
+    setSelected(prev => prev.includes(sym) ? prev.filter(s => s !== sym) : [...prev, sym]);
+  };
+
+  const analyse = async (inputText, extraSymptoms) => {
     setLoading(true); setError('');
     try {
-      const endpoint = checkType === 'quick' ? '/predict/step1' : '/predict/step2';
-      const body = checkType === 'quick'
-        ? { symptoms: text.split(',').map(s => s.trim().toLowerCase()).filter(Boolean) }
-        : { symptom_text: text };
+      let endpoint, body;
+      if (checkType === 'advanced') {
+        endpoint = '/predict/step2';
+        body = { symptom_text: inputText };
+      } else {
+        endpoint = '/predict/step1';
+        const allSymptoms = [
+          ...inputText.split(',').map(s => s.trim().toLowerCase()).filter(Boolean),
+          ...extraSymptoms.map(s => s.toLowerCase()),
+        ];
+        body = { symptoms: [...new Set(allSymptoms)] };
+      }
 
       const res = await fetch(`${API}${endpoint}`, {
         method: 'POST',
@@ -65,21 +95,35 @@ export default function AICheck() {
       if (!res.ok) throw new Error();
       const data = await res.json();
 
-      const severity    = getSeverity(data.disease);
-      const localDocs   = getLocalDoctors(data.specialist);
-      const homeAdvice  = getHomeTreatment(data.disease);
-      const precaution  = getPrecautions(data.disease);
-
-      setResult({ type:checkType, disease:data.disease, specialist:data.specialist,
-        confidence:Math.round(data.confidence * 100), severity, model:data.model,
-        localDocs, homeAdvice, precaution });
+      setResult({
+        type: checkType,
+        disease: data.disease,
+        specialist: data.specialist,
+        confidence: Math.round(data.confidence * 100),
+        confidenceLabel: data.confidence_level,
+        top3: data.possible_conditions || [],
+        category: data.category,
+        advice: data.advice,
+        note: data.note,
+        homeTreatment: data.home_treatment || '',
+        precautionsList: data.precautions_list || [],
+        warning: data.warning || '',
+        severity: data.severity || '',
+        model: data.model,
+        localDocs: getLocalDoctors(data.specialist),
+      });
       setStep(3);
+      setShowSug(false);
     } catch {
-      setError('⚠️ Backend not reachable.\nRun: cd backend && uvicorn app.main:app --reload');
+      setError('Backend not reachable.\nRun: cd backend && uvicorn app.main:app --reload');
     } finally { setLoading(false); }
   };
 
-  const reset = () => { setStep(1); setCheckType(null); setText(''); setResult(null); setError(''); };
+  const reset = () => {
+    setStep(1); setCheckType(null); setText('');
+    setSelected([]); setShowSug(false); setSuggestions([]);
+    setResult(null); setError('');
+  };
 
   const StepDots = () => (
     <div className="flex items-center justify-center gap-2 mb-8">
@@ -92,6 +136,13 @@ export default function AICheck() {
       ))}
     </div>
   );
+
+  const confBg = result?.confidenceLabel === 'High' ? 'bg-green-500'
+    : result?.confidenceLabel === 'Medium' ? 'bg-amber-400' : 'bg-red-400';
+  const confText = result?.confidenceLabel === 'High' ? 'text-green-600'
+    : result?.confidenceLabel === 'Medium' ? 'text-amber-600' : 'text-red-500';
+  const confBadge = result?.confidenceLabel === 'High' ? 'bg-green-100 text-green-700'
+    : result?.confidenceLabel === 'Medium' ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-700';
 
   return (
     <div className="min-h-screen pt-20 sm:pt-28 pb-20 bg-white">
@@ -112,6 +163,7 @@ export default function AICheck() {
           <div className="animate-slide-up">
             <h2 className="text-slate-700 font-semibold text-center mb-6 text-sm">Choose Analysis Type</h2>
             <div className="grid sm:grid-cols-2 gap-4">
+
               <button onClick={() => { setCheckType('quick'); setStep(2); }}
                 className="group border-2 border-slate-200 hover:border-primary-400 rounded-2xl p-6 text-left transition-all hover:shadow-lg">
                 <div className="w-11 h-11 rounded-xl bg-primary-50 flex items-center justify-center mb-4 group-hover:bg-primary-500 transition-colors">
@@ -120,13 +172,13 @@ export default function AICheck() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-slate-800 text-base mb-1">Quick Check</h3>
-                <p className="text-slate-400 text-sm mb-3">Enter comma-separated symptoms for instant prediction.</p>
-                {['Instant result','Disease + specialist','Local Attock doctors','Home treatment tips'].map(t => (
+                <p className="text-slate-400 text-sm mb-3">Enter your main symptom for a quick result.</p>
+                {['Smart symptom detection','Disease + category','Attock doctors','Quick AI advice'].map(t => (
                   <div key={t} className="text-xs text-slate-500 flex items-center gap-1.5 mb-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-primary-400 flex-shrink-0"></span> {t}
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary-400 flex-shrink-0"></span>{t}
                   </div>
                 ))}
-                <span className="mt-3 inline-block text-xs font-semibold text-primary-600 bg-primary-50 px-3 py-1 rounded-full border border-primary-200">Random Forest ML</span>
+                <span className="mt-3 inline-block text-xs font-semibold text-primary-600 bg-primary-50 px-3 py-1 rounded-full border border-primary-200">RF + Groq AI</span>
               </button>
 
               <button onClick={() => { setCheckType('advanced'); setStep(2); }}
@@ -138,12 +190,12 @@ export default function AICheck() {
                 </div>
                 <h3 className="font-bold text-slate-800 text-base mb-1">Advanced AI Check</h3>
                 <p className="text-slate-400 text-sm mb-3">Describe in full detail for deep neural analysis.</p>
-                {['Full symptom text','Confidence score','Precautions listed','Matching specialists'].map(t => (
+                {['Top 3 conditions','Detailed advice','Home treatment','Warning signs'].map(t => (
                   <div key={t} className="text-xs text-slate-500 flex items-center gap-1.5 mb-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-400 flex-shrink-0"></span> {t}
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-400 flex-shrink-0"></span>{t}
                   </div>
                 ))}
-                <span className="mt-3 inline-block text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">ANN Deep Learning</span>
+                <span className="mt-3 inline-block text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">ANN + Groq AI</span>
               </button>
             </div>
           </div>
@@ -152,110 +204,211 @@ export default function AICheck() {
         {/* STEP 2 */}
         {step === 2 && (
           <div className="animate-slide-up space-y-4">
-            <div className="bg-white border border-slate-100 rounded-2xl p-5 sm:p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-5">
-                <div className={`w-2.5 h-2.5 rounded-full ${checkType === 'quick' ? 'bg-primary-500' : 'bg-blue-500'}`}/>
-                <span className="text-slate-600 text-sm font-medium">
-                  {checkType === 'quick' ? 'Quick Check — Random Forest' : 'Advanced AI Check — Deep Learning'}
-                </span>
+            {!showSuggestions && (
+              <div className="bg-white border border-slate-100 rounded-2xl p-5 sm:p-6 shadow-sm">
+                <div className="flex items-center gap-3 mb-5">
+                  <div className={`w-2.5 h-2.5 rounded-full ${checkType === 'quick' ? 'bg-primary-500' : 'bg-blue-500'}`}/>
+                  <span className="text-slate-600 text-sm font-medium">
+                    {checkType === 'quick' ? 'Quick Check — RF + Groq AI' : 'Advanced AI Check — ANN + Groq AI'}
+                  </span>
+                </div>
+                <h2 className="text-slate-800 font-semibold mb-1">
+                  {checkType === 'quick' ? 'Enter your symptoms' : 'Describe symptoms in detail'}
+                </h2>
+                <p className="text-slate-400 text-sm mb-4">
+                  {checkType === 'quick'
+                    ? 'Separate with commas — e.g. fever, headache, body pain, chills'
+                    : 'Describe how you feel — mention duration, location and severity.'}
+                </p>
+                <textarea
+                  value={text}
+                  onChange={e => { setText(e.target.value); setError(''); }}
+                  rows={checkType === 'quick' ? 3 : 5}
+                  placeholder={checkType === 'quick'
+                    ? 'e.g. fever\nor: fever, headache, body pain, chills'
+                    : 'e.g. I have high fever for 2 days, severe headache, body aches and chills. Feeling very weak...'}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 placeholder-slate-400 outline-none focus:border-primary-300 text-sm leading-relaxed resize-none"
+                />
+                {checkType === 'quick' && (
+                  <p className="text-slate-400 text-xs mt-2">Even one symptom works — AI will suggest related ones.</p>
+                )}
               </div>
-              <h2 className="text-slate-800 font-semibold mb-1">
-                {checkType === 'quick' ? 'Enter your symptoms' : 'Describe symptoms in detail'}
-              </h2>
-              <p className="text-slate-400 text-sm mb-4">
-                {checkType === 'quick'
-                  ? 'Separate symptoms with commas.  e.g: fever, cough, headache, body pain'
-                  : 'Describe how you feel — mention duration, location of pain, fever level etc.'}
-              </p>
-              <textarea value={text} onChange={e => setText(e.target.value)} rows={5}
-                placeholder={checkType === 'quick'
-                  ? 'fever, headache, body pain, cough, fatigue, nausea...'
-                  : 'e.g. I have high fever for 2 days, severe headache, body aches and chills. Feeling very weak...'}
-                className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-700 placeholder-slate-400 outline-none focus:border-primary-300 text-sm leading-relaxed resize-none"/>
-              <div className="flex justify-between mt-2">
-                <p className="text-slate-400 text-xs">{checkType === 'quick' ? 'Separate with commas' : 'More detail = better accuracy'}</p>
-                <span className={`text-xs font-medium ${text.length > 10 ? 'text-primary-500' : 'text-slate-300'}`}>{text.length} chars</span>
-              </div>
-            </div>
+            )}
 
-            {error && <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-red-700 text-xs whitespace-pre-line">{error}</div>}
+            {showSuggestions && checkType === 'quick' && (
+              <div className="bg-white border border-slate-100 rounded-2xl p-5 sm:p-6 shadow-sm">
+                <h2 className="text-slate-800 font-semibold mb-1">Do you also have any of these?</h2>
+                <p className="text-slate-400 text-sm mb-4">Tap to select — more symptoms = better accuracy</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {selectedSymptoms.map(sym => (
+                    <span key={sym} className="px-3 py-1.5 rounded-full text-xs font-semibold bg-primary-500 text-white">{sym}</span>
+                  ))}
+                </div>
+                <p className="text-xs text-slate-400 mb-3">Related symptoms — tap to add:</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {suggestions.map(sym => {
+                    const isSel = selectedSymptoms.includes(sym);
+                    return (
+                      <button key={sym} onClick={() => toggleSuggestion(sym)}
+                        className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
+                          isSel ? 'bg-primary-500 text-white border-primary-500' : 'bg-white text-slate-600 border-slate-200 hover:border-primary-400'}`}>
+                        {isSel ? '✓ ' : '+ '}{sym}
+                      </button>
+                    );
+                  })}
+                </div>
+                <div className="bg-slate-50 rounded-xl p-3">
+                  <p className="text-xs text-slate-500">
+                    Selected: <span className="font-semibold text-slate-700">{selectedSymptoms.join(', ')}</span>
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {error && (
+              <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-red-700 text-xs whitespace-pre-line">{error}</div>
+            )}
 
             <div className="flex gap-3">
-              <button onClick={() => setStep(1)} className="px-5 py-3 rounded-xl border border-slate-200 text-slate-600 text-sm font-medium hover:border-slate-300 transition-all">← Back</button>
-              <button onClick={analyse} disabled={loading || text.trim().length < 3}
-                className="flex-1 py-3.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white font-bold text-sm shadow-lg shadow-primary-200 disabled:opacity-50 flex items-center justify-center gap-2 transition-all">
-                {loading ? <><span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"/> Analysing...</> : '🔬 Run AI Analysis'}
+              <button onClick={() => { if (showSuggestions) setShowSug(false); else { setStep(1); setError(''); } }}
+                className="px-5 py-3 rounded-xl border border-slate-200 text-slate-600 text-sm font-medium hover:border-slate-300 transition-all">
+                Back
               </button>
+              {!showSuggestions ? (
+                <button onClick={handleNextFromInput} disabled={loading || text.trim().length < 1}
+                  className="flex-1 py-3.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white font-bold text-sm shadow-lg shadow-primary-200 disabled:opacity-50 flex items-center justify-center gap-2 transition-all">
+                  {checkType === 'quick' ? 'Next →'
+                    : loading ? <><span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"/> Analysing...</>
+                    : 'Run AI Analysis'}
+                </button>
+              ) : (
+                <button
+                  onClick={() => analyse(text, selectedSymptoms.filter(s => !text.toLowerCase().split(',').map(x => x.trim()).includes(s)))}
+                  disabled={loading}
+                  className="flex-1 py-3.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white font-bold text-sm shadow-lg shadow-primary-200 disabled:opacity-50 flex items-center justify-center gap-2 transition-all">
+                  {loading ? <><span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"/> Analysing...</> : 'Run AI Analysis'}
+                </button>
+              )}
             </div>
           </div>
         )}
 
-        {/* STEP 3 — Result */}
+        {/* STEP 3 - Results */}
         {step === 3 && result && (
           <div className="animate-slide-up space-y-4">
 
-            {/* Main prediction */}
+            {/* Main Result Card */}
             <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm">
               <div className="flex items-center gap-2 mb-4">
                 <div className={`w-2 h-2 rounded-full ${result.type === 'quick' ? 'bg-primary-500' : 'bg-blue-500'}`}/>
                 <span className={`text-xs font-semibold uppercase tracking-wider ${result.type === 'quick' ? 'text-primary-600' : 'text-blue-600'}`}>
                   {result.type === 'quick' ? 'Quick Check Result' : 'Advanced AI Analysis'}
                 </span>
-                <span className="ml-auto text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{result.model}</span>
-              </div>
-
-              <div className="flex items-start justify-between gap-3 mb-4">
-                <div>
-                  <p className="text-slate-400 text-xs mb-1">Predicted Condition</p>
-                  <h2 className="font-display text-2xl font-bold text-slate-900">{result.disease}</h2>
-                </div>
-                <span className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-bold border ${SEV_STYLE[result.severity]}`}>
-                  {result.severity} Severity
+                <span className={`ml-auto text-xs px-2 py-0.5 rounded-full font-semibold ${confBadge}`}>
+                  {result.confidenceLabel} Confidence
                 </span>
               </div>
 
+              {/* Category */}
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded-full font-medium">{result.category}</span>
+                {result.severity && (
+                  <span className={`text-xs px-2 py-1 rounded-full font-medium ${
+                    result.severity === 'High' ? 'bg-red-100 text-red-700' :
+                    result.severity === 'Medium' ? 'bg-amber-100 text-amber-700' :
+                    'bg-green-100 text-green-700'}`}>
+                    {result.severity} Severity
+                  </span>
+                )}
+              </div>
+
+              {/* Disease */}
+              <p className="text-xs text-slate-400 mb-1">
+                {result.confidenceLabel === 'High' ? 'Likely Condition' : 'Possible Condition'}
+              </p>
+              <h2 className="font-display text-2xl sm:text-3xl font-bold text-slate-900 mb-4">{result.disease}</h2>
+
+              {/* Confidence Bar */}
               <div className="mb-4">
                 <div className="flex justify-between text-xs text-slate-400 mb-1.5">
                   <span>AI Confidence</span>
-                  <span className="font-bold" style={{color: SEV_BAR[result.severity]}}>{result.confidence}%</span>
+                  <span className={`font-bold ${confText}`}>{result.confidenceLabel} ({result.confidence}%)</span>
                 </div>
                 <div className="w-full bg-slate-100 rounded-full h-2">
-                  <div className="h-2 rounded-full transition-all duration-700"
-                    style={{width:`${result.confidence}%`, backgroundColor: SEV_BAR[result.severity]}}/>
+                  <div className={`h-2 rounded-full transition-all duration-700 ${confBg}`} style={{width:`${result.confidence}%`}}/>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 p-3.5 bg-primary-50 border border-primary-100 rounded-xl">
-                <div className="w-9 h-9 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-4 h-4 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {/* Note */}
+              <div className={`rounded-xl p-3 mb-4 text-xs ${
+                result.confidenceLabel === 'High' ? 'bg-green-50 border border-green-200 text-green-700' :
+                result.confidenceLabel === 'Medium' ? 'bg-amber-50 border border-amber-200 text-amber-700' :
+                'bg-red-50 border border-red-200 text-red-700'}`}>
+                {result.note}
+              </div>
+
+              {/* Specialist */}
+              <div className={`flex items-center gap-3 p-3.5 border rounded-xl ${result.type === 'quick' ? 'bg-primary-50 border-primary-100' : 'bg-blue-50 border-blue-100'}`}>
+                <div className={`w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 ${result.type === 'quick' ? 'bg-primary-100' : 'bg-blue-100'}`}>
+                  <svg className={`w-4 h-4 ${result.type === 'quick' ? 'text-primary-600' : 'text-blue-600'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                   </svg>
                 </div>
                 <div>
-                  <p className="text-primary-400 text-xs">Recommended Specialist</p>
-                  <p className="text-primary-800 font-bold text-sm">{result.specialist}</p>
+                  <p className={`text-xs ${result.type === 'quick' ? 'text-primary-400' : 'text-blue-400'}`}>Recommended Specialist</p>
+                  <p className={`font-bold text-sm ${result.type === 'quick' ? 'text-primary-800' : 'text-blue-800'}`}>{result.specialist}</p>
                 </div>
               </div>
             </div>
 
-            {/* Home Treatment */}
-            {result.homeAdvice && (
-              <div className="bg-green-50 border border-green-200 rounded-2xl p-5">
-                <p className="font-semibold text-green-800 mb-2 flex items-center gap-2 text-sm">
-                  🏠 Home Treatment
-                </p>
-                <p className="text-green-700 text-sm leading-relaxed">{result.homeAdvice}</p>
+            {/* Top 3 - Advanced only */}
+            {result.type === 'advanced' && result.top3 && result.top3.length > 0 && (
+              <div className="bg-white border border-slate-100 rounded-2xl p-5 shadow-sm">
+                <p className="text-slate-700 font-semibold text-sm mb-3">Top 3 Possible Conditions</p>
+                <div className="space-y-2">
+                  {result.top3.map((item, i) => (
+                    <div key={i} className="flex items-center justify-between p-3 bg-slate-50 rounded-xl border border-slate-100">
+                      <div className="flex items-center gap-2">
+                        <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 text-xs font-bold flex items-center justify-center">{i+1}</span>
+                        <div>
+                          <p className="text-slate-700 text-sm font-medium">{item.disease}</p>
+                          <p className="text-slate-400 text-xs">{item.specialist}</p>
+                        </div>
+                      </div>
+                      <span className={`text-xs font-bold px-2 py-1 rounded-full ${
+                        item.confidence >= 0.75 ? 'bg-green-100 text-green-700' :
+                        item.confidence >= 0.50 ? 'bg-amber-100 text-amber-700' :
+                        'bg-slate-100 text-slate-600'}`}>
+                        {Math.round(item.confidence * 100)}%
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
 
-            {/* Precautions */}
-            {result.precaution && result.precaution.length > 0 && (
+            {/* Groq AI Advice */}
+            {result.advice && (
+              <div className="bg-blue-50 border border-blue-200 rounded-2xl p-5">
+                <p className="font-semibold text-blue-800 mb-2 text-sm">AI Advice</p>
+                <p className="text-blue-700 text-sm leading-relaxed">{result.advice}</p>
+              </div>
+            )}
+
+            {/* Home Treatment - Advanced Groq */}
+            {result.homeTreatment && (
+              <div className="bg-green-50 border border-green-200 rounded-2xl p-5">
+                <p className="font-semibold text-green-800 mb-2 text-sm">Home Treatment</p>
+                <p className="text-green-700 text-sm leading-relaxed">{result.homeTreatment}</p>
+              </div>
+            )}
+
+            {/* Precautions - Advanced Groq */}
+            {result.precautionsList && result.precautionsList.length > 0 && (
               <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5">
-                <p className="font-semibold text-amber-800 mb-3 flex items-center gap-2 text-sm">
-                  🛡️ Precautions
-                </p>
+                <p className="font-semibold text-amber-800 mb-3 text-sm">Precautions</p>
                 <div className="space-y-2">
-                  {result.precaution.map((p, i) => (
+                  {result.precautionsList.map((p, i) => (
                     <div key={i} className="flex items-start gap-2">
                       <span className="w-5 h-5 rounded-full bg-amber-200 text-amber-800 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i+1}</span>
                       <p className="text-amber-700 text-sm">{p}</p>
@@ -265,12 +418,20 @@ export default function AICheck() {
               </div>
             )}
 
-            {/* Local Attock Doctors */}
+            {/* Warning Signs */}
+            {result.warning && result.warning !== 'None' && result.warning !== 'none' && (
+              <div className="bg-red-50 border border-red-200 rounded-2xl p-5">
+                <p className="font-semibold text-red-800 mb-2 text-sm">Warning — Seek Emergency Care If:</p>
+                <p className="text-red-700 text-sm leading-relaxed">{result.warning}</p>
+              </div>
+            )}
+
+            {/* Local Doctors */}
             {result.localDocs && result.localDocs.length > 0 && (
               <div className="bg-white border border-slate-100 rounded-2xl p-5 shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <p className="text-slate-700 font-semibold text-sm">Available Doctors in Attock</p>
-                  <span className="text-xs text-primary-500 bg-primary-50 px-2 py-0.5 rounded-full border border-primary-100">📍 Near You</span>
+                  <span className="text-xs text-primary-500 bg-primary-50 px-2 py-0.5 rounded-full border border-primary-100">Near You</span>
                 </div>
                 <div className="space-y-3">
                   {result.localDocs.map(doc => (
@@ -295,14 +456,16 @@ export default function AICheck() {
             )}
 
             <p className="text-slate-400 text-xs text-center px-4 leading-relaxed">
-              ⚠️ AI analysis is for guidance only. Always consult a qualified doctor for proper diagnosis.
+              AI analysis is for guidance only. Always consult a qualified doctor for proper diagnosis.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
               <Link to="/doctors" className="py-3 rounded-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold text-sm text-center transition-all shadow-md shadow-primary-200">Find Doctors</Link>
               <Link to="/emergency" className="py-3 rounded-xl border-2 border-red-200 text-red-600 font-semibold text-sm text-center hover:bg-red-50 transition-all">Emergency</Link>
             </div>
-            <button onClick={reset} className="w-full py-3 rounded-xl border border-slate-200 text-slate-500 text-sm font-medium hover:border-slate-300 transition-all">← Start Over</button>
+            <button onClick={reset} className="w-full py-3 rounded-xl border border-slate-200 text-slate-500 text-sm font-medium hover:border-slate-300 transition-all">
+              Start Over
+            </button>
           </div>
         )}
       </div>

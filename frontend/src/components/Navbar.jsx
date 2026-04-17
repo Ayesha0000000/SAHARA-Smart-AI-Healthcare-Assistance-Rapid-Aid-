@@ -1,104 +1,141 @@
-import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+// SAHARA | Navbar — with Firebase Auth
+import { useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+
+const NAV = [
+  { to: '/',          label: 'Home'      },
+  { to: '/ai-check',  label: 'AI Check'  },
+  { to: '/doctors',   label: 'Doctors'   },
+  { to: '/hospitals', label: 'Hospitals' },
+  { to: '/emergency', label: 'Emergency' },
+  { to: '/about',     label: 'About'     },
+];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
+  const { user, logout }    = useAuth();
+  const [open, setOpen]     = useState(false);
+  const [dropOpen, setDrop] = useState(false);
+  const location            = useLocation();
+  const navigate            = useNavigate();
 
-  useEffect(() => {
-    const fn = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', fn);
-    return () => window.removeEventListener('scroll', fn);
-  }, []);
-
-  // Close menu on route change
-  useEffect(() => { setMenuOpen(false); }, [location.pathname]);
-
-  const links = [
-    { name: 'Home', path: '/' },
-    { name: 'AI Health Check', path: '/ai-check' },
-    { name: 'Doctors', path: '/doctors' },
-    { name: 'Hospitals', path: '/hospitals' },
-    { name: 'Emergency', path: '/emergency' },
-    { name: 'About', path: '/about' },
-  ];
+  const handleLogout = async () => {
+    await logout();
+    setDrop(false);
+    navigate('/');
+  };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-xl shadow-sm border-b border-primary-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center">
-            <svg className="sahara-logo-icon w-9 h-9 sm:w-10 sm:h-10" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 24 C8 14, 16 8, 20 14" stroke="#0a7c5c" strokeWidth="2.2" fill="none" strokeLinecap="round" opacity="0.7"/>
-              <path d="M40 24 C40 14, 32 8, 28 14" stroke="#0a7c5c" strokeWidth="2.2" fill="none" strokeLinecap="round" opacity="0.7"/>
-              <polyline points="6,24 14,24 17,16 20,32 23,20 26,28 29,24 42,24" stroke="#0a7c5c" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round" className="sahara-pulse-line"/>
-            </svg>
-          </div>
-          <span className="font-display font-bold text-lg sm:text-xl tracking-widest text-slate-800">
-            SAHA<span className="text-primary-500">RA</span>
-          </span>
-        </Link>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
 
-        {/* Desktop links */}
-        <div className="hidden lg:flex items-center gap-6 xl:gap-7">
-          {links.map((l) => (
-            <Link key={l.path} to={l.path}
-              className={`nav-link text-sm font-medium tracking-wide transition-colors duration-200 ${
-                location.pathname === l.path ? 'text-primary-500' : 'text-slate-600 hover:text-primary-500'
-              }`}>{l.name}</Link>
+       {/* Logo */}
+    <Link to="/" className="flex items-center gap-3">
+  <svg className="w-9 h-9" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 24 C8 14, 16 8, 20 14" stroke="#4ade80" strokeWidth="2.2" fill="none" strokeLinecap="round" opacity="0.7"/>
+    <path d="M40 24 C40 14, 32 8, 28 14" stroke="#4ade80" strokeWidth="2.2" fill="none" strokeLinecap="round" opacity="0.7"/>
+    <polyline points="6,24 14,24 17,16 20,32 23,20 26,28 29,24 42,24" stroke="#4ade80" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+  <span className="font-bold text-slate-900 text-lg tracking-widest">SAHA<span className="text-primary-500">RA</span></span>
+</Link>
+
+        {/* Desktop Nav */}
+        <div className="hidden md:flex items-center gap-1">
+          {NAV.map(n => (
+            <Link key={n.to} to={n.to}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors
+                ${location.pathname === n.to
+                  ? 'bg-primary-50 text-primary-600'
+                  : 'text-slate-500 hover:text-slate-800 hover:bg-slate-50'}`}>
+              {n.label}
+            </Link>
           ))}
         </div>
 
-        {/* Desktop CTA */}
-        <div className="hidden lg:flex items-center gap-3">
-          <Link to="/emergency"
-            className="flex items-center gap-2 px-4 py-2 rounded-full border border-red-200 text-red-600 text-sm font-semibold bg-red-50 hover:bg-red-100 transition-all">
-            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span>
-            Emergency
-          </Link>
-          <Link to="/ai-check"
-            className="btn-primary px-4 py-2 rounded-full text-white text-sm font-semibold shadow-lg shadow-primary-500/25">
-            Check Symptoms
-          </Link>
+        {/* Auth Section */}
+        <div className="hidden md:flex items-center gap-3">
+          {user ? (
+            /* Logged in — show avatar + dropdown */
+            <div className="relative">
+              <button
+                onClick={() => setDrop(p => !p)}
+                className="flex items-center gap-2 pl-1 pr-3 py-1 rounded-full border border-slate-200 hover:border-primary-300 transition-all"
+              >
+                <img
+                  src={user.photoURL || `https://ui-avatars.com/api/?name=${user.displayName}&background=0a7c5c&color=fff`}
+                  alt={user.displayName}
+                  className="w-7 h-7 rounded-full object-cover"
+                />
+                <span className="text-slate-700 text-sm font-medium max-w-[100px] truncate">
+                  {user.displayName?.split(' ')[0]}
+                </span>
+                <svg className="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+
+              {dropOpen && (
+                <div className="absolute right-0 mt-2 w-52 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-50">
+                  <div className="px-4 py-2 border-b border-slate-100">
+                    <p className="text-slate-800 font-semibold text-sm truncate">{user.displayName}</p>
+                    <p className="text-slate-400 text-xs truncate">{user.email}</p>
+                  </div>
+                  <button
+                    onClick={handleLogout}
+                    className="w-full text-left px-4 py-2 text-sm text-red-500 hover:bg-red-50 transition-colors mt-1"
+                  >
+                    Sign out
+                  </button>
+                </div>
+              )}
+            </div>
+          ) : (
+            /* Not logged in — show login button */
+            <Link to="/login"
+              className="px-4 py-2 rounded-xl bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold shadow-sm shadow-primary-200 transition-all">
+              Sign In
+            </Link>
+          )}
         </div>
 
-        {/* Mobile right side */}
-        <div className="flex lg:hidden items-center gap-2">
-          <Link to="/emergency"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-red-200 text-red-600 text-xs font-semibold bg-red-50">
-            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span>
-            SOS
-          </Link>
-          <button
-            className="p-2 rounded-xl hover:bg-slate-100 transition-colors"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            <div className={`w-5 h-0.5 bg-slate-700 mb-1.5 transition-all duration-200 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
-            <div className={`w-5 h-0.5 bg-slate-700 mb-1.5 transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`}></div>
-            <div className={`w-5 h-0.5 bg-slate-700 transition-all duration-200 ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
-          </button>
-        </div>
+        {/* Mobile hamburger */}
+        <button onClick={() => setOpen(p => !p)} className="md:hidden p-2 rounded-lg text-slate-500 hover:bg-slate-100">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {open
+              ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
+              : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>}
+          </svg>
+        </button>
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="lg:hidden bg-white border-t border-primary-100 px-4 py-3 shadow-lg">
-          {links.map((l) => (
-            <Link key={l.path} to={l.path}
-              onClick={() => setMenuOpen(false)}
-              className={`flex items-center py-3 font-medium border-b border-slate-100 text-sm transition-colors ${
-                location.pathname === l.path ? 'text-primary-500' : 'text-slate-600'
-              }`}>
-              {l.name}
+      {open && (
+        <div className="md:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1">
+          {NAV.map(n => (
+            <Link key={n.to} to={n.to} onClick={() => setOpen(false)}
+              className={`block px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                ${location.pathname === n.to
+                  ? 'bg-primary-50 text-primary-600'
+                  : 'text-slate-600 hover:bg-slate-50'}`}>
+              {n.label}
             </Link>
           ))}
-          <div className="pt-3 pb-1">
-            <Link to="/ai-check" onClick={() => setMenuOpen(false)}
-              className="block w-full btn-primary py-3 rounded-xl text-white font-semibold text-sm text-center">
-              Check Symptoms
-            </Link>
+
+          <div className="pt-2 border-t border-slate-100 mt-2">
+            {user ? (
+              <div className="flex items-center justify-between px-3 py-2">
+                <div className="flex items-center gap-2">
+                  <img src={user.photoURL} alt="" className="w-7 h-7 rounded-full"/>
+                  <span className="text-slate-700 text-sm font-medium">{user.displayName?.split(' ')[0]}</span>
+                </div>
+                <button onClick={handleLogout} className="text-red-500 text-sm font-medium">Sign out</button>
+              </div>
+            ) : (
+              <Link to="/login" onClick={() => setOpen(false)}
+                className="block text-center py-2.5 rounded-xl bg-primary-500 text-white text-sm font-semibold">
+                Sign In with Google
+              </Link>
+            )}
           </div>
         </div>
       )}

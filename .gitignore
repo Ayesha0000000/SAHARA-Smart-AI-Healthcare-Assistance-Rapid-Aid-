@@ -1,13 +1,114 @@
-# models
-*.h5
-*.pkl
+# ============================================================
+# SAHARA | .gitignore
+# ============================================================
 
-# data
-data/
-notebooks/
-
-# env
-venv/
-
-# cache
+# ── Python ───────────────────────────────────────────────
 __pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual Environment ───────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ── Environment Variables ─────────────────────────────────
+.env
+.env.local
+.env.production
+frontend/.env
+frontend/.env.local
+
+# ── ML Models (large files — upload to HuggingFace) ──────
+models/*.h5
+models/*.pkl
+models/*.keras
+models/ann_best.h5
+models/ann_model.h5
+models/rf_model.pkl
+models/label_encoder.pkl
+models/ann_label_encoder.pkl
+models/tfidf_vectorizer.pkl
+models/symptom_list.pkl
+
+# ── Keep these model files ────────────────────────────────
+!models/specialist_map.json
+!models/ann_history.json
+
+# ── Data files (large) ────────────────────────────────────
+data/*.npz
+data/*.npy
+data/features_ann.npz
+data/rf_X_test.npy
+data/rf_y_test.npy
+data/ann_test.npz
+
+# ── Keep CSV data files ───────────────────────────────────
+!data/*.csv
+
+# ── Node.js ───────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+frontend/dist/
+
+# ── Build Output ──────────────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ── VS Code ───────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── OS Files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ── Jupyter Notebooks checkpoints ────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+pip_cache/
+D:/pip_cache/
+D:/npm_cache/
+D:/tmp/
+
+# ── Reports figures (optional — comment out to include) ──
+# reports/figures/
+
+# ── Pytest ───────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── pycache in all subdirectories ────────────────────────
+**/__pycache__/
+**/*.pyc
