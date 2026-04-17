@@ -1,9 +1,10 @@
 # SAHARA | Groq AI Service - groq_service.py
 # Groq LLaMA for NLP + Smart Analysis
 
+import os
 from groq import Groq
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
 client = Groq(api_key=GROQ_API_KEY)
 MODEL = "llama-3.3-70b-versatile"
 
