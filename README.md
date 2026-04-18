@@ -249,10 +249,10 @@ npm run dev
 <div align="center">
 
 ### 🖥️ Desktop View
-![SAHARA Desktop](reports/Screenshots/PC/1.png)
-
+![SAHARA Desktop](https://raw.githubusercontent.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-/main/Screenshots/PC/1.png)
+ 
 ### 📱 Mobile View
-![SAHARA Mobile](reports/Screenshots/Mobile/2.png)
+![SAHARA Mobile](https://raw.githubusercontent.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-/main/Screenshots/Mobile/2.png)
 
 </div>
 
