@@ -9,7 +9,7 @@
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-brightgreen?style=for-the-badge)](https://sahara-smart-ai-healthcare-assistan.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Models-yellow?style=for-the-badge)](https://huggingface.co/Ayesh104/SAHARA-Model)
-[![Medium](https://img.shields.io/badge/Medium-Article-black?style=for-the-badge&logo=medium)](https://medium.com/@gmayesha2004)
+[![Medium](https://img.shields.io/badge/Medium-Article-black?style=for-the-badge&logo=medium)](https://medium.com/@gmayesha2004/sahara-smart-ai-healthcare-assistance-rapid-aid-aae442b26c4d)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -53,6 +53,8 @@ Attock District, located in Punjab, Pakistan, faces a severe healthcare crisis:
 | ⚙️ Backend | Render | *Deploying Soon* |
 | 🤗 ML Models | HuggingFace | [Ayesh104/SAHARA-Model](https://huggingface.co/Ayesh104/SAHARA-Model) |
 | 💻 Source Code | GitHub | [SAHARA Repository](https://github.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-) |
+| 📝 Medium Article | Medium | [Read Article](https://medium.com/@gmayesha2004/sahara-smart-ai-healthcare-assistance-rapid-aid-aae442b26c4d) |
+| 🎥 Demo Video | YouTube | *Coming Soon* |
 
 ---
 
@@ -66,7 +68,7 @@ Attock District, located in Punjab, Pakistan, faces a severe healthcare crisis:
 | 🏥 **Hospital Directory** | 34 hospitals with location and services |
 | 🚨 **Emergency Navigation** | GPS-based nearest hospital routing |
 | 🔐 **Google Auth** | Secure login via Firebase Authentication |
-| 💬 **Chatbot** | assistant for general queries |
+| 💬 **AI Chatbot** | Assistant for general queries |
 | 📱 **Mobile Responsive** | Works seamlessly on any device |
 
 ---
@@ -207,7 +209,7 @@ venv\Scripts\activate        # Windows
 source venv/bin/activate     # Mac/Linux
 
 # 3. Setup environment variables
-# Create a .env file in /backend with:
+# Create backend/.env file with:
 # GROQ_API_KEY=your_groq_api_key_here
 
 # 4. Run Backend
@@ -215,6 +217,7 @@ cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 # → http://localhost:8000
+# → API Docs: http://localhost:8000/docs
 
 # 5. Run Frontend (new terminal)
 cd frontend
@@ -236,8 +239,22 @@ npm run dev
 | Dataset | Source | Size |
 |---------|--------|------|
 | Disease-Symptom (RF) | [Kaggle — itachi9604](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset) | 41 diseases, 131 symptoms, 4920 samples |
-| Symptom-to-Diagnosis (ANN) | [HuggingFace — gretelai](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis) | 22 diseases |
+| Symptom-to-Diagnosis (ANN) | [HuggingFace — gretelai](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis) | 22 diseases, 1065 samples |
 | Attock Doctors & Hospitals | Manually collected & verified | 39 doctors, 34 hospitals |
+
+---
+
+## 📱 Screenshots
+
+<div align="center">
+
+### 🖥️ Desktop View
+![SAHARA Desktop](reports/Screenshots/PC/1.png)
+
+### 📱 Mobile View
+![SAHARA Mobile](reports/Screenshots/Mobile/2.png)
+
+</div>
 
 ---
 
@@ -256,11 +273,11 @@ npm run dev
 
 | Resource | Link |
 |----------|------|
-| 📄 Medium Article | [Read Article](https://medium.com/@gmayesha2004) |
+| 📄 Medium Article | [SAHARA — Smart AI Healthcare Assistance & Rapid Aid](https://medium.com/@gmayesha2004/sahara-smart-ai-healthcare-assistance-rapid-aid-aae442b26c4d) |
+| 🤗 ML Models | [HuggingFace — Ayesh104/SAHARA-Model](https://huggingface.co/Ayesh104/SAHARA-Model) |
 | 🎥 Demo Video | *Coming Soon* |
 | 📊 Final Report | `reports/SAHARA_Final_Report.pdf` |
 | 🖥️ Presentation | `reports/SAHARA_Presentation.pdf` |
-| 🤗 ML Models | [HuggingFace — Ayesh104](https://huggingface.co/Ayesh104/SAHARA-Model) |
 
 ---
 
@@ -271,7 +288,7 @@ npm run dev
 - **HuggingFace** — symptom_to_diagnosis dataset by [gretelai](https://huggingface.co/gretelai)
 - **Groq AI** — for blazing-fast LLaMA 3.3-70B API access
 - **Firebase** — authentication infrastructure
-- **Vercel & Render** — free deployment platforms for students
+- **Vercel** — free deployment platform for students
 
 ---
 
@@ -294,6 +311,7 @@ You are free to use, modify, and distribute this project with proper attribution
 [![Email](https://img.shields.io/badge/Email-gmayesha2004@gmail.com-red?style=flat-square&logo=gmail)](mailto:gmayesha2004@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Ayesha0000000-black?style=flat-square&logo=github)](https://github.com/Ayesha0000000)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Ayesh104-yellow?style=flat-square)](https://huggingface.co/Ayesh104)
+[![Medium](https://img.shields.io/badge/Medium-gmayesha2004-black?style=flat-square&logo=medium)](https://medium.com/@gmayesha2004)
 
 </div>
 
