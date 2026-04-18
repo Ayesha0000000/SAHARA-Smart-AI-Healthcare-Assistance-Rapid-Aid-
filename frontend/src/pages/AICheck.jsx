@@ -178,7 +178,7 @@ export default function AICheck() {
                     <span className="w-1.5 h-1.5 rounded-full bg-primary-400 flex-shrink-0"></span>{t}
                   </div>
                 ))}
-                <span className="mt-3 inline-block text-xs font-semibold text-primary-600 bg-primary-50 px-3 py-1 rounded-full border border-primary-200">RF + Groq AI</span>
+                <span className="mt-3 inline-block text-xs font-semibold text-primary-600 bg-primary-50 px-3 py-1 rounded-full border border-primary-200">RF </span>
               </button>
 
               <button onClick={() => { setCheckType('advanced'); setStep(2); }}
@@ -195,7 +195,7 @@ export default function AICheck() {
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-400 flex-shrink-0"></span>{t}
                   </div>
                 ))}
-                <span className="mt-3 inline-block text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">ANN + Groq AI</span>
+                <span className="mt-3 inline-block text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">ANN</span>
               </button>
             </div>
           </div>
@@ -209,7 +209,7 @@ export default function AICheck() {
                 <div className="flex items-center gap-3 mb-5">
                   <div className={`w-2.5 h-2.5 rounded-full ${checkType === 'quick' ? 'bg-primary-500' : 'bg-blue-500'}`}/>
                   <span className="text-slate-600 text-sm font-medium">
-                    {checkType === 'quick' ? 'Quick Check — RF + Groq AI' : 'Advanced AI Check — ANN + Groq AI'}
+                    {checkType === 'quick' ? 'Quick Check — RF ' : 'Advanced AI Check — ANN'}
                   </span>
                 </div>
                 <h2 className="text-slate-800 font-semibold mb-1">
