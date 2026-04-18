@@ -50,7 +50,7 @@ Attock District, located in Punjab, Pakistan, faces a severe healthcare crisis:
 | Service | Platform | Link |
 |---------|----------|------|
 | 🌐 Frontend | Vercel | [sahara-smart-ai-healthcare-assistan.vercel.app](https://sahara-smart-ai-healthcare-assistan.vercel.app/) |
-| ⚙️ Backend | Render | *Deploying Soon* |
+| ⚙️ Backend | Hugging Face | [SAHARA Backend](https://huggingface.co/spaces/Ayesh104/SAHARA-backend?logs=container) |
 | 🤗 ML Models | HuggingFace | [Ayesh104/SAHARA-Model](https://huggingface.co/Ayesh104/SAHARA-Model) |
 | 💻 Source Code | GitHub | [SAHARA Repository](https://github.com/Ayesha0000000/SAHARA-Smart-AI-Healthcare-Assistance-Rapid-Aid-) |
 | 📝 Medium Article | Medium | [Read Article](https://medium.com/@gmayesha2004/sahara-smart-ai-healthcare-assistance-rapid-aid-aae442b26c4d) |
