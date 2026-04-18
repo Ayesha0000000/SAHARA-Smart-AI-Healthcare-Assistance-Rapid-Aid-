@@ -66,7 +66,7 @@ Attock District, located in Punjab, Pakistan, faces a severe healthcare crisis:
 | 🏥 **Hospital Directory** | 34 hospitals with location and services |
 | 🚨 **Emergency Navigation** | GPS-based nearest hospital routing |
 | 🔐 **Google Auth** | Secure login via Firebase Authentication |
-| 💬 **AI Chatbot** | Healthcare assistant for general queries |
+| 💬 **Chatbot** | assistant for general queries |
 | 📱 **Mobile Responsive** | Works seamlessly on any device |
 
 ---
