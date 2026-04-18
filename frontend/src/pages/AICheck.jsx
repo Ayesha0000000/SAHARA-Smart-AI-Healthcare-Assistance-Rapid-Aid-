@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { doctors } from '../data/data';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-
+const API = import.meta.env.VITE_API_URL || 'https://ayesh104-sahara-backend.hf.space';
 const RELATED_SYMPTOMS = {
   fever: ['headache', 'chills', 'body pain', 'fatigue', 'sweating', 'nausea', 'vomiting', 'loss of appetite'],
   headache: ['nausea', 'vomiting', 'dizziness', 'blurred vision', 'neck pain', 'fatigue', 'fever', 'chills'],
