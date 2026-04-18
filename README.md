@@ -252,19 +252,6 @@ npm run dev
 
 ---
 
-## 🔮 Future Roadmap
-
-- [ ] 📱 Android & iOS native app
-- [ ] 🗺️ Expand to more districts across Punjab
-- [ ] 🗣️ Punjabi language support
-- [ ] 📞 Telemedicine integration — video consultations with doctors
-- [ ] 💊 Medicine finder & pharmacy locator
-- [ ] 📊 Admin dashboard for doctors to manage profiles
-- [ ] 🔔 Health reminders & follow-up notifications
-- [ ] 🤝 Integration with NADRA for patient identity verification
-
----
-
 ## 📝 Documentation
 
 | Resource | Link |
