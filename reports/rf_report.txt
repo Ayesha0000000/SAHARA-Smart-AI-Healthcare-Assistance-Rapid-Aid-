@@ -1,10 +1,9 @@
-SAHARA — Random Forest Evaluation Report
+SAHARA â€” Random Forest Evaluation Report
 ==================================================
 Accuracy  : 100.00%
 F1-Score  : 1.0000
 Precision : 1.0000
-Recall    : 1.0000
-
+Recall    : 1.0000 
                                          precision    recall  f1-score   support
 
 (vertigo) Paroymsal  Positional Vertigo       1.00      1.00      1.00         1
